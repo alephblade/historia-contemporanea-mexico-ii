@@ -1,51 +1,49 @@
-# Preparación futura de GitHub Pages
+# Operación de GitHub Pages
 
 ## Estado actual
 
-GitHub Pages no está activado. El repositorio público ya existe en `https://github.com/alephblade/historia-contemporanea-mexico-ii`, con `main` como rama predeterminada y CI activo. Se han definido las siguientes condiciones para un despliegue futuro:
+GitHub Pages está activo para el repositorio público `alephblade/historia-contemporanea-mexico-ii`:
 
 - cuenta: `alephblade`;
 - repositorio: `historia-contemporanea-mexico-ii`;
 - visibilidad: pública;
-- URL prevista: `https://alephblade.github.io/historia-contemporanea-mexico-ii/`;
+- sitio: `https://alephblade.github.io/historia-contemporanea-mexico-ii/`;
+- rama y fuente: `main` mediante GitHub Actions;
 - `SITE_URL`: `https://alephblade.github.io`;
 - `BASE_PATH`: `/historia-contemporanea-mexico-ii`;
+- HTTPS: forzado;
 - contenido original: CC BY-SA 4.0;
 - código original: MIT;
 - fuentes de terceros: excluidas salvo autorización o licencia compatible documentada.
 
-`.github/workflows/pages.yml.example` continúa deliberadamente inactivo.
+`.github/workflows/pages.yml` está activo. La autorización operativa y el recorrido humano por teclado se registraron el 1 de septiembre de 2026 en `docs/AUTORIZACION_ACTIVACION_GITHUB_PAGES_2026-09-01.md`.
 
-## Decisiones previas obligatorias
+## Flujo de publicación
 
-La aceptación académica mediante constancia y la creación autorizada del remoto quedaron registradas el 1 de septiembre de 2026. Antes del primer despliegue aún se requiere:
+El flujo se ejecuta con cada envío a `main` y también admite ejecución manual:
 
-1. autorización operativa expresa y separada para activar GitHub Pages;
-2. confirmación final de `SITE_URL`, `BASE_PATH` y la rama de publicación `main`; y
-3. recorrido humano por teclado antes del primer despliegue.
+1. recupera el repositorio;
+2. instala Node.js, Python y las dependencias reproducibles;
+3. ejecuta `npm test` con la URL y ruta base del sitio;
+4. prepara exclusivamente `dist/` como artefacto; y
+5. despliega mediante las acciones oficiales de GitHub Pages.
 
-## Activación controlada
+El flujo conserva permisos mínimos: lectura del contenido, escritura de Pages y emisión del token de identidad requerido por el despliegue. No contiene secretos ni credenciales.
 
-Solo después de esas decisiones:
+## Verificación después de cada cambio
 
-1. Configurar las variables de repositorio `SITE_URL` y `BASE_PATH`. Para un sitio de proyecto, `BASE_PATH` tendrá la forma `/nombre-del-repositorio`; para un dominio propio o un repositorio especial de cuenta puede ser `/`.
-2. Renombrar `.github/workflows/pages.yml.example` a `.github/workflows/pages.yml`.
-3. Revisar la rama objetivo de la plantilla.
-4. En GitHub, seleccionar **GitHub Actions** como fuente de Pages.
-5. Ejecutar primero CI y revisar el artefacto; después autorizar la primera ejecución de despliegue.
-
-La plantilla construye desde cero, ejecuta las mismas validaciones locales y usa exclusivamente las acciones oficiales `actions/configure-pages`, `actions/upload-pages-artifact` y `actions/deploy-pages` para Pages. No contiene secretos ni credenciales.
-
-## Verificación previa sin publicar
-
-La compatibilidad con una ruta base puede probarse localmente sin activar Pages:
+Antes de enviar cambios relevantes, ejecute:
 
 ```powershell
-$env:BASE_PATH = "/repositorio-prueba"
-$env:SITE_URL = "https://ejemplo.invalid"
+$env:SITE_URL = "https://alephblade.github.io"
+$env:BASE_PATH = "/historia-contemporanea-mexico-ii"
 npm test
-Remove-Item Env:BASE_PATH
 Remove-Item Env:SITE_URL
+Remove-Item Env:BASE_PATH
 ```
 
-El dominio `.invalid` se usa solo para generar metadatos de prueba y no representa una decisión institucional.
+Después del envío, confirme que los flujos `Validación y construcción` y `Publicar en GitHub Pages` concluyan correctamente. Verifique al menos la portada, el catálogo de lecturas, una ruta profunda de orientación y el logotipo. Una falla de CI o de construcción impide que el flujo prepare un nuevo artefacto publicable.
+
+## Cambios de dominio o ruta
+
+Si cambia el nombre del repositorio, la cuenta o se adopta un dominio propio, actualice de manera coordinada las variables `SITE_URL` y `BASE_PATH`, ejecute la prueba local anterior y documente la decisión. Para un dominio propio o un repositorio especial de cuenta, `BASE_PATH` puede ser `/`; para un sitio de proyecto conserva la forma `/nombre-del-repositorio`.

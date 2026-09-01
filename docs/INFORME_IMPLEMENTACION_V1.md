@@ -52,11 +52,11 @@ La construcción final se repitió sin `BASE_PATH` para dejar `dist/` listo para
 
 ## CI y publicación
 
-CI ejecuta la misma compuerta y conserva `dist/` como artefacto de revisión. El repositorio público `alephblade/historia-contemporanea-mexico-ii` se creó por autorización expresa y el primer flujo remoto concluyó correctamente sobre el commit inicial `d78d4e2cfbc14013b7a3e03775c41c97782957da`. La plantilla de Pages permanece inactiva y usa las acciones oficiales requeridas; no se activó Pages.
+CI ejecuta la misma compuerta y conserva `dist/` como artefacto de revisión. El repositorio público `alephblade/historia-contemporanea-mexico-ii` se creó por autorización expresa y Pages se activó mediante una autorización posterior, después del recorrido humano por teclado. El sitio evolutivo está disponible en `https://alephblade.github.io/historia-contemporanea-mexico-ii/`; el flujo de despliegue vuelve a ejecutar la compuerta antes de publicar.
 
 ## Bloqueos
 
-En el cierre inicial persistían decisiones sobre aprobación académica, licencia, identidad de GitHub y cobertura de Guerra Cristera. Las decisiones posteriores sobre responsable, aceptación mediante constancia, cuenta, visibilidad, licencias, política de fuentes, uso público del emblema oficial y creación autorizada del remoto se registran en `docs/DECISIONES_Y_BLOQUEOS.md`; continúan pendientes la autorización operativa separada para Pages y la cobertura de Guerra Cristera.
+En el cierre inicial persistían decisiones sobre aprobación académica, licencia, identidad de GitHub y cobertura de Guerra Cristera. Las decisiones posteriores sobre responsable, aceptación mediante constancia, cuenta, visibilidad, licencias, política de fuentes, uso público del emblema oficial, remoto y Pages se registran en `docs/DECISIONES_Y_BLOQUEOS.md`; continúa pendiente la cobertura de Guerra Cristera y los demás asuntos curatoriales allí enumerados.
 
 ## Adenda del 1 de septiembre de 2026 — orientaciones de Unidad 1
 

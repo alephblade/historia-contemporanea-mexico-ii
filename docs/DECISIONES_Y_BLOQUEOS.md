@@ -12,7 +12,7 @@
 | Relaciones | Rol y alcance se muestran por separado. | Preserva principal/secundaria y directo/contextual/secundario. |
 | Recursos derivados | Se bloquean como `planeado`, sin URL. | No existen registros propios publicados. |
 | Fuentes | Exclusión por `.gitignore` y control del artefacto. | Impide publicar copias locales de terceros. |
-| Repositorio GitHub | Repositorio público `alephblade/historia-contemporanea-mexico-ii`, con `main` como rama predeterminada y CI activo. Commit inicial `d78d4e2cfbc14013b7a3e03775c41c97782957da`, publicado el 2026-09-01. Pages permanece inactivo. | Arnoldo Prado autorizó expresamente crear el remoto y subir `main`; la activación de Pages conserva una orden operativa separada. |
+| Repositorio y Pages | Repositorio público `alephblade/historia-contemporanea-mexico-ii`, con `main` como rama predeterminada, CI activo y Pages publicado en `https://alephblade.github.io/historia-contemporanea-mexico-ii/`. | Arnoldo Prado autorizó expresamente el remoto, el envío de `main` y, mediante una orden posterior del 2026-09-01, la activación de Pages como versión evolutiva para constatación administrativa. |
 | Aceptación académica | Mtra. María Luisa Saavedra Solá; aceptación para preparar GitHub comunicada mediante constancia textual transmitida por Arnoldo Prado el 2026-09-01. | Cierra G-05 sin representar la constancia como firma autógrafa. |
 | Licencia del contenido propio | CC BY-SA 4.0 para contenido académico y editorial original cuyos titulares estén autorizados a licenciarlo; decisión ratificada el 2026-09-01. | Exige atribución y mantiene abiertas las adaptaciones bajo la misma licencia. |
 | Licencia del código propio | MIT para componentes, estilos y scripts originales; decisión ratificada el 2026-09-01. | Creative Commons no recomienda sus licencias para software; se mantiene un alcance inequívoco. |
@@ -29,13 +29,12 @@
 
 - Revisión académica de los 20 registros y fichas y promoción explícita de sus estados.
 - Revisión editorial de los textos y rúbricas de las seis orientaciones formales antes de promoverlos más allá de `en_revision`.
-- Autorización expresa posterior para activar GitHub Pages; la creación del remoto y el envío de `main` ya fueron autorizados y ejecutados.
 - Permisos específicos para cualquier reproducción o copia descargable de fuentes de terceros.
 - Fuente aprobada para cubrir Guerra Cristera y relaciones Estado–Iglesia en Unidad 3.
 - Evaluación de los seis materiales heredados aislados en `fuentes/materiales_asociados_pendientes/`.
 - Producción, accesibilidad, créditos y alojamiento de los 60 recursos derivados planeados.
 - URL definitiva para metadatos canónicos e imagen social. El emblema público está resuelto, pero `og:image` se añadirá cuando exista el origen definitivo del sitio.
 - Revalidación del bloqueo técnico de Historia Mexicana/Colmex desde una red institucional.
-- Recorrido humano secuencial completo por teclado después de la ronda de mejoras.
+- Seguimiento de detalles menores que se identifiquen durante el uso de la primera versión pública evolutiva.
 
-Ninguno de estos bloqueos impide construir y probar localmente la versión estática. Sí impiden presentarla como publicación académica definitiva o activar un despliegue público.
+Ninguno de estos pendientes impide mantener pública la versión evolutiva para constatación administrativa. Sí impiden presentarla como publicación académica definitiva o incorporar los materiales todavía no autorizados.

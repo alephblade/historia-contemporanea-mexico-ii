@@ -102,3 +102,7 @@ Se inicializó el repositorio Git local en la rama `main` y se confirmó `Arnold
 ## Adenda de creación del repositorio público
 
 Arnoldo Prado autorizó expresamente el 1 de septiembre de 2026 crear el repositorio público y subir la rama `main`. El repositorio quedó disponible en `https://github.com/alephblade/historia-contemporanea-mexico-ii`; el commit inicial `d78d4e2cfbc14013b7a3e03775c41c97782957da` se publicó sin fuentes locales de terceros y el primer flujo remoto `Validación y construcción` concluyó correctamente. GitHub Pages no fue activado y conserva una autorización operativa separada.
+
+## Adenda de recorrido humano y primera publicación
+
+Arnoldo Prado informó posteriormente que completó el recorrido manual mediante teclado y autorizó activar GitHub Pages como primera versión evolutiva, sujeta a mejora, actualización y depuración, con propósito inmediato de constatación administrativa interna. El despliegue remoto aprobó y la URL `https://alephblade.github.io/historia-contemporanea-mexico-ii/` quedó operativa el 1 de septiembre de 2026. Esta adenda resuelve el único control humano pendiente y la autorización operativa de Pages; no modifica las cifras del corte histórico ni promueve estados académicos.

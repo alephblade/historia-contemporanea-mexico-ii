@@ -2,7 +2,7 @@
 
 Primera versión estática para la Preparatoria Agrícola de la Universidad Autónoma Chapingo. El sitio permite consultar 20 lecturas curadas, sus fichas pedagógicas, las cinco unidades canónicas y seis orientaciones formales en revisión: dos para la Unidad 1, dos para la Unidad 2, una para la Unidad 3 y una para la Unidad 4.
 
-Todo el corpus permanece en estado `en_revision`. El proyecto está publicado como repositorio de código abierto en [`alephblade/historia-contemporanea-mexico-ii`](https://github.com/alephblade/historia-contemporanea-mexico-ii), con `main` como rama predeterminada y CI activo. **GitHub Pages no está activado**.
+Todo el corpus permanece en estado `en_revision`. El proyecto está publicado como repositorio de código abierto en [`alephblade/historia-contemporanea-mexico-ii`](https://github.com/alephblade/historia-contemporanea-mexico-ii), con `main` como rama predeterminada y CI activo. La versión estática evolutiva puede consultarse en [`https://alephblade.github.io/historia-contemporanea-mexico-ii/`](https://alephblade.github.io/historia-contemporanea-mexico-ii/).
 
 ## Requisitos
 
@@ -65,17 +65,17 @@ Los recursos derivados que aparecen en las fichas siguen en estado `planeado`; n
 
 El contenido académico y editorial original se ofrece bajo CC BY-SA 4.0; el código original, bajo MIT. Las fuentes y signos institucionales de terceros están expresamente excluidos. Consulte [Licencias y alcance](LICENSE.md) y la [política de fuentes y derechos](docs/POLITICA_DE_FUENTES_Y_DERECHOS.md).
 
-## CI y futura publicación
+## CI y publicación
 
-`.github/workflows/ci.yml` ejecuta la validación completa y conserva `dist/` como artefacto de revisión. `.github/workflows/pages.yml.example` es una plantilla **inactiva** que usa las acciones oficiales `configure-pages`, `upload-pages-artifact` y `deploy-pages`.
+`.github/workflows/ci.yml` ejecuta la validación completa y conserva `dist/` como artefacto de revisión. `.github/workflows/pages.yml` vuelve a validar, construye con la ruta base del repositorio y publica mediante las acciones oficiales `configure-pages`, `upload-pages-artifact` y `deploy-pages`.
 
-La aceptación académica para preparar GitHub consta desde el 1 de septiembre de 2026. La creación del repositorio público y el envío de `main` fueron autorizados y ejecutados ese mismo día. La activación de Pages permanece separada y requiere una nueva autorización operativa expresa; antes deberán configurarse `SITE_URL` y `BASE_PATH` y seguir [la guía de GitHub Pages](docs/GUIA_GITHUB_PAGES.md).
+La aceptación académica para preparar GitHub, la creación del repositorio y la activación de Pages constan desde el 1 de septiembre de 2026. La publicación se entiende como una primera versión evolutiva para constatación administrativa interna; no promueve los estados `en_revision` ni autoriza copias locales de fuentes de terceros. Consulte [la guía de GitHub Pages](docs/GUIA_GITHUB_PAGES.md).
 
 ## Documentación
 
 - [Arquitectura de la proyección pública](docs/ARQUITECTURA_PUBLICA.md)
 - [Guía de mantenimiento de contenidos](docs/GUIA_MANTENIMIENTO.md)
-- [Preparación futura de GitHub Pages](docs/GUIA_GITHUB_PAGES.md)
+- [Operación de GitHub Pages](docs/GUIA_GITHUB_PAGES.md)
 - [Decisiones y bloqueos institucionales](docs/DECISIONES_Y_BLOQUEOS.md)
 - [Informe de implementación y pruebas](docs/INFORME_IMPLEMENTACION_V1.md)
 - [Lista formal de aceptación académica local](docs/LISTA_FORMAL_ACEPTACION_ACADEMICA_LOCAL.md)

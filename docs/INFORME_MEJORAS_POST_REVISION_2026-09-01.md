@@ -2,7 +2,7 @@
 
 **Fecha:** 1 de septiembre de 2026  
 **Alcance:** corrección funcional y documental sobre la versión estática local  
-**Publicación del repositorio:** autorizada y ejecutada; GitHub Pages permanece inactivo
+**Publicación:** repositorio y GitHub Pages autorizados y activos como versión evolutiva
 
 ## Resultado
 
@@ -68,4 +68,4 @@ La evidencia de navegador se conserva en `outputs/revision-sitio/evidencia-naveg
 
 ## Recomendación de puerta
 
-La versión local fue aceptada académicamente para preparar GitHub mediante constancia transmitida por Arnoldo Prado en nombre de la Mtra. María Luisa Saavedra Solá. Los cuatro P1 curatoriales, la cuenta `alephblade`, la visibilidad pública, las licencias, la política de fuentes y el uso público del emblema oficial están resueltos. El repositorio público fue creado y `main` fue enviado por autorización expresa; su primer CI concluyó correctamente. Antes de activar GitHub Pages siguen pendientes la orden operativa separada y el recorrido humano completo por teclado.
+La versión local fue aceptada académicamente para preparar GitHub mediante constancia transmitida por Arnoldo Prado en nombre de la Mtra. María Luisa Saavedra Solá. Los cuatro P1 curatoriales, la cuenta `alephblade`, la visibilidad pública, las licencias, la política de fuentes y el uso público del emblema oficial están resueltos. Arnoldo Prado informó que completó el recorrido humano por teclado y autorizó posteriormente GitHub Pages como versión evolutiva para constatación administrativa. El sitio quedó publicado sin promover estados académicos ni incorporar fuentes locales de terceros.

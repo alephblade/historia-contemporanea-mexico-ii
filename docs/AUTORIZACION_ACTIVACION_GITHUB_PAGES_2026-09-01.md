@@ -25,4 +25,8 @@ La autorización:
 
 La activación queda condicionada a que la construcción con `SITE_URL=https://alephblade.github.io` y `BASE_PATH=/historia-contemporanea-mexico-ii` apruebe las mismas validaciones de corpus, proyección, tipos, enlaces, accesibilidad estructural y exclusión de fuentes usadas localmente y en CI.
 
-El resultado técnico y la URL efectivamente servida se añadirán a este documento después del primer despliegue.
+## Resultado del primer despliegue
+
+La compuerta local con la URL y ruta base definitivas aprobó 36 páginas, 20 lecturas, cinco unidades y seis orientaciones, sin errores de tipos, enlaces internos rotos ni fuentes locales de terceros. El flujo remoto `Publicar en GitHub Pages` concluyó correctamente en la ejecución `33493202408`, sobre el commit `dd648aded0bf3fe1dbd163d1dcf51816d2fe1432`.
+
+La URL `https://alephblade.github.io/historia-contemporanea-mexico-ii/` respondió por HTTPS con estado 200. También se verificaron el catálogo de lecturas, una orientación con ruta profunda y el logotipo institucional. La publicación inicial conserva el carácter evolutivo y los límites declarados en esta constancia.

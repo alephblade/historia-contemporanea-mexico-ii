@@ -57,3 +57,9 @@ Arnoldo Prado autorizó expresamente crear el repositorio público y subir `main
 - GitHub Pages: no activado; la plantilla `.github/workflows/pages.yml.example` permanece inactiva.
 
 La autorización para crear el repositorio no se interpretó como autorización para desplegar el sitio. El recorrido humano secuencial completo mediante teclado físico sigue pendiente y no se presenta como aprobado.
+
+## 6. Adenda de activación de GitHub Pages
+
+Arnoldo Prado informó posteriormente que completó el recorrido manual mediante teclado y autorizó activar GitHub Pages bajo el entendimiento de que la primera versión pública continuará sujeta a mejora, actualización y depuración. El flujo `Publicar en GitHub Pages` concluyó correctamente en la ejecución `33493202408` y el sitio quedó disponible en `https://alephblade.github.io/historia-contemporanea-mexico-ii/`, con HTTPS forzado.
+
+La autorización y el resultado se documentan en `docs/AUTORIZACION_ACTIVACION_GITHUB_PAGES_2026-09-01.md`. Esta adenda resuelve el control humano pendiente y la autorización operativa de despliegue sin alterar los resultados históricos de las secciones anteriores.
