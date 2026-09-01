@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReadingCard from '../components/ReadingCard.astro';
+import StatusBadge from '../components/StatusBadge.astro';
+import { orientations, readings, units, orientationTypeLabel } from '../lib/public-data';
+import { withBase } from '../lib/paths';
+
+const featured = [readings[0], readings[1], readings[14]];
+const orientation = orientations.find((item) => item.id === 'ORI_HIST2_U3_TRAMA_01') ?? orientations[0];
+---
+
+<BaseLayout title="Inicio" description="Repositorio educativo de lecturas, fichas pedagógicas y orientaciones para Historia Contemporánea de México II de la Universidad Autónoma Chapingo.">
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">Repositorio educativo · primera versión estática</p>
+        <h1>Leer el México contemporáneo con fuentes trazables</h1>
+        <p class="hero-lead">Veinte lecturas curadas, sus fichas pedagógicas y seis orientaciones docentes para recorrer el programa sin ocultar límites de evidencia ni estados editoriales.</p>
+        <div class="hero-actions">
+          <a class="button" href={withBase('/lecturas/')}>Explorar las lecturas</a>
+          <a class="button button-secondary" href={withBase('/orientaciones/')}>Consultar orientaciones</a>
+        </div>
+      </div>
+      <dl class="hero-stats" aria-label="Contenido disponible para revisión">
+        <div><dt>{readings.length}</dt><dd>lecturas curadas</dd></div>
+        <div><dt>{units.length}</dt><dd>unidades canónicas</dd></div>
+        <div><dt>{orientations.length}</dt><dd>{orientations.length === 1 ? 'orientación docente formal' : 'orientaciones docentes formales'}</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="page-shell">
+    <aside class="review-notice" aria-label="Estado editorial del repositorio">
+      <strong>Corpus completo para prueba y revisión</strong>
+      Los registros, fichas y orientaciones permanecen en estado «En revisión». Esta interfaz no los presenta como publicación académica definitiva.
+    </aside>
+
+    <nav class="unit-index" aria-label="Unidades del programa">
+      {units.map((unit) => (
+        <a href={withBase(`/unidades/${unit.slug}/`)}>
+          <span class="unit-number" aria-hidden="true">{String(unit.numero).padStart(2, '0')}</span>
+          <strong>Unidad {unit.numero}<br />{unit.nombre}</strong>
+        </a>
+      ))}
+    </nav>
+
+    <section aria-labelledby="lecturas-destacadas">
+      <div class="section-heading">
+        <h2 id="lecturas-destacadas">Puntos de entrada al corpus</h2>
+        <a href={withBase('/lecturas/')}>Ver las 20 lecturas</a>
+      </div>
+      <div class="reading-grid">
+        {featured.map((reading) => <ReadingCard reading={reading} />)}
+      </div>
+    </section>
+
+    <section class="page-intro" style="margin-top: var(--space-7);">
+      <div>
+        <p class="eyebrow">Navegación docente</p>
+        <h2>{orientation.titulo}</h2>
+        <p class="lead">{orientation.descripcion}</p>
+        <div class="inline-actions">
+          <a class="button" href={withBase(`/orientaciones/${orientation.slug}/`)}>Abrir la orientación de Unidad 3</a>
+        </div>
+      </div>
+      <div class="info-panel">
+        <StatusBadge status={orientation.estado_editorial} />
+        <p><strong>{orientationTypeLabel(orientation.tipo)}</strong></p>
+        <p>Audiencia declarada: docente. En esta fase estática es una clasificación de uso, no una barrera de acceso.</p>
+      </div>
+    </section>
+
+    <aside class="warning-panel">
+      <h2>Límite curricular preservado</h2>
+      <p>El corpus actual no acredita cobertura suficiente de la Guerra Cristera. La Unidad 3 lo señala como un vacío de curaduría que requiere una fuente complementaria aprobada; el sitio no lo rellena mediante inferencias.</p>
+    </aside>
+  </div>
+</BaseLayout>

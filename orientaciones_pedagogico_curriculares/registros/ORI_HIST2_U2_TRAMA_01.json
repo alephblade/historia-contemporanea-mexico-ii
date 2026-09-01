@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U2_TRAMA_01",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Del antirreeleccionismo al levantamiento",
+  "slug": "antirreeleccionismo-levantamiento-revolucion-mexicana",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-09-01",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u2",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Orientación formal para explicar el paso del antirreeleccionismo al levantamiento de 1910 mediante una cronología regional focalizada y el contraste de documentos programáticos.",
+  "proposito": "Relacionar condiciones, demandas, decisiones y dinámicas regionales sin reducir el inicio de la Revolución Mexicana a una causa única ni generalizar el caso sinaloense.",
+  "rutas_analisis": [
+    {
+      "id": "A",
+      "titulo": "Del antirreeleccionismo al levantamiento",
+      "pregunta_guia": "¿Qué condiciones, demandas, decisiones y dinámicas regionales ayudan a explicar el paso de la oposición al levantamiento de 1910?",
+      "intervencion_didactica": "Cruzar una cronología focalizada del antirreeleccionismo sinaloense con fragmentos breves del Programa del Partido Liberal Mexicano y el Plan de San Luis, distinguiendo condición, demanda, decisión, escala y límite de cada fuente.",
+      "evidencia_esperada": "Línea de tiempo-mapa con al menos cinco entradas, localizadores verificables y una explicación de 150–180 palabras que rechace una causa única."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {
+      "lectura_id": "HIST2_0005",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["referencia_1", "referencia_2"]
+    },
+    {
+      "lectura_id": "HIST2_0008",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["referencia_2", "referencia_3"]
+    }
+  ],
+  "evidencia_integradora": {
+    "tipo": "linea_tiempo_mapa_argumentada",
+    "titulo": "De la oposición política al levantamiento de 1910",
+    "requisitos": [
+      "Cinco o más entradas con fecha o secuencia, actor, escala, acción y localizador.",
+      "Al menos una evidencia de HIST2_0005 y dos fragmentos documentales de HIST2_0008.",
+      "Distinción explícita entre condición, demanda, decisión e inicio del levantamiento.",
+      "Conclusión multicausal y límite sobre la representatividad del caso sinaloense."
+    ]
+  },
+  "cobertura_curricular": [
+    {
+      "aprendizaje": "Distingue causas y condiciones del inicio de la Revolución Mexicana",
+      "estado": "cubierto_directo_situado",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Relaciona oposición política, documentos programáticos y levantamiento de 1910",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Explicación regional integral del inicio de la Revolución",
+      "estado": "no_acreditado_por_corpus",
+      "rutas_analisis": []
+    }
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U2_TRAMA_01.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Cronología en tabla con encabezados textuales, alternativa al mapa gráfico, localizadores explícitos, instrucciones segmentadas y opción de entrega escrita.",
+  "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas."
+}

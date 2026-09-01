@@ -1,0 +1,245 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0019",
+  "indice": "lectura_19",
+  "slug": "porfirio-diaz-constitucion-dictadura-reeleccion",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el capítulo PDF local, su ficha institucional en la Biblioteca Jurídica Virtual de la UNAM y el antecedente de la hoja maestra heredada.",
+    "cambios": [
+      "Se identifica el recurso como ensayo académico y versión revisada de una ponencia, incluido en el libro colectivo Porfirio Díaz y el derecho. Balance crítico; no como una fuente primaria ni como una biografía de Porfirio Díaz.",
+      "Se conserva 2015 como año de publicación y se separa del metadato técnico de la copia PDF (enero de 2016).",
+      "Se asigna la Unidad 1 como eje principal: el argumento analiza la relación entre Constitución de 1857, reelección presidencial y configuración autoritaria durante el Porfiriato.",
+      "Se incorpora la Unidad 2 solo como relación contextual para el Plan de Tuxtepec, el levantamiento de 1910 y la reforma antirreeleccionista de 1911.",
+      "Se distingue entre hechos, citas de otras autorías y la interpretación jurídico-normativa de Imer B. Flores; sus juicios sobre legitimidad y dictadura se trabajan como argumentos del autor, no como descripciones neutrales autosuficientes."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Porfirio Díaz (1830-1915): La Constitución, la dictadura y la reelección",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "título del capítulo, PDF p. 135", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual, IIJ-UNAM", "localizador": "libro Porfirio Díaz y el derecho. Balance crítico, capítulo 9; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "diaz-constitucion-dictadura-reeleccion.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0019/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Imer B. Flores.",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "firma y nota curricular de autoría, PDF p. 135", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Ensayo académico de Imer B. Flores incluido en el libro colectivo Porfirio Díaz y el derecho. Balance crítico, editado por la Cámara de Diputados, LXIII Legislatura, y el Instituto de Investigaciones Jurídicas de la UNAM en 2015, pp. 135-158. Es versión revisada de una ponencia presentada el 2 de julio de 2015 en el seminario \"Porfirio Díaz y el derecho. Balance crítico\".",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "nota al título, créditos y paginación, PDF p. 135 y pp. 135-158", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual, IIJ-UNAM", "localizador": "ficha institucional del libro 4121; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "anio": {
+      "valor": 2015,
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "créditos institucionales DR © 2015 y nota al título sobre ponencia de 2015, PDF p. 135", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual, IIJ-UNAM", "localizador": "ficha institucional del libro 4121; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "La fecha de creación y modificación del PDF local (2016-01-18) corresponde al archivo digital, no a la publicación del capítulo."
+    },
+    "tipo_material": {
+      "valor": "Ensayo académico",
+      "codigo": "ensayo_academico",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "prólogo argumentativo, notas, aparato bibliográfico y referencia a versión revisada de ponencia, PDF pp. 135-158", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "Biblioteca Jurídica Virtual, IIJ-UNAM", "localizador": "capítulo PDF de consulta pública en el libro 4121; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://archivos.juridicas.unam.mx/www/bjv/libros/9/4121/9.pdf",
+      "evidencias": [
+        {"fuente": "Biblioteca Jurídica Virtual, IIJ-UNAM", "localizador": "PDF institucional del capítulo 9 del libro 4121; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "La reproducción o reutilización de fragmentos, más allá de la consulta y cita académica, requiere atender a los créditos y condiciones vigentes de la Cámara de Diputados y del IIJ-UNAM."
+    },
+    "resumen_analitico": {
+      "valor": "Imer B. Flores propone un balance crítico de la relación entre Porfirio Díaz y el derecho. Reconoce la dimensión militar y modernizadora del personaje, pero centra su argumento en la paradoja de haber combatido la reelección de Juárez y Lerdo mediante los planes de La Noria y Tuxtepec, para después favorecer reformas que permitieron su permanencia indefinida. Explica que la reforma de 1878 prohibió la reelección inmediata, que la de 1887 la admitió una vez y que la de 1890 dejó de limitarla; interpreta esta secuencia como una \"constitucionalización de la dictadura\" por vulnerar el principio republicano de alternabilidad. El texto enlaza este problema con la Revolución de 1910, la reforma de 1911 y la prohibición posterior de reelección presidencial, a la vez que discute interpretaciones de Rabasa, Garner y otros autores. Su enfoque es jurídico-normativo: ofrece una tesis argumentada sobre legalidad, legitimidad y límites del poder, no una explicación total de la experiencia social del Porfiriato.",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "prólogo y balance crítico, PDF pp. 135-139; perfil y trayectoria política, pp. 139-148; reformas constitucionales, pp. 148-153; tesis sobre reelección, pp. 153-156; epílogo, pp. 156-158", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Régimen Porfirista",
+      "secundarias": ["Revolución Mexicana"],
+      "valor_excel": "Régimen Porfirista",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "segunda presidencia de Díaz, reformas de 1887 y 1890 y concentración presidencial, PDF pp. 145-156", "estado": "derivado_de_texto_verificado"},
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "Tuxtepec, levantamiento de 1910 y reforma de 1911, PDF pp. 143-148", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 1 es directa y dominante. La Unidad 2 es contextual: el texto permite relacionar el lema antirreeleccionista con el derrumbe del régimen, pero no estudia de manera integral las fases, actores o programas de la Revolución Mexicana."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Porfirio Díaz",
+        "Porfiriato",
+        "Constitución de 1857",
+        "constitucionalización de la dictadura",
+        "reelección presidencial",
+        "no reelección",
+        "alternabilidad republicana",
+        "presidencialismo",
+        "legalidad y legitimidad",
+        "límites del poder",
+        "Plan de La Noria",
+        "Plan de Tuxtepec",
+        "reforma constitucional de 1878",
+        "reformas constitucionales de 1887 y 1890",
+        "centralización del poder",
+        "positivismo",
+        "orden y progreso",
+        "Cananea y Río Blanco",
+        "Revolución de 1910",
+        "reforma antirreeleccionista de 1911",
+        "artículo 83 constitucional"
+      ],
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "prólogo, trayectoria política, reformas y epílogo, PDF pp. 135-158", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "24 páginas con vocabulario jurídico, argumentación normativa, cronología política, citas extensas, notas y bibliografía", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1855-2015, con énfasis en 1871-1911 y en las reformas de 1878, 1887, 1890 y 1911",
+      "nota": "El perfil biográfico comienza con la Revolución de Ayutla y el epílogo llega a reformas del artículo 83 posteriores a 1917. El núcleo interpretativo está en el ascenso de Díaz, la modificación de reglas de reelección y la caída del régimen en 1911.",
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "perfil y contexto, PDF pp. 139-148; reformas y tesis central, pp. 148-156; epílogo, pp. 156-158", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2015,
+      "evidencias": [
+        {"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "créditos institucionales y nota de ponencia, PDF p. 135", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2016-01-18",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico de la copia PDF local; no corresponde al año de publicación del capítulo ni al periodo histórico que estudia."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Reconstruir la secuencia entre los planes de La Noria y Tuxtepec, la reforma de 1878, las reformas de 1887 y 1890, y la reforma antirreeleccionista de 1911.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 141-148 y 151-156", "estado": "verificado_fuente_primaria"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Analiza la configuración política del Régimen Porfirista y las condiciones que favorecieron la permanencia de Díaz en el poder.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar la paradoja entre el discurso de no reelección sostenido por Díaz antes de llegar a la presidencia y las reformas que favorecieron su permanencia indefinida en ella.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "Plan de La Noria y Tuxtepec, PDF pp. 141-145; reforma de 1878 y reformas de 1887-1890, pp. 145-146 y 153-156", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Explica mecanismos de continuidad y concentración del poder en el Porfiriato.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Distinguir entre reforma constitucional, legalidad formal, legitimidad política y límites republicanos del poder al analizar la interpretación del autor sobre la reelección.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "Constitución de 1857, alternabilidad y juicio sobre las reformas, PDF pp. 153-156", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Analiza críticamente las instituciones y prácticas políticas del Régimen Porfirista.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Contrastar el balance del autor con las interpretaciones y citas atribuidas a Emilio Rabasa, Paul Garner, Jesús Reyes Heroles, Francisco Bulnes y otros, identificando qué enunciados son evidencia, cita o posición argumentativa.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "discusión historiográfica y referencias, PDF pp. 135-139 y 153-156", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Valora críticamente explicaciones e interpretaciones historiográficas sobre el Porfiriato.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Relacionar la crisis de la reelección, el lema \"Sufragio efectivo; no reelección\", la renuncia de Díaz y la reforma de 1911 como vínculo entre el final del Porfiriato y el inicio de la Revolución Mexicana.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "entrevista Creelman, Revolución de 1910, renuncia y reforma de 1911, PDF pp. 147-148 y 153", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Relaciona tensiones del Porfiriato con su crisis política final.", "alcance": "directo"}, {"unidad_id": "u2", "referente_programa": "Reconoce antecedentes políticos del estallido revolucionario de 1910.", "alcance": "contextual"}],
+      "nota_curaduria": "No extender esta relación a una explicación completa de la Revolución: requiere fuentes complementarias sobre actores, regiones, demandas sociales y fases del proceso."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza cómo la reelección y la modificación de reglas constitucionales se relacionaron con la concentración del poder político durante el Porfiriato.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 145-146 y 153-156", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Analiza mecanismos políticos que sostuvieron al Régimen Porfirista.", "alcance": "directo"}]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Argumenta una interpretación sobre la relación entre Constitución, prácticas autoritarias y legitimidad, diferenciando el planteamiento de Flores de los hechos y de las fuentes que cita.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "prólogo, discusión de Rabasa y sección sobre constitucionalización de la dictadura, PDF pp. 135-139 y 153-156", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Construye explicaciones históricas con uso crítico de interpretaciones y argumentos.", "alcance": "directo"}]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona el antirreeleccionismo de 1910-1911 con la crisis final del Porfiriato, reconociendo el carácter parcial de esta explicación del proceso revolucionario.",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 147-148, 153 y 156-157", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u1", "referente_programa": "Relaciona conflictos y límites del régimen con su crisis final.", "alcance": "directo"}, {"unidad_id": "u2", "referente_programa": "Identifica antecedentes políticos de la Revolución Mexicana.", "alcance": "contextual"}]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Balance crítico e interpretaciones historiográficas sobre Porfirio Díaz", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 135-139", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Positivismo, \"orden y progreso\", libertades públicas y límites del poder", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 136-138", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Plan de La Noria de 1871 y crítica a la reelección indefinida", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 135 y 141-142", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Plan de Tuxtepec, no reelección y llegada de Díaz a la presidencia", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 143-145", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Reforma constitucional de 1878 y prohibición de reelección inmediata", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 145 y 151", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Reformas de 1887 y 1890, reelección y continuidad presidencial", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 146 y 151-156", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Cananea, Río Blanco, represión y balance de los límites del régimen", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 136-137 y 147", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Revolución de 1910, renuncia de Díaz y reforma antirreeleccionista de 1911", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 147-148 y 153", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Constitución de 1917 y evolución del artículo 83 sobre no reelección presidencial", "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "PDF pp. 156-157", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "revisión integral del ensayo, PDF pp. 135-158", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "mencion_biografica_sin_desarrollo_analitico",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "referencias biográficas a Juana Catalina Romero, Rafaela Quiñones y Delfina Ortega Díaz, PDF pp. 140-142", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": [],
+      "nota": "Las mujeres aparecen en pasajes biográficos periféricos; el ensayo no analiza relaciones de género, ciudadanía ni experiencias de mujeres durante el Porfiriato."
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "diaz-constitucion-dictadura-reeleccion.pdf", "localizador": "libertades públicas, represión, Cananea, Río Blanco y límites del poder, PDF pp. 136-138 y 153-156", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_3", "aprendizaje_2"],
+      "nota": "El abordaje privilegia la dimensión jurídico-política. Las experiencias obreras y las desigualdades sociales se mencionan, pero no reciben análisis sostenido."
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["secuenciar", "distinguir", "comparar", "relacionar causas y efectos", "analizar argumentos", "contrastar interpretaciones", "argumentar"],
+    "nota": "Antes de leer, aclarar Constitución de 1857, reforma constitucional, reelección inmediata, reelección indefinida, alternabilidad, legalidad y legitimidad. Trabajar de forma focalizada: pp. 135-139 para tesis y debate; pp. 141-148 para línea de tiempo; pp. 153-156 para la argumentación central. Usar una matriz con cuatro columnas: fecha o documento, regla de reelección, efecto político descrito y tipo de enunciado (hecho, cita o interpretación de Flores). Cerrar con un párrafo argumentativo que evalúe la tesis de \"constitucionalización de la dictadura\" usando al menos dos evidencias del texto. No asignar la lectura íntegra y autónoma sin esos apoyos ni presentar su lenguaje normativo como consenso historiográfico."
+  },
+  "observaciones": [
+    "El texto tiene un enfoque jurídico-normativo y argumentativo. Sus afirmaciones sobre dictadura, legitimidad e inconstitucionalidad expresan la interpretación de Imer B. Flores y deben distinguirse de los hechos históricos que documenta o de las citas que incorpora.",
+    "La narración biográfica incluye datos y anécdotas secundarios para su tesis. La futura ficha debe priorizar los fragmentos sobre planes, reformas constitucionales, alternabilidad y crisis de 1910-1911, no la memorización de detalles biográficos.",
+    "La lectura es especialmente útil para estudiar el mecanismo político-jurídico de la reelección; no reemplaza fuentes sobre condiciones de vida, trabajo, pueblos indígenas, territorio, oposición regional o experiencias de mujeres en el Porfiriato.",
+    "El acceso es público desde la Biblioteca Jurídica Virtual. El repositorio debe enlazar y citar la fuente institucional; cualquier reproducción de contenidos debe respetar los créditos y condiciones vigentes de las instituciones titulares."
+  ]
+}

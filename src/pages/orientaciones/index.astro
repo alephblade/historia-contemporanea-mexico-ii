@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { orientations, orientationTypeLabel, statusLabel, units } from '../../lib/public-data';
+import { withBase } from '../../lib/paths';
+
+const types = [...new Set(orientations.map((orientation) => orientation.tipo))];
+const audiences = [...new Set(orientations.flatMap((orientation) => orientation.audiencia))];
+const statuses = [...new Set(orientations.map((orientation) => orientation.estado_editorial))];
+---
+
+<BaseLayout title="Orientaciones" description="Colección docente de orientaciones pedagógico-curriculares para articular lecturas del repositorio de Historia II.">
+  <div class="page-shell">
+    <header class="page-intro">
+      <div>
+        <p class="eyebrow">Colección docente independiente</p>
+        <h1>Orientaciones pedagógico-curriculares</h1>
+        <p class="lead">Itinerarios, secuencias y matrices que articulan objetos existentes para un uso curricular dirigido. No sustituyen las lecturas, sus registros ni sus fichas.</p>
+      </div>
+      <aside class="review-notice">
+        <strong>Acceso abierto, intención docente</strong>
+        La audiencia «docente» describe el uso previsto. Esta primera versión estática no implementa autenticación ni una barrera de acceso.
+      </aside>
+    </header>
+
+    <form class="filter-panel" data-orientation-filter>
+      <h2>Filtrar orientaciones</h2>
+      <div class="filter-grid">
+        <div class="field">
+          <label for="ori-unidad">Unidad</label>
+          <select id="ori-unidad" name="unidad"><option value="">Todas</option>{units.map((unit) => <option value={unit.id}>Unidad {unit.numero}: {unit.nombre}</option>)}</select>
+        </div>
+        <div class="field">
+          <label for="ori-tipo">Tipo</label>
+          <select id="ori-tipo" name="tipo"><option value="">Todos</option>{types.map((type) => <option value={type}>{orientationTypeLabel(type)}</option>)}</select>
+        </div>
+        <div class="field">
+          <label for="ori-audiencia">Audiencia</label>
+          <select id="ori-audiencia" name="audiencia"><option value="">Todas</option>{audiences.map((audience) => <option value={audience}>{audience}</option>)}</select>
+        </div>
+        <div class="field">
+          <label for="ori-estado">Estado</label>
+          <select id="ori-estado" name="estado"><option value="">Todos</option>{statuses.map((status) => <option value={status}>{statusLabel(status)}</option>)}</select>
+        </div>
+      </div>
+      <div class="filter-actions">
+        <p class="results-count" aria-live="polite"><strong data-orientation-count>{orientations.length}</strong> orientaciones visibles</p>
+        <button type="reset">Limpiar filtros</button>
+      </div>
+    </form>
+
+    <div class="orientation-grid">
+      {orientations.map((orientation) => (
+        <article class="orientation-card" data-orientation-item data-unit={orientation.unidades.map((unit) => unit.id).join(' ')} data-type={orientation.tipo} data-audience={orientation.audiencia.join(' ')} data-status={orientation.estado_editorial}>
+          <div class="card-kicker"><span class="canonical-id">{orientation.id}</span><StatusBadge status={orientation.estado_editorial} /></div>
+          <h2><a href={withBase(`/orientaciones/${orientation.slug}/`)}>{orientation.titulo}</a></h2>
+          <p class="card-meta">{orientationTypeLabel(orientation.tipo)} · audiencia {orientation.audiencia.join(', ')}</p>
+          <p>{orientation.descripcion}</p>
+          <a class="text-link" href={withBase(`/orientaciones/${orientation.slug}/`)}>Abrir orientación <span aria-hidden="true">→</span></a>
+        </article>
+      ))}
+    </div>
+    <p class="empty-state" data-orientation-empty hidden>No hay orientaciones que coincidan con los filtros seleccionados.</p>
+  </div>
+
+  <script>
+    const form = document.querySelector('[data-orientation-filter]');
+    const items = [...document.querySelectorAll('[data-orientation-item]')];
+    const count = document.querySelector('[data-orientation-count]');
+    const empty = document.querySelector('[data-orientation-empty]');
+    const update = () => {
+      if (!(form instanceof HTMLFormElement)) return;
+      const data = new FormData(form);
+      const fields = ['unit', 'type', 'audience', 'status'];
+      const values = ['unidad', 'tipo', 'audiencia', 'estado'].map((key) => String(data.get(key) ?? ''));
+      let visible = 0;
+      items.forEach((item) => {
+        if (!(item instanceof HTMLElement)) return;
+        const matches = fields.every((field, index) => !values[index] || (item.dataset[field] ?? '').split(' ').includes(values[index]));
+        item.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      if (count) count.textContent = String(visible);
+      if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
+    };
+    form?.addEventListener('change', update);
+    form?.addEventListener('reset', () => requestAnimationFrame(update));
+  </script>
+</BaseLayout>

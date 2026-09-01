@@ -1,0 +1,648 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0003",
+  "indice": "lectura_3",
+  "slug": "sistema-politico-mexicano",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial en el esquema canónico 2.0 a partir del PDF local y de la edición institucional abierta de la UNADM.",
+    "cambios": [
+      "Se verificaron título, crédito institucional, edición, acceso y URL en la propia fuente y en el PDF institucional de la UNADM.",
+      "Se distinguió entre el recorrido histórico de la fuente y las cinco unidades curriculares canónicas de Historia Contemporánea de México II.",
+      "Se añadieron advertencias de mediación sobre la fecha de edición, el público original y las generalizaciones que requieren contraste histórico."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "El sistema político mexicano",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Portada; PDF p. 2, encabezado de la sesión; PDF p. 38, forma de cita sugerida",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "modulo-sistema-politico-mexicano.pdf",
+      "evidencias": [
+        {
+          "fuente": "archivo local",
+          "localizador": "fuentes/lecturas/HIST2_0003/",
+          "estado": "verificado_metadato_tecnico"
+        }
+      ]
+    },
+    "autoria": {
+      "valor": "Administración y Gestión Pública; docentes y responsable de carrera, Universidad Abierta y a Distancia de México",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF p. 38, forma de cita sugerida",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "nota": "El PDF acredita autoría colectiva e institucional; no identifica personas autoras individuales."
+    },
+    "descripcion_fuente": {
+      "valor": "Texto de apoyo de la Sesión 4, Unidad 2, del Módulo 4 de la Licenciatura en Administración y Gestión Pública de la UNADM. Explica instituciones, poderes, federalismo, partidos, elecciones y corporativismo mediante un recorrido por la historia del sistema político mexicano.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Portada; PDF pp. 2 y 38",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio": {
+      "valor": 2016,
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF p. 38, forma de cita sugerida: Administración y Gestión Pública, 2016; primera edición",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "tipo_material": {
+      "valor": "Texto de apoyo",
+      "codigo": "texto_apoyo",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 1-2, portada y encabezado",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {
+          "fuente": "https://dmd.unadmexico.mx/contenidos/DCSA/MODULOS/AGP/M4_AGSPAM/U2/S4/descargables/AGP_M4_U2_S4_TA.pdf",
+          "localizador": "PDF institucional de acceso público, 42 páginas",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://dmd.unadmexico.mx/contenidos/DCSA/MODULOS/AGP/M4_AGSPAM/U2/S4/descargables/AGP_M4_U2_S4_TA.pdf",
+      "evidencias": [
+        {
+          "fuente": "Universidad Abierta y a Distancia de México",
+          "localizador": "ruta institucional del PDF; verificada el 2026-08-31",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El texto presenta el sistema político mexicano como resultado de procesos sociales, económicos, culturales e institucionales. Usa el Porfiriato y la Revolución como antecedentes, aborda la Constitución de 1917 y explica la organización del Ejecutivo, Legislativo, Judicial y sistema federal. Después desarrolla partidos, sistema electoral, presidencialismo, cacicazgos y corporativismo, con atención a la formación del PNR y el PRM. También recorre movimientos estudiantiles, reforma política, crisis de los años ochenta, privatización y alternancia. Su perspectiva es panorámica e institucional, por lo que requiere mediación y contraste de sus interpretaciones.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Índice, PDF p. 2; desarrollo, PDF pp. 3-38",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Consolidación del sistema político autoritario",
+      "secundarias": [
+        "Estado surgido de la Revolución",
+        "Neoliberalismo y alternancia",
+        "Régimen Porfirista",
+        "Revolución Mexicana"
+      ],
+      "valor_excel": "Consolidación del sistema político autoritario|Estado surgido de la Revolución|Neoliberalismo y alternancia|Régimen Porfirista|Revolución Mexicana",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Índice, PDF p. 2; presidencialismo, partidos, apertura y corporativismo, PDF pp. 17-36",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La Unidad 4 es principal por el análisis del presidencialismo, partido hegemónico, corporativismo y control político. Las demás unidades se vinculan con alcances diferenciados y no como una cobertura exhaustiva del programa."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "sistema político mexicano",
+        "Porfiriato",
+        "Revolución Mexicana",
+        "Constitución de 1917",
+        "presidencialismo",
+        "división de poderes",
+        "federalismo",
+        "municipio libre",
+        "partido hegemónico",
+        "sistema electoral",
+        "corporativismo",
+        "PNR",
+        "PRM",
+        "movimiento estudiantil de 1968",
+        "reforma política de 1977",
+        "alternancia"
+      ],
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Índice, PDF p. 2; PDF pp. 3-38",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": [
+        "intermedio",
+        "avanzado"
+      ],
+      "evidencias": [
+        {
+          "fuente": "decisión de curaduría",
+          "localizador": "Extensión de 42 páginas, densidad conceptual, aparato de citas y enfoque original de educación superior",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1876-2016",
+      "nota": "El recorrido inicia en el Porfiriato, usa la Revolución y la Constitución de 1917 como antecedentes y alcanza la alternancia, el retorno del PRI en 2012 y debates registrados hasta la edición de 2016.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Porfiriato, PDF pp. 3-7; sistema político reciente, PDF pp. 30-33; cita de edición, PDF p. 38",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2016,
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF p. 38, primera edición",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2016-09-27",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local. La referencia editorial se toma de la forma de cita impresa y no de este metadato."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Relacionar el control político, la manipulación electoral, la desigualdad y la centralización del Porfiriato con los antecedentes del sistema político posterior.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 3-7",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Características del Estado porfirista mexicano, disidencia y conflictos sociales.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota_curaduria": "El Porfiriato funciona como antecedente del sistema político; no es el eje principal de la obra."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar la Revolución Mexicana y la Constitución de 1917 como procesos de reconfiguración institucional y de reconocimiento de derechos sociales.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Revolución, PDF pp. 8-10; Constitución y derechos, PDF pp. 11-16",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Confrontación entre proyectos revolucionarios y Constitución de 1917.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar el paso del caudillismo a la institucionalización posrevolucionaria mediante la formación del PNR, su transformación en PRM y la reorganización de sectores sociales.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 33-35",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Del caudillismo a las instituciones; Maximato y fundación del partido hegemónico.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 3: el texto permite explicar la institucionalización posrevolucionaria mediante el PNR, el PRM y la organización sectorial; no sustituye el estudio específico de cada gobierno del periodo."
+    },
+    {
+      "id": "ch_4",
+      "valor": "Distinguir entre el diseño constitucional de división de poderes y el funcionamiento histórico del presidencialismo, el partido hegemónico y las facultades metaconstitucionales.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 17-21 y 33-36",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u4",
+          "referente_programa": "Proceso de consolidación del sistema político autoritario y estrategias del partido hegemónico.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Explicar el corporativismo como forma de incorporación y control de organizaciones campesinas, obreras y populares en el sistema político mexicano.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 33-36",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u4",
+          "referente_programa": "Organización y lucha de campesinos, obreros, profesionistas y estudiantes.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "La fuente privilegia una explicación institucional del corporativismo; conviene contrastarla con estudios de organización y agencia social."
+    },
+    {
+      "id": "ch_6",
+      "valor": "Investigar la relación entre movimientos estudiantiles, represión, reforma política y apertura electoral en el desgaste del sistema autoritario.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-33",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u4",
+          "referente_programa": "Manifestaciones de inconformidad social, guerra sucia y represión social en el marco de la Guerra Fría.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_7",
+      "valor": "Relacionar crisis económicas, privatización, pérdida de legitimidad del régimen y alternancia política con la transición al pluralismo partidista.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-33",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Implantación del neoliberalismo, crisis económicas y alternancia política.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Aporta un panorama de transición y alternancia; no sustituye una lectura especializada sobre políticas neoliberales, tratados comerciales o desarrollos posteriores a 2016."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Valora la importancia de la Constitución de 1917.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 11-16",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Valora la importancia de la Constitución de 1917.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Explica el caudillismo y la pérdida de poder de los caudillos al crearse instituciones políticas.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 30-35",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Explica el caudillismo y la pérdida de poder de los caudillos al crearse instituciones políticas.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Explica las etapas del Maximato y la fundación del Partido Nacional Revolucionario.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 33-35",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Explica las etapas del Maximato y la fundación del Partido Nacional Revolucionario.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Investiga las manifestaciones de inconformidad social, las formas organizativas que surgen y las luchas que protagonizan diversos sectores de la sociedad para la defensa de sus derechos.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-36",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u4",
+          "referente_programa": "Investiga las manifestaciones de inconformidad social, las formas organizativas que surgen y las luchas que protagonizan diversos sectores de la sociedad para la defensa de sus derechos.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_5",
+      "valor": "Distingue las implicaciones de la aplicación del neoliberalismo en México y el fin del Estado benefactor.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-33",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Distingue las implicaciones de la aplicación del neoliberalismo en México y el fin del Estado benefactor.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota": "La lectura menciona privatización y pérdida de empleo, pero no desarrolla por sí sola el conjunto de políticas neoliberales."
+    },
+    {
+      "id": "aprendizaje_6",
+      "valor": "Analiza las crisis económicas y los movimientos sociales que buscan una sociedad justa, democrática e igualitaria.",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-33",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Analiza las crisis económicas y los movimientos sociales que buscan una sociedad justa, democrática e igualitaria.",
+          "alcance": "contextual"
+        }
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {
+      "id": "referencia_1",
+      "valor": "Cinco fases del sistema político mexicano: construcción, consolidación presidencialista, desgaste, apertura y reforma institucional",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF p. 2",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_2",
+      "valor": "Porfiriato: control político y administrativo, elecciones, desigualdad y centralización",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 3-7",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_3",
+      "valor": "Revolución Mexicana, Constitución de 1917 y derechos sociales",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 8-16",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_4",
+      "valor": "Poder Ejecutivo, presidencialismo y facultades metaconstitucionales",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 17-21",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_5",
+      "valor": "Poder Legislativo y Judicial: contrapesos formales y subordinación histórica al Ejecutivo",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 18-21",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_6",
+      "valor": "Federalismo, entidades federativas y municipio libre",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 21-23",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_7",
+      "valor": "Partidos políticos, sistema hegemónico, pluralismo y sistema electoral",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 23-26",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_8",
+      "valor": "Cacicazgos, intermediación política y construcción local de cuadros de poder",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 28-31",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_9",
+      "valor": "Movimiento estudiantil de 1968, represión de 1971 y reforma política de 1977",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-32",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_10",
+      "valor": "Crisis económicas, privatización, elección de 1988 e Instituto Federal Electoral",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 31-32",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_11",
+      "valor": "Alternancia política federal de 2000, retorno del PRI en 2012 y candidaturas independientes",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 32-33",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_12",
+      "valor": "Corporativismo estatal, organizaciones sociales y partido dominante",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 33-36",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_13",
+      "valor": "PNR, PRM, Cárdenas, CNC, CTM y CNOP",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF pp. 33-35",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    }
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "mencionado_sin_desarrollo",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "PDF p. 4, políticas porfiristas de reubicación de comunidades indígenas",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "nota": "La mención no constituye un tratamiento suficiente de pueblos indígenas, territorio o interculturalidad."
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "nota": "El índice y el desarrollo revisados no ofrecen un tratamiento sustantivo de mujeres, relaciones de género ni derechos de las mujeres."
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "modulo-sistema-politico-mexicano.pdf",
+          "localizador": "Desigualdad porfirista, PDF pp. 4-6; derechos sociales, PDF pp. 13-17; crisis y pérdida de empleo, PDF p. 31",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_1",
+        "ch_2",
+        "ch_5",
+        "ch_7",
+        "referencia_2",
+        "referencia_3",
+        "referencia_10"
+      ]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": [
+      "intermedio",
+      "avanzado"
+    ],
+    "operaciones_cognitivas_recomendadas": [
+      "periodizar",
+      "comparar",
+      "explicar relaciones entre instituciones y poder",
+      "analizar fuentes secundarias",
+      "contrastar interpretaciones",
+      "argumentar"
+    ],
+    "nota": "Se recomienda lectura focalizada por secciones, no lectura lineal completa: antecedentes y Constitución (PDF pp. 3-16); presidencialismo y federalismo (pp. 17-23); partidos, apertura y corporativismo (pp. 23-36). Requiere glosario y contraste de afirmaciones generales sobre cultura política."
+  },
+  "observaciones": [
+    "La fuente fue elaborada para estudiantes de segundo semestre de Administración y Gestión Pública de la UNADM. En Historia Contemporánea de México II conviene usarla como apoyo panorámico e institucional, con mediación de nivel medio superior.",
+    "La edición es de 2016. El registro no atribuye a la lectura cobertura de procesos posteriores, incluido el gobierno federal iniciado en 2018.",
+    "Algunas formulaciones sobre valores, cultura política y preferencias de la población son interpretaciones de la fuente; deben trabajarse críticamente y contrastarse con evidencia historiográfica y perspectivas sociales diversas.",
+    "La fuente declara derechos de autor y permite su cita y uso con fines académicos siempre que se otorguen créditos a la universidad, docentes y programa académico (PDF p. 38)."
+  ]
+}

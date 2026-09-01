@@ -1,0 +1,282 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0011",
+  "indice": "lectura_11",
+  "slug": "historia-militar-revolucion-epoca-maderista-tomo-3",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el índice facsimilar, la hoja histórica y la página institucional del INEHRM.",
+    "cambios": [
+      "Se identifica el foco propio del Tomo III: revoluciones vazquista, reyista, orozquista y felicista, y la asonada militar de febrero de 1913.",
+      "Se distingue la edición electrónica de 2020 de la primera edición de la obra, publicada en 1976.",
+      "Se mantiene la Unidad 2 como eje y se limita la relación con la Unidad 1 al antecedente de la disidencia reyista.",
+      "Se incorporan guardrails para analizar la perspectiva militar y no confundir el relato secundario con las voces directas de las facciones."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Historia militar de la Revolución en la época maderista. Tomo III",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "portada, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "historia-militar-maderista-tomo-3.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0011/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Miguel A. Sánchez Lamego.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "portada, PDF p. 1; página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Estudio de historia militar sobre las disidencias y conflictos que atravesaron el gobierno de Francisco I. Madero. El tomo organiza el relato en torno a las revoluciones vazquista, reyista, orozquista y felicista, y concluye con la asonada militar de febrero de 1913 y observaciones generales.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulos I-VIII, PDF pp. 14, 32, 42, 84, 146, 168, 184 y 194", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2020,
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "portada editorial, PDF p. 4; página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ],
+      "nota": "Corresponde a la primera edición electrónica del INEHRM. La primera edición de la obra es de 1976 y la segunda edición facsimilar es de 2011."
+    },
+    "tipo_material": {
+      "valor": "Estudio histórico militar",
+      "codigo": "estudio_historico_militar",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "título, PDF p. 1; índice de revoluciones, campañas y asonada militar, PDF p. 10", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional Historia militar de la Revolución en la época maderista, con opciones de descarga de los tres tomos; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT3.pdf",
+      "evidencias": [
+        {"fuente": "página institucional del INEHRM", "localizador": "obra Historia militar de la Revolución en la época maderista; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El tomo estudia la fragmentación política y militar durante el gobierno maderista. Presenta la revolución vazquista vinculada con el Plan de Tacubaya, la disidencia reyista y sus antecedentes porfiristas, y las dos fases de la revolución orozquista: guerra regular en Chihuahua y guerra de guerrillas en varios estados del norte. También aborda la revuelta felicista y la asonada militar iniciada el 9 de febrero de 1913 en la Ciudad de México. Permite estudiar facciones, legitimidad, alianzas y crisis, aunque su forma de narrar privilegia jefaturas, tropas y operaciones sobre otros sujetos y experiencias sociales.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulos I, II, III, IV, VI y VII, PDF pp. 14, 32, 42, 84, 168 y 184", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": ["Régimen Porfirista"],
+      "valor_excel": "Revolución Mexicana",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulo I, PDF p. 14; capítulo VII, PDF p. 184", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 concentra el contenido: crisis, facciones y conflictos del maderismo. La Unidad 1 solo se relaciona contextualmente mediante la trayectoria y oposición reyista previa a 1910."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "gobierno maderista",
+        "Plan de Tacubaya",
+        "revolución vazquista",
+        "Emilio Vázquez Gómez",
+        "reyismo",
+        "Bernardo Reyes",
+        "revolución orozquista",
+        "Pascual Orozco",
+        "guerra regular",
+        "guerra de guerrillas",
+        "Chihuahua",
+        "Sonora, Coahuila, Durango y Zacatecas",
+        "revuelta felicista",
+        "Félix Díaz",
+        "asonada militar de febrero de 1913",
+        "legitimidad política",
+        "perspectiva militar"
+      ],
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulos I-VII, PDF pp. 14, 32, 42, 84, 146, 168 y 184", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "198 páginas digitales, facsímil de una obra de 1976, vocabulario militar, múltiples facciones y cronología concentrada entre 1911 y 1913", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "Antecedentes reyistas de 1908 y crisis del gobierno maderista, octubre de 1911-febrero de 1913",
+      "nota": "El capítulo sobre el reyismo recupera el despertar político de 1908. La revolución vazquista inicia con el Plan de Tacubaya del 31 de octubre de 1911 y la asonada militar se sitúa desde el 9 de febrero de 1913.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulos I, II y VII, PDF pp. 14, 32 y 184", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2020,
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "antecedente_editorial": {
+      "valor": "Primera edición, INEHRM, 1976; segunda edición facsimilar, INEHRM, 2011; primera edición electrónica, INEHRM, 2020.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2020-11-12",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se conserva separado del año de las ediciones impresas y del periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Comparar el Plan de Tacubaya con el Plan de San Luis para analizar disputas sobre elecciones, legitimidad y continuidad de la Revolución durante el gobierno maderista.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo I, La revolución vazquista, PDF pp. 14-31; inicio, PDF p. 14", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza conflictos, facciones y proyectos políticos de la Revolución Mexicana.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "La comparación debe realizarse con los documentos primarios correspondientes; el tomo ofrece una interpretación secundaria del conflicto."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Relacionar el reyismo con la apertura política de 1908 y con las tensiones entre oposición electoral, trayectoria militar y poder porfirista.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo II, La revuelta reyista, PDF pp. 32-41; inicio, PDF p. 32", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u1", "referente_programa": "Existencia de grupos políticos opositores y crisis de legitimidad del Régimen Porfirista.", "alcance": "contextual"},
+        {"unidad_id": "u2", "referente_programa": "Distingue antecedentes y continuidades de la crisis política revolucionaria.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Distinguir las fases de guerra regular y de guerrillas de la revolución orozquista y ubicar sus cambios territoriales entre Chihuahua y otros estados del norte.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulos III y IV, PDF pp. 42-145; inicios, PDF pp. 42 y 84", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad regional y temporal de los conflictos revolucionarios.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Explicar cómo la pluralidad de facciones, alianzas y levantamientos ayuda a comprender la crisis del gobierno maderista y la asonada militar de febrero de 1913.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulos V-VII, PDF pp. 146-193; inicios de revuelta felicista y asonada, PDF pp. 168 y 184", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Explica los conflictos y crisis políticas de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Analizar críticamente cómo una historia militar construye un relato sobre revolución, rebelión y orden mediante jefaturas, operaciones y fuerzas, e identificar preguntas que requieren otras fuentes.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "título, PDF p. 1; índice, PDF p. 10; capítulos I-VII, PDF pp. 14-193", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la diversidad de proyectos, facciones y conflictos de la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulos I-VII, PDF pp. 14-193", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de proyectos y grupos participantes en la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Explica la crisis del gobierno maderista a partir de conflictos de legitimidad, levantamientos regionales y asonadas militares.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo I, PDF p. 14; capítulos III-IV, PDF pp. 42-145; capítulo VII, PDF pp. 184-193", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Explica los conflictos y crisis políticas de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Organiza información histórica mediante cronología, territorio, facciones y tipos de acción armada.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "índice, PDF p. 10; capítulos III-IV, PDF pp. 42-145", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Organiza información histórica por temporalidades, espacios y actores para explicar procesos revolucionarios.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Valora críticamente una interpretación histórica al reconocer su enfoque, evidencia y límites.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "título, PDF p. 1; página legal, PDF p. 5; índice, PDF p. 10", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Plan de Tacubaya y revolución vazquista", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo I, PDF pp. 14-31; inicio, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Emilio Vázquez Gómez y disputa por elecciones y legitimidad", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo I, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Bernardo Reyes, reyismo y antecedentes políticos de 1908-1910", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo II, PDF pp. 32-41; inicio, PDF p. 32", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Revolución orozquista en Chihuahua: guerra regular, febrero-julio de 1912", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo III, PDF pp. 42-83; inicio, PDF p. 42", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Revolución orozquista: guerrillas en Chihuahua, Sonora, Coahuila, Durango y Zacatecas, julio de 1912-febrero de 1913", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo IV, PDF pp. 84-145; inicio, PDF p. 84", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Región Lagunera y Tamaulipas durante la revolución orozquista", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo V, PDF pp. 146-167", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Félix Díaz y revuelta felicista", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo VI, PDF pp. 168-183; inicio, PDF p. 168", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Asonada militar de febrero de 1913 en Ciudad de México", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo VII, PDF pp. 184-193; inicio, PDF p. 184", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Observaciones generales sobre la fase de crisis maderista", "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo VIII, PDF pp. 194-198", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "no_verificado_como_eje_en_ruta_minima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "título e índice privilegian facciones, campañas y regiones, PDF pp. 1 y 10", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "no_verificado_como_eje_en_ruta_minima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "título e índice privilegian jefaturas, campañas y fuerzas militares, PDF pp. 1 y 10", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_de_manera_contextual",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-3.pdf", "localizador": "capítulo I, PDF pp. 14-31; pasaje sobre ideales de libertad, justicia y pequeñas propiedades, PDF p. 15", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_1", "aprendizaje_1", "referencia_1"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["contextualizar", "periodizar", "comparar facciones", "mapear", "analizar legitimidad", "analizar perspectiva", "argumentar"],
+    "nota": "No se asigna como lectura íntegra. Iniciar con el índice (PDF p. 10) y elegir dos casos contrastantes: vazquismo y orozquismo (PDF pp. 14 y 42), o reyismo y felixismo/asonada de febrero de 1913 (PDF pp. 32, 168 y 184). Elaborar una matriz con fecha, actor, documento o bandera invocada, territorio, objetivo atribuido, tipo de conflicto, evidencia y pregunta de contraste. Acompañar con el Plan de Tacubaya, el Plan de San Luis u otra fuente primaria correspondiente. No reducir la crisis maderista a rivalidades personales ni convertir el vocabulario de la obra en una clasificación definitiva de las facciones."
+  },
+  "observaciones": [
+    "La obra fue publicada originalmente en 1976 y reeditada electrónicamente en 2020. Sus categorías, lenguaje y énfasis en operaciones requieren contextualización y contraste con historiografía y fuentes primarias más recientes.",
+    "El tomo es especialmente útil para estudiar fragmentación, facciones y escalas regionales del maderismo. No sustituye una explicación social completa de las demandas agrarias, obreras, indígenas, de mujeres o de la vida civil durante la crisis.",
+    "La paginación impresa inicia en la p. 11 en la PDF p. 12; el registro conserva localizadores de PDF para la navegación estable del repositorio.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar la obra; cualquier reproducción o derivado requiere revisar derechos, créditos y permisos."
+  ]
+}

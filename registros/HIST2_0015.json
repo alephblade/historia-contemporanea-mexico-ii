@@ -1,0 +1,291 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0015",
+  "indice": "lectura_15",
+  "slug": "elecciones-sistema-politico",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el artículo PDF local, su página editorial en Historia Mexicana y la fila histórica del Excel.",
+    "cambios": [
+      "Se identifica el recurso como ensayo historiográfico publicado en Historia Mexicana, no como una narración directa ni exhaustiva del sistema electoral mexicano.",
+      "Se registra 2021 como año de publicación del artículo y se separa de su amplio arco de referencias históricas, que va de la insurgencia al siglo XXI.",
+      "Se reubica la lectura en la Unidad 4 como eje, con articulaciones contextualizadas hacia el Estado surgido de la Revolución y la alternancia democrática.",
+      "Se incorporan guardrails contra el presentismo: las elecciones se analizan como prácticas históricas con significados cambiantes, no solo por su cercanía o distancia respecto de una democracia ideal actual."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Las elecciones y el sistema político",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "título, PDF p. 1", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Historia Mexicana", "localizador": "página editorial del artículo", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "elecciones-sistema-politico.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0015/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "José Antonio Aguilar Rivera (Centro de Investigación y Docencia Económicas).",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "título, autoría y adscripción, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Ensayo historiográfico que revisa cómo los artículos de Historia Mexicana han interpretado las elecciones y el sistema político. Discute cambios de enfoque sobre representación, ciudadanía, fraude, legitimidad, autoritarismo, oposición, no reelección, competencia y transición democrática, con una bibliografía comentada.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "propósito y desarrollo del ensayo, PDF pp. 1-17", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2021,
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "encabezado HMex, LXXI: 1, 2021, PDF p. 1", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Historia Mexicana", "localizador": "página editorial y descarga del artículo; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Los metadatos técnicos del PDF registran creación y modificación el 6 de mayo de 2021."
+    },
+    "tipo_material": {
+      "valor": "Artículo / reseña historiográfica",
+      "codigo": "articulo_resena_historiografica",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "declaración de que examina artículos publicados en Historia Mexicana y no reseñas, PDF p. 1; referencias, PDF pp. 16-17", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "Historia Mexicana", "localizador": "página editorial con enlace de descarga del PDF; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://historiamexicana.colmex.mx/index.php/RHM/article/view/4313/4529",
+      "evidencias": [
+        {"fuente": "Historia Mexicana", "localizador": "página editorial del artículo", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "José Antonio Aguilar Rivera reconstruye los cambios en la manera de estudiar las elecciones y el sistema político mexicano desde los artículos publicados en Historia Mexicana. Explica que interpretaciones anteriores, marcadas por la experiencia del autoritarismo posrevolucionario, tendían a ver los comicios como rituales formales o mecanismos secundarios. Revisa la renovación de la historia electoral a partir de la democratización, el estudio de prácticas locales, ciudadanía, comunidades indígenas, prensa, facciones y constitucionalismo. Para el periodo posrevolucionario discute la competencia de los años veinte, la no reelección legislativa, el PNR y las condiciones de la hegemonía priista. Propone entender las elecciones como prácticas históricas cuyo sentido, eficacia y relación con el poder cambian según el contexto.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 1-16", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Consolidación del sistema político autoritario",
+      "secundarias": ["Estado surgido de la Revolución", "Neoliberalismo y alternancia"],
+      "valor_excel": "Estado surgido de la Revolución",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "autoritarismo posrevolucionario, oposición y PRI, PDF pp. 2-5; elecciones de 1920-1922, PDF pp. 14-16; democracia y alternancia, PDF pp. 1 y 8-11", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 4 es el eje porque el artículo problematiza la interpretación del autoritarismo posrevolucionario y sus instituciones electorales. La Unidad 3 se trabaja por los comicios de 1920-1922 y el proceso de institucionalización; la Unidad 5 aporta el contexto democrático desde el cual se renovó la historiografía. El amplio recorrido por el siglo XIX es antecedente historiográfico, no una cobertura suficiente de la Unidad 1."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "historia electoral",
+        "historiografía",
+        "sistema político",
+        "representación",
+        "ciudadanía",
+        "legitimidad",
+        "fraude electoral",
+        "abstención",
+        "autoritarismo posrevolucionario",
+        "oposición electoral",
+        "PRI",
+        "PNR",
+        "partidos y facciones",
+        "elecciones subnacionales",
+        "no reelección",
+        "reelección legislativa",
+        "centralización",
+        "rendición de cuentas",
+        "competencia y pluralismo",
+        "democratización",
+        "alternancia de 2000",
+        "prensa y elecciones",
+        "comunidades indígenas y participación electoral"
+      ],
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 1-16", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "17 páginas de ensayo historiográfico con abundantes referencias, discusión de enfoques, categorías de ciencia política e inferencias que requieren lectura guiada", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "Puede emplearse con estudiantes de nivel intermedio mediante una selección de fragmentos y glosario previo; la lectura íntegra se propone para nivel avanzado."
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1813-2014, con énfasis en la posrevolución, el autoritarismo y la democratización de fines del siglo XX e inicios del XXI",
+      "nota": "El ensayo revisa investigaciones sobre elecciones desde la insurgencia y el siglo XIX, desarrolla casos de 1911-1940, 1920-1922, 1933 y 1964, y explica cómo la alternancia de 2000 y la reforma de reelección de 2014 reorientaron preguntas historiográficas.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 1-16", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2021,
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "HMex, LXXI: 1, 2021, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2021-05-06",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se mantiene separado de las temporalidades históricas estudiadas."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Distinguir entre una fuente histórica, una interpretación historiográfica y una inferencia propia al leer un ensayo de balance sobre elecciones y sistema político.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "delimitación metodológica y revisión de artículos previos, PDF pp. 1-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar el sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar por qué las elecciones pueden cumplir funciones de representación, legitimación, conflicto, negociación y circulación de élites, incluso en regímenes no democráticos.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "interpretaciones sobre ritual electoral, oposición, legitimación y élites, PDF pp. 2-5; elecciones de 1920-1922, PDF pp. 14-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza mecanismos de legitimación, control y participación en la consolidación del sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Comparar interpretaciones sobre elecciones posrevolucionarias: formalidad y fraude, competencia parcial, pluralismo incipiente, centralización partidaria y disciplina política.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "Meyer y Juanicó, PDF pp. 2-5; Anaya Merchant, PDF pp. 10-11; MacGregor Campuzano, PDF pp. 14-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u3", "referente_programa": "Analiza procesos de institucionalización política posteriores a la Revolución.", "alcance": "contextual"},
+        {"unidad_id": "u4", "referente_programa": "Explica transformaciones y continuidades del sistema político autoritario mediante interpretaciones historiográficas.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Analizar la relación entre no reelección legislativa, selección de candidaturas, centralización partidaria y rendición de cuentas, distinguiendo el contexto histórico de las valoraciones contemporáneas.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "reforma de 1933, intento de 1964 y reforma posterior, PDF pp. 10-11", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza instituciones, reglas y prácticas del sistema político autoritario.", "alcance": "directo"},
+        {"unidad_id": "u5", "referente_programa": "Relaciona reformas político-electorales con debates sobre democratización y representación.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Reconocer que la alternancia de 2000 y la democratización transformaron las preguntas historiográficas sobre el pasado electoral, sin asumir que el presente democrático es el único criterio para valorar toda elección anterior.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "democratización latinoamericana y revisión del pasado, PDF pp. 1 y 5-8; alternancia de 2000, PDF p. 8; conclusión, PDF pp. 15-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Analiza la alternancia y la democratización como procesos que reconfiguran instituciones y debates públicos.", "alcance": "contextual"}
+      ],
+      "nota_curaduria": "Evitar emplear democracia actual como vara única de validez. La comparación debe preguntar por reglas, actores, prácticas y significados situados en cada contexto."
+    },
+    {
+      "id": "ch_6",
+      "valor": "Formular una pregunta de investigación sobre elecciones a escala local, estatal o nacional y proponer qué fuentes permitirían responderla: prensa, legislación, padrones, actas, archivos municipales o correspondencia.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "nuevas fuentes y escalas de la historia electoral, PDF pp. 6-8; ejemplos regionales y locales, PDF pp. 4-5 y 8-14", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Construye preguntas y explicaciones históricas fundamentadas sobre prácticas e instituciones políticas.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la consolidación del sistema político autoritario mediante sus instituciones electorales, partidos, mecanismos de legitimación y prácticas de control.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 2-5 y 10-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Explica procesos de consolidación del sistema político autoritario y sus mecanismos de legitimación.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Reconoce que las interpretaciones históricas cambian al modificarse las preguntas, las fuentes, las escalas de análisis y los contextos democráticos desde los que se investiga.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 1-8 y 15-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Valora el carácter interpretativo y debatible del conocimiento histórico.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona la institucionalización posrevolucionaria con debates posteriores sobre representación, reelección, competencia y alternancia.",
+      "evidencias": [
+        {"fuente": "elecciones-sistema-politico.pdf", "localizador": "elecciones de 1920-1922, PDF pp. 14-16; no reelección y reforma, PDF pp. 10-11; alternancia, PDF p. 8", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u3", "referente_programa": "Relaciona la institucionalización posrevolucionaria con la configuración política posterior.", "alcance": "contextual"},
+        {"unidad_id": "u5", "referente_programa": "Relaciona cambios institucionales con la alternancia y los debates de democratización.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Elecciones como artefactos políticos e institucionales y objeto de estudio historiográfico", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF p. 1", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Autoritarismo posrevolucionario, oposición electoral y hegemonía priista", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 2-4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Elecciones subnacionales, facciones y correlación de fuerzas en Tlaxcala de 1924", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 4-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Nueva historia electoral: fuentes, prensa, ciudadanía, constitucionalismo y escalas locales", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 5-8", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Comunidades indígenas, prácticas ciudadanas y representación en el siglo XIX", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 7-8", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Alternancia presidencial de 2000 y revisión historiográfica del pasado electoral", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF p. 8", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Militares, faccionalismo y elecciones en Yucatán de la primera república federal", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 8-10", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "No reelección legislativa, reforma de 1933, intento de 1964 y rendición de cuentas", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 10-11", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Elecciones insurgentes, movilización y legitimidad en 1813", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 11-13", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Poder local, representación y conflicto electoral en Querétaro del siglo XIX", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 13-14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Elecciones federales de 1920 y 1922, transición y legitimación del nuevo régimen", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 14-16", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Bibliografía de historia electoral, representación y sistema político", "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "PDF pp. 16-17", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_como_referencia_acotada",
+      "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "revisión de trabajos sobre comunidades indígenas, ciudadanía y prácticas electorales del siglo XIX, PDF pp. 7-8 y 12-13", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_6", "referencia_5"],
+      "nota": "El artículo refiere investigaciones sobre pueblos y comunidades indígenas; no ofrece por sí solo un estudio monográfico ni información suficiente para explicar sus experiencias históricas."
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "revisión integral del ensayo y bibliografía, PDF pp. 1-17", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "elecciones-sistema-politico.pdf", "localizador": "relaciones de dominación y sufragio, PDF p. 2; ciudadanía, participación y derechos, PDF pp. 6-10; no reelección y rendición de cuentas, PDF pp. 10-11", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_2", "ch_4", "aprendizaje_1", "referencia_5", "referencia_8"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["identificar", "distinguir niveles de fuente", "comparar interpretaciones", "contextualizar", "problematizar", "formular preguntas", "argumentar"],
+    "nota": "Trabajar con lectura focalizada y un organizador de historiografía. Seleccionar los fragmentos de las pp. 2-5, 10-11 y 14-16 para identificar: pregunta del estudio reseñado, temporalidad, escala, fuentes, argumento y límite. Comparar dos interpretaciones —por ejemplo, elecciones como formalidad autoritaria frente a elecciones como espacio de competencia o legitimación parcial— sin forzar una síntesis única. Enlazar los casos de 1920-1922 y 1933 con la Unidad 3 y los mecanismos de legitimación con la Unidad 4; usar la alternancia de 2000 únicamente como contexto de producción historiográfica. Evitar la pregunta binaria de si una elección fue democrática o no: pedir que se argumente qué funciones, actores, reglas y efectos tuvo en su contexto."
+  },
+  "observaciones": [
+    "El texto es un balance historiográfico de artículos de Historia Mexicana. Sus descripciones de trabajos ajenos son mediadas por el autor; para profundizar en un caso deben consultarse los estudios y fuentes originales que referencia.",
+    "El acceso abierto al PDF no equivale a licencia abierta. El repositorio debe enlazar y citar el artículo; la reproducción de fragmentos debe respetar derechos de autor y las condiciones editoriales de Historia Mexicana y El Colegio de México.",
+    "Por su densidad conceptual y su amplio arco temporal, la lectura completa se recomienda para trabajo avanzado. Una ficha pedagógica deberá indicar fragmentos, glosario y preguntas comparativas, no exigir una lectura lineal como condición de entrada.",
+    "La lectura no es evidencia para concluir que toda elección histórica fue fraudulenta, democrática, irrelevante o decisiva. Su principal valor es mostrar que esas categorías requieren investigación situada, discusión de fuentes y comparación de interpretaciones."
+  ]
+}

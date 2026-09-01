@@ -1,0 +1,283 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0010",
+  "indice": "lectura_10",
+  "slug": "historia-militar-revolucion-epoca-maderista-tomo-2",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el índice facsimilar y la página institucional del INEHRM.",
+    "cambios": [
+      "Se distingue la edición electrónica de 2020 de la primera edición de 1976.",
+      "Se clasifica el tomo como estudio histórico militar de interpretación y no como fuente primaria ni relato definitivo de los movimientos magonista y zapatista.",
+      "Se verifican las cuatro rutas cronológicas explícitas del índice: magonismo, tres partes de la revolución zapatista y su extensión territorial.",
+      "La hoja de cálculo histórica no contiene información pedagógica verificable para lectura_10; se conserva solo la ruta institucional como antecedente."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Historia militar de la Revolución en la época maderista. Tomo II",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "portada, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "historia-militar-maderista-tomo-2.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0010/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Miguel A. Sánchez Lamego.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "portada, PDF p. 1; página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Estudio de historia militar dedicado a la revolución magonista y a la revolución zapatista durante la época maderista. Organiza el relato por campañas, fuerzas, zonas militares y regiones, con una cronología que va de los últimos meses de 1910 a febrero de 1913.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "índice, PDF p. 10; introducción, PDF p. 12; capítulos I-V, PDF pp. 14, 32, 86, 144 y 230", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2020,
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "portada editorial, PDF p. 4; página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ],
+      "nota": "Corresponde a la primera edición electrónica del INEHRM. La primera edición de la obra es de 1976 y la segunda edición facsimilar integrada es de 2011."
+    },
+    "tipo_material": {
+      "valor": "Estudio histórico militar",
+      "codigo": "estudio_historico_militar",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "título, PDF p. 1; índice de campañas y capítulos, PDF p. 10", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional Historia militar de la Revolución en la época maderista, con opciones de descarga de los tres tomos; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT2.pdf",
+      "evidencias": [
+        {"fuente": "hoja histórica de lecturas y página institucional del INEHRM", "localizador": "hoja Lecturas, fila 11, columna lectura_10; página institucional verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El tomo explica que, tras los Tratados de Ciudad Juárez, persistieron levantamientos y revueltas durante el gobierno interino de Francisco León de la Barra y el gobierno de Francisco I. Madero. Estudia la revolución magonista vinculada con los hermanos Flores Magón y la consigna Tierra y Libertad, y sigue la revolución zapatista desde junio de 1911 hasta febrero de 1913. Describe el conflicto en Morelos, las campañas federales de Juvencio Robles y Felipe Ángeles, y las resonancias zapatistas en otros estados. Es útil para comparar proyectos revolucionarios, estrategias de conflicto y escalas regionales, con la reserva de que privilegia la mirada militar y gubernamental.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; capítulos I-V, PDF pp. 14, 32, 86, 144 y 230", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": ["Régimen Porfirista"],
+      "valor_excel": "sin contenido pedagógico verificable para lectura_10 en la hoja histórica",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción: revueltas posteriores al Tratado de Ciudad Juárez; índice y capítulos I-V, PDF pp. 10-12 y 14-284", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 es el eje del tomo. La Unidad 1 aparece de manera contextual por el vínculo del magonismo con la oposición al régimen de Porfirio Díaz; la obra no desarrolla el Estado surgido de la Revolución."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Revolución magonista",
+        "Partido Liberal Mexicano",
+        "Ricardo Flores Magón",
+        "Enrique Flores Magón",
+        "Tierra y Libertad",
+        "Tratados de Ciudad Juárez",
+        "gobierno interino de Francisco León de la Barra",
+        "maderismo",
+        "revolución zapatista",
+        "Emiliano Zapata",
+        "Morelos",
+        "licenciamiento de tropas",
+        "reparto de haciendas",
+        "Juvencio Robles",
+        "Felipe Ángeles",
+        "campañas federales",
+        "perspectiva militar"
+      ],
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "índice, PDF p. 10; introducción, PDF p. 12; capítulos I-IV, PDF pp. 14, 32, 86 y 144", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "284 páginas digitales, facsímil de una obra de 1976, cronología detallada de campañas y vocabulario militar", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "Últimos meses de 1910-febrero de 1913",
+      "nota": "La introducción sitúa la persistencia de levantamientos después del 25 de mayo de 1911. El índice precisa junio de 1911-enero de 1912, febrero-agosto de 1912 y agosto de 1912-febrero de 1913 para las tres partes de la revolución zapatista.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; índice, PDF p. 10", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2020,
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "antecedente_editorial": {
+      "valor": "Primera edición, INEHRM, 1976; segunda edición facsimilar integrada de los tres tomos, INEHRM, 2011; primera edición electrónica, INEHRM, 2020.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "página legal, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2020-10-14",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se conserva separado del año de las ediciones impresas y del periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Relacionar la revolución magonista con los movimientos opositores al régimen porfirista y con la diversidad de corrientes que actuaron durante el inicio de la Revolución.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; capítulo I, PDF pp. 14-31", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u1", "referente_programa": "Grupos políticos opositores y conflictos sociales del Régimen Porfirista.", "alcance": "contextual"},
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de proyectos y corrientes de la Revolución Mexicana.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "La obra nombra al Partido Liberal Mexicano y a los hermanos Flores Magón, pero debe contrastarse con sus propios documentos para estudiar su programa político completo."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar por qué la revolución zapatista continuó después de los Tratados de Ciudad Juárez y relacionar el licenciamiento de tropas con la demanda de reparto de haciendas en Morelos.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; capítulo II, inicio, PDF p. 32", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Distingue conflictos y proyectos revolucionarios posteriores al triunfo maderista inicial.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Comparar las estrategias de las fuerzas federales y de las partidas zapatistas durante las campañas de 1911-1913, identificando objetivos, territorios y consecuencias para las poblaciones.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulos II-IV, PDF pp. 32-229; inicios de las campañas, PDF pp. 32, 86 y 144", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza las relaciones entre facciones, conflicto armado y proyectos políticos en la Revolución Mexicana.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "Al describir campañas y poblaciones, la obra reproduce una mirada militar; el análisis debe distinguir afirmación del autor, evidencia y preguntas no resueltas sobre experiencias civiles."
+    },
+    {
+      "id": "ch_4",
+      "valor": "Reconocer la expansión de resonancias zapatistas fuera de Morelos y ubicar sus conexiones con Puebla, Guerrero, Estado de México y otras regiones.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo V, La Revolución Zapatista en el resto de la República, PDF pp. 230-284; inicio, PDF p. 230", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad regional de procesos y actores revolucionarios.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Analizar críticamente cómo una historia militar selecciona fuerzas, jefaturas, campañas y operaciones, e identificar otras fuentes necesarias para estudiar demandas agrarias, comunidades y vida civil.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "título, PDF p. 1; índice, PDF p. 10; capítulos II-V, PDF pp. 32, 86, 144 y 230", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la diversidad de proyectos y actores de la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; capítulos I-II, PDF pp. 14-85", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de proyectos y grupos participantes en la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Explica la continuidad de conflictos revolucionarios después del triunfo maderista inicial.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12; capítulo II, PDF pp. 32-85", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Explica los conflictos, facciones y transformaciones de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona demandas agrarias y conflicto territorial con la actuación de fuerzas revolucionarias y federales.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo II, inicio, PDF p. 32; capítulos III-IV, PDF pp. 86-229", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Relaciona demandas sociales y agrarias con los proyectos revolucionarios.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Valora críticamente una interpretación histórica al reconocer su enfoque, evidencia y límites.",
+      "evidencias": [
+        {"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "título, PDF p. 1; página legal, PDF p. 5; índice, PDF p. 10", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Tratados de Ciudad Juárez, gobierno interino de Francisco León de la Barra y conflictos posteriores", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "introducción, PDF p. 12", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Revolución magonista, Partido Liberal Mexicano, Ricardo y Enrique Flores Magón", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo I, PDF pp. 14-31; inicio, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Consigna Tierra y Libertad y revolución magonista en Chihuahua", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo I, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Revolución zapatista y negativa al licenciamiento de tropas", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo II, PDF p. 32", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Reparto de haciendas en Morelos y conflicto con el gobierno de Madero", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo II, PDF p. 32", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Campaña federal de Juvencio Robles, febrero-agosto de 1912", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo III, PDF pp. 86-143; inicio, PDF p. 86", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Campaña federal de Felipe Ángeles, agosto de 1912-febrero de 1913", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo IV, PDF pp. 144-229; inicio, PDF p. 144", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Emiliano Zapata y partidas revolucionarias en el centro de Morelos", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo IV, PDF p. 144", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Resonancias zapatistas fuera de Morelos: Puebla, Guerrero y Estado de México", "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo V, PDF pp. 230-284; inicio, PDF p. 230", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "territorio_y_comunidades_rurales_presentes_sin_cobertura_indigena_verificada",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo II, PDF p. 32; capítulos III-V, PDF pp. 86-284", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_2", "ch_3", "referencia_5"]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "no_verificado_como_eje_en_ruta_minima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "título e índice privilegian campañas, fuerzas y regiones, PDF pp. 1 y 10", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_de_manera_contextual",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-2.pdf", "localizador": "capítulo II, PDF p. 32; capítulos III-IV, PDF pp. 86-229", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_2", "ch_3", "aprendizaje_3", "referencia_5"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["contextualizar", "periodizar", "comparar proyectos", "mapear", "analizar perspectiva", "argumentar"],
+    "nota": "No se asigna como lectura íntegra. Trabajar la introducción (PDF p. 12), el inicio del magonismo (PDF p. 14) y el inicio de la primera campaña zapatista (PDF p. 32). Para profundizar, elegir una de las campañas de 1912 o la expansión nacional del zapatismo (PDF pp. 86, 144 o 230). Utilizar una matriz con: actor o fuerza, fecha, territorio, objetivo, acción descrita, tipo de evidencia, perspectiva militar y pregunta social o agraria que requiere contraste. Completar con fragmentos del Programa del Partido Liberal Mexicano y del Plan de Ayala u otra fuente primaria, evitando presentar esta obra secundaria como voz directa de magonistas o zapatistas."
+  },
+  "observaciones": [
+    "La obra fue publicada originalmente en 1976 y reeditada electrónicamente en 2020. Su lenguaje, sus categorías y el énfasis en campañas deben contextualizarse y contrastarse con historiografía y fuentes recientes.",
+    "El estudio privilegia fuerzas federales, zonas militares, jefaturas y operaciones. Es una entrada pertinente para contrastar estrategias y escalas regionales, pero no sustituye fuentes sobre comunidades rurales, demandas agrarias, pueblos indígenas, mujeres ni población civil.",
+    "La paginación impresa inicia en la p. 11 en la PDF p. 12; el registro usa localizadores de PDF para una navegación estable en el repositorio.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar la obra; cualquier reproducción o derivado requiere revisar derechos, créditos y permisos."
+  ]
+}

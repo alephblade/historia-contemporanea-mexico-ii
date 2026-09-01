@@ -1,0 +1,24 @@
+# Dependencias y salidas locales
+node_modules/
+dist/
+.astro/
+.DS_Store
+Thumbs.db
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Fuentes locales de terceros: nunca deben llegar al remoto o al despliegue
+fuentes/lecturas/
+fuentes/materiales_asociados_pendientes/
+fuentes/**/*.pdf
+fuentes/**/*.doc
+fuentes/**/*.docx
+fuentes/**/*.mp4
+fuentes/**/*.mov
+
+# Archivos temporales de pruebas
+*.log
+coverage/

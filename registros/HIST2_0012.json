@@ -1,0 +1,280 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0012",
+  "indice": "lectura_12",
+  "slug": "revolucion-mexicana-laboratorio-visual-fotografos-camaras",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el micrositio institucional del INEHRM y la fila histórica del Excel.",
+    "cambios": [
+      "Se identifica el recurso como ensayo histórico de cultura visual, no como colección de fotografías sin mediación ni como fuente primaria única.",
+      "Se registra 2025 como año de publicación institucional y se distingue del arco histórico de las imágenes, documentos y cronología analizados.",
+      "Se documentan las posibilidades de análisis de fuente visual, fotoperiodismo, tecnología, memoria, circulación y representación social.",
+      "Se incorporan las referencias explícitas a Sara Castrejón, las trabajadoras y los trabajadores de la lente, las mujeres, la niñez y grupos históricamente invisibilizados."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "La Revolución Mexicana. Un laboratorio visual entre fotógrafos y cámaras",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "título y autoría, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "revolucion-mexicana-laboratorio-visual.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0012/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Jehiely Hernández.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "título y autoría, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Ensayo histórico de cultura visual que estudia a fotógrafas, fotógrafos, cámaras, prensa, cine, agencias y archivos en la Revolución Mexicana. Integra ejemplos visuales, documentos, una cronología y referencias de acervos para mostrar que las imágenes son fuentes situadas, producidas y circuladas con intereses, técnicas y contextos específicos.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "introducción y desarrollo, PDF pp. 2-18; documentos y cronología, PDF pp. 19-25", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2025,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso, publicada el 22 de septiembre de 2025; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "El PDF local tiene metadatos técnicos de creación y modificación de 2025, consistentes con la publicación institucional."
+    },
+    "tipo_material": {
+      "valor": "Ensayo histórico de cultura visual",
+      "codigo": "ensayo_historico_cultura_visual",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "introducción y cierre metodológico, PDF pp. 2 y 18-19", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "micrositio institucional de la publicación con acceso al PDF; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.inehrm.gob.mx/es/inehrm/La_Revolucion_Mexicana_Un_laboratorio_visual_entre_fotografos_y_camaras",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso, publicada el 22 de septiembre de 2025", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El texto explica cómo la fotografía y el cine registraron, informaron y construyeron memorias de la Revolución Mexicana. Analiza el oficio de fotógrafos de gabinete y de prensa, las tecnologías de cámara e impresión, la circulación de imágenes, el fotoperiodismo, las agencias y los archivos. Examina casos como Ciudad Juárez, Francisco Villa, la Decena Trágica, Casasola, fotógrafos regionales y Sara Castrejón. Propone tratar cada imagen como un documento situado, con autoría, técnica, propósito, circulación e intereses, y usarla para formular preguntas sobre violencia, vida cotidiana, trabajo, género, regiones y grupos históricamente invisibilizados.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 2-18; documentos y cronología, PDF pp. 19-25", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": ["Régimen Porfirista"],
+      "valor_excel": "sin unidad temática registrada para lectura_12 en la hoja histórica",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "revolución, fotoperiodismo y cronología 1910-1921, PDF pp. 2-18 y 20-25", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 es el eje del ensayo. La Unidad 1 se vincula de manera contextual por el Centenario de 1910, las tecnologías, la prensa ilustrada y la modernidad porfiriana; el texto no desarrolla por sí solo el Régimen Porfirista."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "fotografía como fuente histórica",
+        "cultura visual",
+        "fotoperiodismo",
+        "cámaras fotográficas",
+        "fotógrafos de gabinete",
+        "fotógrafos de prensa",
+        "prensa ilustrada",
+        "fotografía y cine",
+        "circulación de imágenes",
+        "Ciudad Juárez",
+        "Francisco Villa",
+        "Mutual Film Corporation",
+        "Decena Trágica",
+        "Agustín Víctor Casasola",
+        "fotógrafos regionales",
+        "Sara Castrejón",
+        "archivo y memoria visual",
+        "intención y perspectiva"
+      ],
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 2-18; cronología, PDF pp. 20-25", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "27 páginas, lenguaje accesible con vocabulario técnico de fotografía e historiografía, documentos visuales, cronología y aparato de fuentes", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "Finales del siglo XIX-1943, con énfasis en 1910-1921",
+      "nota": "El ensayo parte de antecedentes técnicos y de prensa de fines del siglo XIX, analiza de manera central la Revolución de 1910 a 1920-1921 y registra la publicación de Historia gráfica de la Revolución Mexicana en 1943 como parte de la memoria visual posterior.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "introducción, PDF pp. 2-4; cronología, PDF pp. 19-25", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2025,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso, publicada el 22 de septiembre de 2025", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2025-09-12",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se mantiene separado del año de publicación institucional y del periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Analizar una fotografía histórica como fuente situada al identificar autoría, fecha aproximada, técnica, archivo, encuadre, finalidad, circulación y preguntas o silencios.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "explicación de oficio, técnica y producción fotográfica, PDF pp. 2-5; cierre metodológico, PDF pp. 18-19", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar la relación entre tecnología fotográfica, prensa ilustrada y construcción de información pública durante la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "fotógrafos de prensa y tecnologías de cámara, PDF pp. 2-5; circulación de imágenes, PDF pp. 8-10", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza actores, medios y procesos culturales vinculados con la Revolución Mexicana.", "alcance": "contextual"},
+        {"unidad_id": "u1", "referente_programa": "Relaciona modernización tecnológica y prensa con el contexto del Régimen Porfirista.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Interpretar cómo las imágenes de tropas, comunidades, violencia, movilidad y vida cotidiana permiten formular preguntas sobre la experiencia social de la guerra sin tomar la fotografía como reflejo transparente de la realidad.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "escenas, retratos y condiciones sociales registradas, PDF pp. 5-8; cierre, PDF pp. 18-19", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de experiencias y sujetos en la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Analizar la construcción visual de liderazgos y memorias revolucionarias mediante los casos de Francisco Villa, las agencias fotográficas, Casasola y los fotógrafos regionales.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "Francisco Villa y cine, PDF pp. 6-8; Casasola, PDF pp. 10-12; fotógrafos regionales y memoria, PDF pp. 16-19", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Reconoce la construcción de representaciones, memorias y perspectivas sobre la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Reconocer la participación y las condiciones de trabajo de fotógrafas y fotógrafos, incluida Sara Castrejón, y relacionar la cultura visual con género, trabajo y memoria.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "movilidad de tropas y diversidad social, PDF p. 5; Sara Castrejón, cronología PDF p. 21; asociaciones y derechos laborales, PDF pp. 9-10 y 21-22", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la participación de mujeres y otros sujetos sociales en la Revolución Mexicana.", "alcance": "contextual"}
+      ],
+      "nota_curaduria": "La fuente abre una entrada concreta a una fotógrafa y a la presencia de mujeres en las imágenes, pero no constituye por sí sola una historia integral de las mujeres durante la Revolución."
+    },
+    {
+      "id": "ch_6",
+      "valor": "Usar una cronología visual para relacionar el registro fotográfico con Ciudad Juárez, Decena Trágica, constitucionalismo, Convención de Aguascalientes y las memorias posteriores de la Revolución.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "cronología, PDF pp. 19-25", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Organiza información histórica por temporalidades, procesos y actores para explicar la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la Revolución Mexicana mediante fuentes visuales y reconoce su procedencia, perspectiva y límites.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 2-5 y 18-19", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Analiza la diversidad de actores, experiencias y representaciones durante la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 5-8, 11-18; cronología, PDF pp. 21-24", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de proyectos, grupos y experiencias participantes en la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Reconoce el papel de la cultura, la prensa y las tecnologías en la construcción de memorias históricas.",
+      "evidencias": [
+        {"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 2-4, 8-12 y 16-19", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Relaciona procesos políticos y sociales con expresiones culturales y medios de comunicación del periodo revolucionario.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Fotógrafos de gabinete, de prensa y oficio fotográfico", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 2-4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Cámaras, placas, impresión, postales e instantaneidad", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 3-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Tropas, comunidades, violencia, ferrocarril y vida cotidiana en imágenes", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 5-6", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Francisco Villa, cine, Mutual Film Corporation y construcción mediática", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 6-8; cronología, PDF p. 23", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Fotografías como información, propaganda, inteligencia y refugio", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF p. 8", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Ciudad Juárez, prensa internacional y fotorreporteros", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 8-10; cronología, PDF p. 21", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Asociación de Fotógrafos de la Prensa Metropolitana y derechos laborales", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 9-10; cronología, PDF pp. 21-22", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Agustín Víctor Casasola, agencia fotográfica y Álbum histórico gráfico", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 10-12; cronología, PDF pp. 22 y 25", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Decena Trágica y testimonio gráfico", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 11-12; documentos, PDF p. 19; cronología, PDF p. 22", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Sara Castrejón y mujeres fotógrafas de la Revolución", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "cronología, PDF p. 21", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Fotógrafos regionales, descentralización de la memoria visual y archivo", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 16-19", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Documentos, cronología, fuentes consultadas y acervos", "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "PDF pp. 19-27", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "cierre sobre grupos históricamente invisibilizados, incluidos pueblos originarios, PDF p. 18", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_3", "referencia_11"]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "mujeres en movilidad de tropas, PDF p. 5; Sara Castrejón, PDF p. 21; cierre sobre mujeres e invisibilización, PDF p. 18", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_3", "ch_5", "referencia_10"]
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "revolucion-mexicana-laboratorio-visual.pdf", "localizador": "fotógrafos, asociaciones y derechos laborales, PDF pp. 9-10; asesinato de trabajadores de la prensa y exigencia de justicia, PDF p. 22; cierre sobre grupos invisibilizados, PDF p. 18", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_3", "ch_5", "referencia_7", "referencia_10"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["observar", "describir", "contextualizar", "analizar fuentes visuales", "comparar", "corroborar", "argumentar"],
+    "nota": "Trabajar con lectura guiada y análisis focalizado de imágenes. Iniciar con la introducción sobre oficio y técnica (PDF pp. 2-5), seleccionar una imagen o documento con créditos completos y aplicar una ficha de fuente visual: qué se ve, qué no se ve, quién la produjo, cuándo, dónde, con qué técnica, para quién pudo circular y qué evidencia adicional se requiere. Continuar con un caso —Villa y cine, Decena Trágica, Casasola, Sara Castrejón o fotógrafos regionales— y contrastarlo con la cronología y una fuente escrita. Evitar pedir que el estudiantado extraiga conclusiones históricas únicamente de una imagen o reproduzca imágenes sin crédito, archivo y contexto."
+  },
+  "observaciones": [
+    "El recurso incluye reproducciones visuales, documentos y referencias de archivo. El ensayo de 2025 media esas fuentes; la fotografía o documento individual conserva su propia autoría, fecha, archivo, derechos y condiciones de uso.",
+    "La fuente es especialmente valiosa para alfabetización visual. Su propósito no es ofrecer una cronología completa de la Revolución, por lo que toda imagen seleccionada debe acompañarse de contexto histórico y una fuente complementaria.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar el recurso; antes de reproducir imágenes, verificar archivo, crédito, derechos, resolución, texto alternativo y permisos de cada pieza.",
+    "La presencia de mujeres, pueblos originarios, niñez, comunidades afromexicanas y migrantes se formula principalmente como horizonte crítico de análisis. No debe presentarse como cobertura exhaustiva de cada uno de esos grupos."
+  ]
+}

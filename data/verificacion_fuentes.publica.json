@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "revision_id": "REVISION_LOCAL_HIST2_V1_2026-09",
+  "fecha_revision": "2026-09-01",
+  "anexo": "docs/ANEXO_REVISION_HIPERVINCULOS_2026-09-01.md",
+  "fuentes": [
+    {
+      "lectura_id": "HIST2_0001",
+      "url_registrada": "https://www.inehrm.gob.mx/es/inehrm/La_Dictadura_Porfirista",
+      "estado": "disponible",
+      "evidencia": "Página institucional identificada como La Dictadura Porfirista."
+    },
+    {
+      "lectura_id": "HIST2_0002",
+      "url_registrada": "https://www.inehrm.gob.mx/recursos/Libros/2025_yaquis_memoria_territorio_yparticipacion_politica.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0003",
+      "url_registrada": "https://dmd.unadmexico.mx/contenidos/DCSA/MODULOS/AGP/M4_AGSPAM/U2/S4/descargables/AGP_M4_U2_S4_TA.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0004",
+      "url_registrada": "https://inehrm.gob.mx/work/models/inehrm/Resource/455/1/images/Tomo_I.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF oficial localizado en el dominio vigente del INEHRM; conserva la ruta del recurso alojada antes en el dominio legado. Verificado el 2026-09-01."
+    },
+    {
+      "lectura_id": "HIST2_0005",
+      "url_registrada": "https://inehrm.gob.mx/work/models/inehrm/Resource/455/1/images/LaRevolucionRevolucionarioTII.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF oficial localizado en el dominio vigente del INEHRM; conserva la ruta del recurso alojada antes en el dominio legado. Verificado el 2026-09-01."
+    },
+    {
+      "lectura_id": "HIST2_0006",
+      "url_registrada": "https://inehrm.gob.mx/work/models/inehrm/Resource/455/1/images/Tomo_III.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF oficial localizado en el dominio vigente del INEHRM; conserva la ruta del recurso alojada antes en el dominio legado. Verificado el 2026-09-01."
+    },
+    {
+      "lectura_id": "HIST2_0007",
+      "url_registrada": "https://inehrm.gob.mx/recursos/Libros/TeorizandoSobreRevolucionMex.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF oficial localizado y consultable en el dominio vigente del INEHRM. Verificado el 2026-09-01."
+    },
+    {
+      "lectura_id": "HIST2_0008",
+      "url_registrada": "https://www.inehrm.gob.mx/recursos/Libros/Documentos_fundamentales_de_la_Revolucion_Mexicana.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0009",
+      "url_registrada": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT1.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0010",
+      "url_registrada": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT2.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0011",
+      "url_registrada": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT3.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0012",
+      "url_registrada": "https://www.inehrm.gob.mx/es/inehrm/La_Revolucion_Mexicana_Un_laboratorio_visual_entre_fotografos_y_camaras",
+      "estado": "disponible",
+      "evidencia": "Página institucional identificada."
+    },
+    {
+      "lectura_id": "HIST2_0013",
+      "url_registrada": "https://inehrm.gob.mx/es/inehrm/La_prensa_comoinstrumento_tiempos_de_revolucion",
+      "estado": "disponible",
+      "evidencia": "Página institucional identificada."
+    },
+    {
+      "lectura_id": "HIST2_0014",
+      "url_registrada": "https://inehrm.gob.mx/es/inehrm/Relaciones_Mexico-Estados_Unidos_1911-1918",
+      "estado": "disponible",
+      "evidencia": "Página institucional identificada."
+    },
+    {
+      "lectura_id": "HIST2_0015",
+      "url_registrada": "https://historiamexicana.colmex.mx/index.php/RHM/article/view/4313/4529",
+      "estado": "bloqueo_tecnico",
+      "evidencia": "El destino mostró una verificación de seguridad; la URL canónica se conserva. Hallazgo OBS-EXT-01."
+    },
+    {
+      "lectura_id": "HIST2_0016",
+      "url_registrada": "https://archivos.juridicas.unam.mx/www/bjv/libros/1/181/4.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0017",
+      "url_registrada": "https://www.redalyc.org/pdf/2110/211015582008.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF disponible."
+    },
+    {
+      "lectura_id": "HIST2_0018",
+      "url_registrada": "https://www.scielo.org.mx/scielo.php?pid=S2448-65312024000300448&script=sci_arttext",
+      "estado": "disponible",
+      "evidencia": "Página de SciELO México identificada."
+    },
+    {
+      "lectura_id": "HIST2_0019",
+      "url_registrada": "https://archivos.juridicas.unam.mx/www/bjv/libros/9/4121/9.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    },
+    {
+      "lectura_id": "HIST2_0020",
+      "url_registrada": "https://www.inehrm.gob.mx/recursos/Libros/2024_felipe_angeles_elgral_revolucionario_yel_generoso_academico.pdf",
+      "estado": "disponible",
+      "evidencia": "PDF institucional disponible."
+    }
+  ]
+}

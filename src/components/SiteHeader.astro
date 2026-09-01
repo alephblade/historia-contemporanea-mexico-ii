@@ -1,0 +1,44 @@
+---
+import { withBase } from '../lib/paths';
+
+const currentPath = Astro.url.pathname;
+const links = [
+  { href: '/lecturas/', label: 'Lecturas' },
+  { href: '/unidades/regimen-porfirista/', label: 'Unidades' },
+  { href: '/orientaciones/', label: 'Orientaciones' },
+  { href: '/acerca/', label: 'Acerca' },
+];
+const isCurrent = (href: string) => {
+  const target = withBase(href);
+  if (href.startsWith('/unidades/')) return currentPath.includes('/unidades/');
+  return currentPath.startsWith(target);
+};
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-brand" href={withBase('/')} aria-label="Ir al inicio">
+      <span class="brand-mark" aria-hidden="true">HII</span>
+      <span>
+        <strong>Historia Contemporánea de México II</strong>
+        <small>Preparatoria Agrícola · UACh</small>
+      </span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <ul>
+        {links.map((link) => (
+          <li><a href={withBase(link.href)} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <div class="institutional-mark">
+      <img
+        src={withBase('/identidad/logo-uach.png')}
+        width="107"
+        height="95"
+        alt="Universidad Autónoma Chapingo"
+        decoding="async"
+      />
+    </div>
+  </div>
+</header>

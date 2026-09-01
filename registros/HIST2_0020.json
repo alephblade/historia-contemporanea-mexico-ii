@@ -1,0 +1,248 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0020",
+  "indice": "lectura_20",
+  "slug": "felipe-angeles-general-revolucionario-generoso-academico",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el libro PDF local, los créditos editoriales del INEHRM y el antecedente de la hoja maestra heredada.",
+    "cambios": [
+      "Se identifica el recurso como libro digital de investigación histórica de 2024, no como una fuente primaria, una biografía breve ni un texto exclusivamente de matemáticas.",
+      "Se asigna la Unidad 2 como eje principal por su tratamiento de Madero, Huerta, constitucionalismo, Convención de Aguascalientes, Villa, Carranza y el final de Felipe Ángeles.",
+      "Se documenta que el libro combina historia, biografía, ciencia y matemáticas. Para la materia se propone lectura focalizada de los capítulos 4 a 10 y los apéndices A-C; el capítulo técnico de balística no es prerrequisito histórico.",
+      "Se registra que la disponibilidad pública del PDF no constituye una licencia abierta: el propio colofón reserva derechos de autor y exige autorización para reproducción.",
+      "Se preserva el carácter interpretativo de la obra: valoraciones sobre actores y el juicio contra Ángeles se atribuyen a Faustino Sánchez Garduño y se contrastan con los documentos y autores citados."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Felipe Ángeles: El general revolucionario y el generoso académico. Entre la milicia, la física y las matemáticas",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "portada, PDF p. 1", "estado": "verificado_fuente_primaria"},
+        {"fuente": "INEHRM", "localizador": "edición digital institucional; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "angeles-felipe-milicia-matematicas.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0020/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Faustino Sánchez Garduño.",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "portada, colofón y prólogo firmado, PDF pp. 1, 5 y 15-16", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Libro digital de investigación histórica publicado en primera edición por el Instituto Nacional de Estudios Históricos de las Revoluciones de México (INEHRM) en 2024, ISBN 978-607-549-453-1. En 258 páginas, estudia la trayectoria militar, política, intelectual y docente de Felipe de Jesús Ángeles Ramírez, e integra capítulos históricos, análisis de su producción académica y apéndices documentales sobre el Plan de Guadalupe y sus adiciones.",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "portada, créditos, índice y prólogo, PDF pp. 1, 5-9 y 13-16", "estado": "verificado_fuente_primaria"},
+        {"fuente": "INEHRM", "localizador": "PDF institucional de la edición 2024; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "anio": {
+      "valor": 2024,
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "colofón: primera edición, INEHRM, 2024, PDF p. 5", "estado": "verificado_fuente_primaria"},
+        {"fuente": "INEHRM", "localizador": "edición digital institucional; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "tipo_material": {
+      "valor": "Libro digital",
+      "codigo": "libro_digital",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "portada, colofón, índice de once capítulos y cinco apéndices, PDF pp. 1, 5-9", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "PDF de consulta pública en el sitio institucional; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Acceso público de consulta no equivale a licencia abierta: el colofón reserva derechos y restringe la reproducción sin autorización."
+    },
+    "fuente_url": {
+      "valor": "https://www.inehrm.gob.mx/recursos/Libros/2024_felipe_angeles_elgral_revolucionario_yel_generoso_academico.pdf",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "PDF institucional de la obra; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "El repositorio puede enlazar y citar la fuente. La reproducción de fragmentos, imágenes o anexos requiere atender las condiciones expresas del colofón y los derechos de las personas e instituciones titulares."
+    },
+    "resumen_analitico": {
+      "valor": "Faustino Sánchez Garduño reconstruye a Felipe Ángeles como militar, docente, autor científico y actor de la Revolución Mexicana. El libro explica su formación en el Colegio Militar, su labor académica y sus estudios de balística, y sigue su actuación en Morelos, la Decena Trágica, la oposición a Victoriano Huerta, el constitucionalismo, la toma de Zacatecas, la Convención de Aguascalientes, su relación crítica con Villa, el exilio, su retorno, consejo de guerra y fusilamiento. Para la materia, aporta un caso situado para estudiar lealtad institucional, golpe de Estado, facciones revolucionarias, disputas entre constitucionalismo y convencionismo, programas políticos y debates sobre educación, democracia y justicia. La obra no presenta una historia general de la Revolución: organiza esos procesos desde la trayectoria de Ángeles y formula interpretaciones explícitas sobre Huerta, Carranza, Villa y el juicio militar.",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "prólogo e introducción, PDF pp. 13-20; capítulos 4-10, pp. 71-214; conclusiones, pp. 215-217; apéndices A-C, pp. 217-230", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": [],
+      "valor_excel": null,
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "Decena Trágica, movimiento constitucionalista, Convención de Aguascalientes, exilio, consejo de guerra y conclusiones, PDF pp. 83-217", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 es directa y dominante. Los antecedentes porfiristas y la trayectoria académica previa contextualizan al personaje, pero no justifican una unidad secundaria autónoma."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Felipe Ángeles",
+        "Revolución Mexicana",
+        "Francisco I. Madero",
+        "Emiliano Zapata",
+        "Victoriano Huerta",
+        "Decena Trágica",
+        "golpe de Estado",
+        "lealtad institucional",
+        "Plan de Guadalupe",
+        "constitucionalismo",
+        "Venustiano Carranza",
+        "Francisco Villa",
+        "toma de Zacatecas",
+        "Convención de Aguascalientes",
+        "convencionismo",
+        "pacto de Xochimilco",
+        "divisiones revolucionarias",
+        "exilio",
+        "consejo de guerra",
+        "educación",
+        "democracia",
+        "socialismo evolutivo",
+        "milicia, física y matemáticas"
+      ],
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "índice, capítulos 4-10 y conclusiones, PDF pp. 6-9 y 71-217", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "258 páginas, escritura historiográfica, múltiples actores y facciones, citas, bibliografía, anexos documentales y un capítulo con formalismo de física y matemáticas", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1868-1919, con énfasis en 1911-1919",
+      "nota": "La obra cubre la formación de Ángeles antes de la Revolución, su actividad durante 1911-1919 y su fusilamiento. Para el curso, el recorte de mayor pertinencia va de la comisión a Morelos y la Decena Trágica a su retorno, proceso y muerte.",
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "índice y desarrollo cronológico de capítulos 2-10, PDF pp. 6-9 y 21-214", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2024,
+      "evidencias": [
+        {"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "primera edición, INEHRM, 2024, PDF p. 5", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2024-04-30",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico de creación del PDF local; la modificación técnica registrada es 2024-06-21 y ambas fechas son distintas del periodo histórico estudiado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Reconstruir una línea de tiempo de la trayectoria de Felipe Ángeles entre 1911 y 1919, distinguiendo Morelos, la Decena Trágica, la lucha contra Huerta, el constitucionalismo, la Convención, el exilio y el consejo de guerra.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulos 4-9, PDF pp. 71-198", "estado": "verificado_fuente_primaria"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Secuencia procesos, actores y coyunturas de la Revolución Mexicana.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar el golpe de Estado de 1913 desde la Decena Trágica, identificando posiciones de Madero, Huerta, Ángeles, fuerzas leales y sublevadas, y diferenciando evidencia citada de la valoración del autor.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 5, especialmente pp. 83-114", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Analiza causas, actores y consecuencias del golpe de Estado y del régimen huertista.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar el Plan de Guadalupe y sus adiciones para distinguir el objetivo inicial de restaurar el orden constitucional, las reformas sociales posteriores y las tensiones entre constitucionalistas y otras fuerzas revolucionarias.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulos 6-7, pp. 115-175; Apéndices A-C, pp. 217-230", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Compara proyectos, programas y conflictos entre las facciones revolucionarias.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Relacionar la Convención de Aguascalientes, el pacto de Xochimilco y las diferencias entre carrancismo, villismo y zapatismo sin reducir los bandos a etiquetas fijas o homogéneas.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 7, PDF pp. 127-176", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Analiza alianzas, rupturas y proyectos de las facciones revolucionarias.", "alcance": "directo"}]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Interpretar el ideario atribuido a Ángeles —educación, democracia, socialismo evolutivo, legalidad y crítica al poder— y sostener una conclusión con evidencia del texto, distinguiéndolo de un programa colectivo de toda la Revolución.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 10 y conclusiones, PDF pp. 199-217", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Reconoce diversidad de proyectos y debates políticos, sociales y culturales en la Revolución Mexicana.", "alcance": "directo"}],
+      "nota_curaduria": "El ideario es una reconstrucción interpretativa de Sánchez Garduño a partir de la trayectoria y textos de Ángeles; no equivale por sí solo a un manifiesto sistemático ni a la posición de todas las facciones."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Explica la crisis de 1913 y la lucha contra el régimen huertista mediante actores, instituciones, decisiones militares y conflictos políticos concretos.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "PDF pp. 83-126", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Analiza el golpe de Estado, el huertismo y la respuesta constitucionalista.", "alcance": "directo"}]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Analiza conflictos y acuerdos entre constitucionalismo, villismo y zapatismo, identificando proyectos y límites de las alianzas revolucionarias.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "PDF pp. 127-176 y 217-230", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Compara facciones, programas y resultados de la Revolución Mexicana.", "alcance": "directo"}]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Valora críticamente una biografía histórica como vía de entrada al proceso revolucionario, distinguiendo escala individual, documentos reproducidos, interpretaciones autorales y problemas que requieren contraste.",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "prólogo, capítulos 5-10, conclusiones y apéndices, PDF pp. 13-16, 83-230", "estado": "derivado_de_texto_verificado"}],
+      "alineacion_curricular": [{"unidad_id": "u2", "referente_programa": "Construye explicaciones históricas con lectura crítica de fuentes, narrativas y argumentos.", "alcance": "directo"}]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Felipe Ángeles: formación militar, docencia y producción académica", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "PDF pp. 21-70", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Madero, Zapata, Morelos y la dirección del Colegio Militar", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 4, PDF pp. 71-82", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Decena Trágica, golpe de Estado y régimen de Victoriano Huerta", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 5, PDF pp. 83-114", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Plan de Guadalupe, constitucionalismo y lucha contra el usurpador", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 6 y Apéndice A, PDF pp. 115-126 y 217-219", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Toma de Zacatecas, Francisco Villa y tensiones de mando", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "PDF pp. 120-126", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Convención de Aguascalientes, pacto de Xochimilco y facciones revolucionarias", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 7, PDF pp. 127-176", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Exilio, Alianza Liberal Mexicana, retorno y muerte de Felipe Ángeles", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulos 8-9, PDF pp. 177-198", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Consejo de guerra, defensa de Ángeles y disputa sobre legalidad y justicia", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 9 y conclusiones, PDF pp. 187-198 y 215-217", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Ideario de Ángeles: educación, democracia, socialismo evolutivo y Constitución", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "capítulo 10, PDF pp. 199-214", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Plan de Guadalupe y primeras y segundas adiciones como documentos reproducidos", "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "Apéndices A-C, PDF pp. 217-230", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "mencion_biografica_sin_desarrollo_analitico",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "mención de origen indígena atribuida por Vito Alessio Robles y referencias regionales, PDF pp. 19-20 y 21-30", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": [],
+      "nota": "El libro no desarrolla una historia de pueblos indígenas, territorios comunitarios ni relaciones étnicas durante la Revolución; las menciones no permiten inferir ese tratamiento."
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "mencion_biografica_sin_desarrollo_analitico",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "dedicatoria con memoria de Francisca Luna Rueda y referencias puntuales a mujeres en la narración, PDF pp. 9-11", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": [],
+      "nota": "La dedicatoria aporta una memoria familiar sobre los efectos de la Decena Trágica, pero la obra no analiza sistemáticamente experiencias, participación ni relaciones de género."
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "angeles-felipe-milicia-matematicas.pdf", "localizador": "vivencia civil de la Decena Trágica, Plan de Guadalupe, adiciones, ideario y juicio militar, PDF pp. 9-11, 115-117, 151-156, 187-198 y 199-217", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_2", "ch_3", "ch_5", "aprendizaje_1", "aprendizaje_3"],
+      "nota": "El libro permite tratar violencia, legalidad, educación y promesas de reforma, pero no sustituye estudios específicos sobre campesinado, trabajo, redistribución o experiencias civiles regionales."
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["secuenciar", "identificar actores", "distinguir tipos de fuentes", "comparar", "relacionar causas y efectos", "analizar documentos", "contrastar interpretaciones", "argumentar"],
+    "nota": "No asignar las 258 páginas como lectura autónoma integral. Preparar un mapa de actores y una línea de tiempo mínima (Madero, Huerta, Carranza, Villa, Zapata y Ángeles; 1911-1919). Seleccionar: capítulo 5 para Decena Trágica, capítulo 6 y Apéndice A para Plan de Guadalupe, capítulo 7 para Convención y facciones, y capítulos 9-10 para juicio e ideario. Los capítulos 2-3 y los apéndices D-E son complementarios para una actividad interdisciplinaria, no requerimientos de matemáticas. En un cuadro de contraste, el estudiantado debe separar: documento reproducido, testimonio o cita, narración del autor y valoración del autor. Cerrar con una argumentación breve sobre qué permite y qué no permite explicar la trayectoria de Ángeles acerca de la Revolución Mexicana."
+  },
+  "observaciones": [
+    "La obra articula historia, biografía, física y matemáticas. La futura ficha pedagógica debe declarar un itinerario de lectura selectiva y no convertir la competencia matemática en una barrera de acceso para el análisis histórico.",
+    "El Plan de Guadalupe y sus adiciones están reproducidos como documentos en los apéndices. Al utilizarlos, distinguir el texto documental de la narración e interpretación de Sánchez Garduño y contextualizar sus circunstancias de producción.",
+    "La lectura ofrece una perspectiva centrada en Felipe Ángeles. Para construir explicaciones más amplias sobre la Revolución, debe complementarse con fuentes que desarrollen de forma específica zapatismo, villismo, constitucionalismo, poblaciones civiles, mujeres, pueblos indígenas, trabajo y dinámicas regionales.",
+    "El PDF es públicamente consultable desde el INEHRM, pero el colofón reserva derechos de autor. El repositorio debe enlazar y citar la obra; no debe asumir autorización para reproducir texto, imágenes o apéndices."
+  ]
+}

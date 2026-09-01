@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "colecciones": {
+    "registros": {
+      "archivos": 20,
+      "sha256": "0f47165688822fa5032829bb17f88d4dc773b0b30e4771dcc5fe2e494c07e614",
+      "metodo": "SHA-256 de líneas «sha256_archivo__dos_espacios__ruta_relativa_posix», ordenadas por ruta y unidas con LF"
+    },
+    "fichas_pedagogicas": {
+      "archivos": 20,
+      "sha256": "5d6b9af739c20068d022572ad9461851a72b65a0d567b6e58a380c4c2eb861bd",
+      "metodo": "SHA-256 de líneas «sha256_archivo__dos_espacios__ruta_relativa_posix», ordenadas por ruta y unidas con LF"
+    },
+    "orientaciones_pedagogico_curriculares": {
+      "archivos": 12,
+      "sha256": "c636228b952b1b7d2c87efd7e693c2041ec0eab98149933eea43c16f5be2ac49",
+      "metodo": "SHA-256 de líneas «sha256_archivo__dos_espacios__ruta_relativa_posix», ordenadas por ruta y unidas con LF"
+    },
+    "fuentes": {
+      "archivos": 28,
+      "sha256": "f2b68deb5bc7dc95ee9c22063b381eb32fcfc61d492ad58765675b44dc8c06bb",
+      "metodo": "SHA-256 de líneas «sha256_archivo__dos_espacios__ruta_relativa_posix», ordenadas por ruta y unidas con LF"
+    }
+  }
+}

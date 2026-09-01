@@ -1,0 +1,285 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0013",
+  "indice": "lectura_13",
+  "slug": "prensa-instrumento-cientifico-revolucion",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el micrositio institucional del INEHRM y la fila histórica del Excel.",
+    "cambios": [
+      "Se precisa que el recurso es un Expediente digital de divulgación histórica del INEHRM, no un artículo académico autónomo.",
+      "Se distingue 2022 como año de actualización institucional y de metadatos técnicos del PDF, del periodo histórico que estudia, de 1887 a 1938.",
+      "Se registran la prensa especializada y popular, la circulación de saberes, los museos, las imágenes y la continuidad de la divulgación científica durante la Revolución.",
+      "Se incorporan controles éticos para contextualizar críticamente la terminología histórica estigmatizante y las representaciones de cuerpos, sin reproducirlas como espectáculo ni emitir diagnósticos retrospectivos."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "La prensa como instrumento científico en tiempos de la Revolución",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "título y autoría, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "prensa-instrumento-cientifico-revolucion.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0013/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Victoria Alejandra Ruiz Vera.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "título y autoría, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Expediente digital de divulgación histórica que examina a la prensa especializada y popular como medio de difusión, divulgación y legitimación de saberes científicos desde el Porfiriato hasta la posrevolución. Articula un caso de estudio sobre la teratología histórica con imágenes, tres documentos, cronología y bibliografía.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "introducción, desarrollo, cronología, documentos y fuentes, PDF pp. 1-16", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2022,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso, última modificación el 2 de agosto de 2022; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Los metadatos técnicos del PDF registran creación el 1 de agosto de 2022 y modificación el 2 de agosto de 2022, consistentes con la página institucional."
+    },
+    "tipo_material": {
+      "valor": "Expediente digital de divulgación histórica",
+      "codigo": "expediente_digital_divulgacion_historica",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "ruta institucional: Investigación / Expedientes Digitales / Revolución Mexicana / Episodios de la Revolución Mexicana", "estado": "verificado_fuente_institucional"},
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "Programa Jóvenes Investigadores, PDF p. 1; documentos, cronología y bibliografía, PDF pp. 9-16", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "micrositio institucional del recurso con acceso al PDF; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://inehrm.gob.mx/es/inehrm/La_prensa_comoinstrumento_tiempos_de_revolucion",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El expediente explica que, durante el final del Porfiriato, la Revolución y la reconstrucción, la prensa especializada y popular hizo circular conocimientos científicos cuando las instituciones, los museos y los gabinetes enfrentaban límites materiales o interrupciones. El caso de la teratología permite analizar cómo periódicos, revistas, catálogos, fotografías, grabados y museos difundían y legitimaban saberes, y cómo se representaban cuerpos clasificados históricamente como anormales. Incluye referencias a sociedades científicas, Museo Nacional, Casasola, Alfredo Dugès, José Guadalupe Posada y la educación pública posrevolucionaria. La lectura exige un tratamiento ético: su vocabulario y algunas imágenes pertenecen a un marco histórico que debe contextualizarse críticamente, sin convertir la diferencia corporal en espectáculo ni en diagnóstico actual.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 1-9; cronología, documentos y fuentes, PDF pp. 9-16", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": ["Régimen Porfirista", "Estado surgido de la Revolución"],
+      "valor_excel": "Revolución Mexicana",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "encuadre del Porfiriato y proceso revolucionario, PDF pp. 2-5; cronología 1910-1921, PDF pp. 10-13", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 es el eje por el efecto de la guerra sobre la circulación del conocimiento y la prensa. La Unidad 1 ofrece antecedentes de modernización, museos y cultura impresa; la Unidad 3 se vincula acotadamente con la reconstrucción, la SEP y la educación pública. La fuente no explica por sí sola el conjunto de los procesos políticos de esas unidades."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "prensa especializada",
+        "prensa popular",
+        "divulgación científica",
+        "difusión científica",
+        "cultura impresa",
+        "ciencia y público",
+        "Museo Nacional",
+        "museos y colecciones",
+        "teratología histórica",
+        "clasificación científica histórica",
+        "fotografía, grabado y litografía",
+        "circulación de conocimientos",
+        "Porfiriato",
+        "Revolución Mexicana",
+        "censura y trastornos de la circulación",
+        "Archivo Casasola",
+        "Alfredo Dugès",
+        "José Guadalupe Posada",
+        "educación pública posrevolucionaria",
+        "ética de la representación"
+      ],
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 2-9; cronología, documentos y fuentes, PDF pp. 9-16", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "16 páginas, vocabulario de historia de la ciencia y prensa, aparato de fuentes y necesidad de mediación ética de términos e imágenes históricas", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1887-1938, con énfasis en el final del Porfiriato, 1910-1921 y la reconstrucción posterior",
+      "nota": "La cronología inicia con la prensa y el marco político de 1887, sitúa acontecimientos revolucionarios entre 1910 y 1920-1921 y registra continuidades científicas, museísticas y periodísticas hasta 1938.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "desarrollo, PDF pp. 2-9; cronología, PDF pp. 9-13", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2022,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional, última modificación el 2 de agosto de 2022", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2022-08-01",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se mantiene separado del año de actualización institucional y del periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Distinguir prensa especializada y prensa popular, e identificar público, propósito, autoría, soporte, lenguaje y tipo de evidencia en cada publicación.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "definición y clasificación de la prensa, PDF p. 2; interés público de la ciencia, PDF p. 3", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar procesos de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar cómo la guerra, la infraestructura y las instituciones condicionaron la producción, circulación y acceso al conocimiento científico durante la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "límites de acceso a institutos, gabinetes y museos, PDF pp. 3-4; trastornos de producción y circulación en 1915, PDF p. 5", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Relaciona el conflicto revolucionario con transformaciones de la vida social y cultural.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar críticamente una imagen, nota periodística, catálogo o pieza de museo como fuente histórica, atendiendo a su procedencia, destinatario, lenguaje, propósito, silencios y condiciones de circulación.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "imágenes como legitimación y prueba en la prensa, PDF pp. 3-5; documentos empleados, PDF p. 14", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza fuentes de diversa naturaleza para construir interpretaciones históricas.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Contextualizar la teratología y expresiones como anormal o monstruo como categorías históricas de la ciencia y de la prensa, y cuestionar sus efectos de clasificación, estigma y exhibición desde una perspectiva de dignidad humana.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "descripción de la teratología y su tratamiento en la prensa, PDF pp. 2-6; conclusión sobre colecciones y salas, PDF pp. 8-9", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u1", "referente_programa": "Analiza críticamente proyectos de modernización, saberes e instituciones del Régimen Porfirista.", "alcance": "contextual"},
+        {"unidad_id": "u2", "referente_programa": "Reconoce continuidades y cambios sociales y culturales entre Porfiriato, Revolución y posrevolución.", "alcance": "contextual"}
+      ],
+      "nota_curaduria": "No se solicita identificar, diagnosticar ni clasificar cuerpos actuales. Si se emplean imágenes, usar descripción contextual, advertencia de contenido y alternativas textuales; no convertirlas en objeto de exhibición, burla ni evaluación estética."
+    },
+    {
+      "id": "ch_5",
+      "valor": "Relacionar la reconstrucción nacional con la ampliación de propósitos públicos de la ciencia, la educación y los museos, sin atribuir al texto una explicación completa del Estado posrevolucionario.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "Vasconcelos, campaña contra el analfabetismo y educación, PDF p. 7; cierre sobre fines públicos de la ciencia y Museo de Historia Natural, PDF pp. 8-9; cronología 1921-1929, PDF p. 13", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u3", "referente_programa": "Relaciona proyectos culturales y educativos con la configuración del Estado surgido de la Revolución.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_6",
+      "valor": "Construir una línea de tiempo que relacione hechos políticos, publicaciones, museos y prácticas de divulgación para reconocer continuidad y cambio entre 1887 y 1938.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "cronología, PDF pp. 9-13", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Organiza procesos, actores y temporalidades para explicar la Revolución Mexicana.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la Revolución Mexicana mediante fuentes impresas y visuales, reconoce su procedencia y formula preguntas sobre sus alcances y límites.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 2-6 y documentos empleados, PDF p. 14", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Explica que la circulación de conocimiento y cultura impresa se transformó, pero no desapareció, durante la guerra y la reconstrucción.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 3-5, 7-9; cronología, PDF pp. 10-13", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Relaciona procesos políticos y sociales con manifestaciones culturales y medios de comunicación del periodo revolucionario.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Reconoce la importancia de una lectura ética de categorías científicas e imágenes históricas para evitar reproducir estigmas y para argumentar con respeto a la dignidad humana.",
+      "evidencias": [
+        {"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "tratamiento periodístico y visual de la teratología, PDF pp. 2-6; colecciones y museo, PDF pp. 8-9", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u1", "referente_programa": "Analiza críticamente discursos, instituciones y prácticas sociales del Porfiriato.", "alcance": "contextual"},
+        {"unidad_id": "u2", "referente_programa": "Construye interpretaciones históricas fundamentadas y respetuosas de la diversidad humana.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Sociedades científicas, revistas especializadas y Museo Nacional como espacios de divulgación", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 1-2", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Prensa especializada y prensa popular: autores, públicos y finalidades", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 2-3", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Teratología histórica, clasificación científica y Museo Nacional", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 2-4; cronología, PDF pp. 9-10", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Fotografía, daguerrotipo, dibujo, litografía y grabado en la prensa", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 3-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Guerra, censura, trastornos y continuidad de la circulación impresa", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 3-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Catálogo de anomalías de 1896 y nota Teratología en Xochimilco de 1899", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF p. 5; cronología, PDF p. 10; documentos, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Archivo Casasola, fotografía y memoria de colecciones científicas", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 5-6; cronología, PDF p. 13", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Alfredo Dugès y José Guadalupe Posada", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 6-7; documento 3, PDF p. 14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Vasconcelos, alfabetización, higiene y educación pública", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF p. 7; cronología, PDF p. 13", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Museo de Historia Natural, Palacio de Cristal y Museo del Chopo", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 8-9; cronología, PDF pp. 10-11", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Cronología de publicaciones, museos y acontecimientos políticos, 1887-1938", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 9-13", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Documentos empleados, bibliografía y fuentes recomendadas", "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "PDF pp. 14-16", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "revisión integral del ensayo, PDF pp. 1-16", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "presente_como_referencia_acotada",
+      "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "mención de inclusión de mujeres en campaña contra el analfabetismo, PDF p. 7", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_5", "referencia_9"],
+      "nota": "La mención no permite presentar el recurso como estudio de mujeres o género; requerirá fuentes complementarias si se trabaja ese eje."
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "prensa-instrumento-cientifico-revolucion.pdf", "localizador": "clasificaciones, imágenes y exhibición de cuerpos, PDF pp. 2-6 y 8-9", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_3", "ch_4", "aprendizaje_3"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["identificar", "contextualizar", "comparar", "analizar fuentes", "corroborar", "problematizar", "argumentar"],
+    "nota": "Trabajar por lectura focalizada, no mediante reproducción indiscriminada de las imágenes. Iniciar con la clasificación de prensa de las pp. 2-3 y comparar una publicación especializada con una popular a partir de autoría, público, propósito, evidencia y lenguaje. Después, emplear un documento o una entrada de la cronología para explicar cómo la guerra afectó la circulación del saber. El caso de la teratología requiere aviso de contenido y encuadre ético: nombrar literalmente términos históricos solo para analizarlos, explicar que no son lenguaje vigente y permitir trabajar con descripciones textuales en lugar de imágenes. Cerrar con una afirmación argumentada: ¿cómo se relacionaron prensa, instituciones y conocimiento entre Porfiriato, Revolución y reconstrucción?"
+  },
+  "observaciones": [
+    "El PDF es un ensayo de divulgación que media documentos, imágenes y referencias; cada pieza citada mantiene su propia procedencia, fecha, archivo y condiciones de uso.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar el expediente; antes de reproducir cualquier imagen, verificar crédito, archivo, derechos, texto alternativo y permisos de la pieza concreta.",
+    "Las expresiones históricas sobre cuerpos y diferencias corporales se conservan únicamente cuando son necesarias para identificar o analizar la fuente. No deben normalizarse como vocabulario actual, ni servir para diagnósticos, clasificaciones de personas actuales o actividades de espectáculo.",
+    "La lectura no ofrece una explicación global de la Revolución, el Porfiriato o el Estado posrevolucionario. Su aportación específica es el cruce entre prensa, ciencia, cultura visual, instituciones y ética de la representación; las conexiones políticas deben corroborarse con lecturas complementarias."
+  ]
+}

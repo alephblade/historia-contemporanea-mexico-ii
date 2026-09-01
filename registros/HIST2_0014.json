@@ -1,0 +1,287 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0014",
+  "indice": "lectura_14",
+  "slug": "relaciones-mexico-estados-unidos-1911-1918",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el micrositio institucional del INEHRM y la fila histórica del Excel.",
+    "cambios": [
+      "Se identifica el recurso como artículo histórico institucional del INEHRM con seis referencias documentales, no como fuente primaria única ni como cronología autosuficiente.",
+      "Se registra 2018 como fecha de actualización institucional y de metadatos técnicos del PDF, separada del periodo histórico de 1911 a 1919 que el texto desarrolla.",
+      "Se delimitan soberanía, intervención, diplomacia, frontera, petróleo, neutralidad y migración como ejes de análisis de la relación bilateral durante la Revolución.",
+      "Se incorpora el control de contrastar atribuciones, discursos y valoraciones del artículo con sus documentos y con fuentes complementarias, sin simplificar la relación bilateral a una narrativa unilateral."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Relaciones México-Estados Unidos, 1911-1918",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "título, PDF p. 1", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "relaciones-mexico-eeuu-1911-1918.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0014/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Instituto Nacional de Estudios Históricos de las Revoluciones de México (INEHRM); autoría individual no identificada en el PDF consultado.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "encabezado Artículo histórico INEHRM, PDF pp. 1-30", "estado": "verificado_fuente_primaria"}
+      ],
+      "nota": "No se atribuye una autoría personal que la fuente no declara."
+    },
+    "descripcion_fuente": {
+      "valor": "Artículo histórico institucional que sintetiza las relaciones entre México y Estados Unidos durante la Revolución Mexicana. Integra una exposición narrativa, una cronología de 1911 a 1919, seis referencias documentales y bibliografía para abordar presión diplomática, intervención, neutralidad, petróleo, fronteras y efectos de la Primera Guerra Mundial.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "desarrollo, cronología, referencias documentales y fuentes, PDF pp. 1-30", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2018,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso, última modificación el 9 de abril de 2018; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Los metadatos técnicos del PDF registran creación y modificación el 9 de abril de 2018, consistentes con la página institucional."
+    },
+    "tipo_material": {
+      "valor": "Artículo histórico institucional",
+      "codigo": "articulo_historico_institucional",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "encabezado Artículo histórico INEHRM, PDF pp. 1-30; referencias documentales, PDF pp. 28-29", "estado": "verificado_fuente_primaria"},
+        {"fuente": "INEHRM", "localizador": "ruta institucional: Investigación / Expedientes Digitales / Revolución Mexicana / Episodios de la Revolución Mexicana", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "micrositio institucional del recurso con acceso al PDF; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://inehrm.gob.mx/es/inehrm/Relaciones_Mexico-Estados_Unidos_1911-1918",
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional del recurso", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El artículo presenta las tensiones entre México y Estados Unidos desde la presidencia de Madero hasta la etapa carrancista. Examina la movilización militar estadounidense de 1911, el papel del embajador Henry Lane Wilson durante la Decena Trágica, la ocupación de Veracruz de 1914, las negociaciones y mediaciones internacionales, la cuestión petrolera, el ataque a Columbus, la Expedición Punitiva, el enfrentamiento de Carrizal, el telegrama Zimmermann y la neutralidad de México ante la Primera Guerra Mundial. También registra restricciones comerciales, reclutamiento de mexicanos residentes en Estados Unidos y gestiones diplomáticas. La lectura permite analizar soberanía y relaciones internacionales mediante fuentes documentales, siempre distinguiendo los hechos, las voces citadas y la interpretación institucional que organiza el relato.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "síntesis narrativa, PDF pp. 1-4; cronología, PDF pp. 4-27; referencias documentales, PDF pp. 28-29", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": ["Estado surgido de la Revolución"],
+      "valor_excel": "sin unidad temática registrada para lectura_14 en la hoja histórica",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "Madero, Huerta, constitucionalismo, Carranza y cronología 1911-1918, PDF pp. 1-27", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 2 es el eje inequívoco. La Unidad 3 se vincula de modo contextual por la Constitución de 1917, la política exterior carrancista y los proyectos estatales de posguerra; el recurso no desarrolla la consolidación posterior del Estado surgido de la Revolución."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "relaciones México-Estados Unidos",
+        "soberanía nacional",
+        "diplomacia",
+        "intervención e injerencia",
+        "Henry Lane Wilson",
+        "Decena Trágica",
+        "ocupación de Veracruz",
+        "mediación ABC",
+        "Conferencias de Niágara Falls",
+        "constitucionalismo",
+        "Venustiano Carranza",
+        "petróleo",
+        "frontera México-Estados Unidos",
+        "Francisco Villa",
+        "ataque a Columbus",
+        "Expedición Punitiva",
+        "Carrizal",
+        "Primera Guerra Mundial",
+        "telegrama Zimmermann",
+        "neutralidad",
+        "migración y reclutamiento de mexicanos",
+        "Doctrina Carranza"
+      ],
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 1-4; cronología, PDF pp. 4-27", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "30 páginas, cronología detallada, conceptos de política exterior y seis documentos que exigen contextualización, comparación y corroboración", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1911-1919, con énfasis en 1911-1918",
+      "nota": "El título y la narrativa central se concentran en 1911-1918; la cronología añade el registro de febrero de 1919 sobre la exclusión de México de la Sociedad de las Naciones.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "título y síntesis, PDF pp. 1-4; cronología, PDF pp. 4-27", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2018,
+      "evidencias": [
+        {"fuente": "INEHRM", "localizador": "página institucional, última modificación el 9 de abril de 2018", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2018-04-09",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadatos técnicos del PDF local; se mantienen separados del periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Explicar la relación entre soberanía, intereses económicos, diplomacia y acción militar en las relaciones México-Estados Unidos durante la Revolución Mexicana.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "movilización de 1911, Veracruz, petróleo y neutralidad, PDF pp. 1-4; cronología, PDF pp. 5-27", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza actores, procesos y dimensiones nacionales e internacionales de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Construir una secuencia causal y temporal que relacione la Decena Trágica, la ocupación de Veracruz, las Conferencias de Niágara Falls, el constitucionalismo, Columbus, la Expedición Punitiva, Carrizal y la neutralidad de 1917.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "cronología, PDF pp. 7-27", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Organiza procesos, actores y temporalidades para explicar la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar los documentos citados como intervenciones situadas al identificar quién habla, desde qué cargo o interés, para qué público y qué evidencia adicional se requiere para sostener una interpretación.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "pasajes documentales, PDF pp. 1-4, 7-10, 16-26; referencias documentales, PDF pp. 28-29", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones para estudiar la Revolución Mexicana.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "El artículo selecciona y encuadra documentos. Se debe distinguir entre el contenido del documento, la interpretación del artículo y la inferencia del estudiantado; corroborar con al menos una fuente complementaria cuando se formulen juicios sobre causalidad o responsabilidad."
+    },
+    {
+      "id": "ch_4",
+      "valor": "Relacionar la Constitución de 1917, la cuestión petrolera, las restricciones comerciales y la política de neutralidad con los márgenes y tensiones de la política exterior carrancista.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "síntesis sobre Constitución, petróleo y neutralidad, PDF pp. 3-4; cronología, PDF pp. 14-15 y 19-27", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza los proyectos constitucionalistas y sus relaciones internacionales durante la Revolución Mexicana.", "alcance": "contextual"},
+        {"unidad_id": "u3", "referente_programa": "Relaciona la configuración estatal posrevolucionaria con principios y conflictos de política exterior.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Examinar cómo la frontera y la guerra afectaron a mexicanos residentes en Estados Unidos mediante reclutamiento, restricciones de movilidad, comercio, retorno y acción consular.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "reclutamiento y restricciones, PDF pp. 3-4; cronología de 1917-1918, PDF pp. 21-27", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Reconoce efectos diferenciados de los procesos políticos y bélicos en grupos sociales y espacios fronterizos.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_6",
+      "valor": "Argumentar una interpretación sobre la soberanía mexicana que integre conflictos, negociación, neutralidad y límites, evitando convertir la compleja relación bilateral en una explicación lineal o monocausal.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "síntesis narrativa, PDF pp. 1-4; cronología y documentos, PDF pp. 4-29", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Elabora explicaciones históricas fundamentadas sobre conflictos y proyectos de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la Revolución Mexicana como proceso con dimensiones internacionales y reconoce su impacto en la soberanía y la política exterior de México.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 1-4; cronología, PDF pp. 4-27", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza factores internos e internacionales de la Revolución Mexicana.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Interpreta documentos diplomáticos, discursos y cronologías al reconocer autoría, contexto, destinatarios e intereses.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "documentos 1-6 citados en el texto y referencias documentales, PDF pp. 1-4, 7-10, 16-26 y 28-29", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Reconoce que las decisiones internacionales afectaron de manera concreta la vida de poblaciones fronterizas y de mexicanos residentes en Estados Unidos.",
+      "evidencias": [
+        {"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 3-4; cronología de 1917-1918, PDF pp. 21-27", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u2", "referente_programa": "Analiza la diversidad de efectos sociales de los procesos revolucionarios.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Madero, Taft, movilización de tropas y presiones diplomáticas de 1911", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 1 y 4-6", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Henry Lane Wilson, Decena Trágica y discurso Yo acuso de Luis Manuel Rojas", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 1-2 y 7-9; documento 3, PDF p. 28", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Ocupación estadounidense de Veracruz en 1914 y protesta de Carranza", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF p. 2; cronología, PDF pp. 11-14; documento 4, PDF p. 28", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Mediación de Argentina, Brasil y Chile y Conferencias de Niágara Falls", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "cronología, PDF pp. 12-14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Constitucionalismo, Venustiano Carranza y política de soberanía", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 2-4; cronología, PDF pp. 9-15 y 16-27", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Petróleo, artículo 27, restricciones comerciales y Banco Único de Emisión", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 3-4; cronología, PDF pp. 6, 15 y 23-27", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Francisco Villa, Agua Prieta y ataque a Columbus", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "cronología, PDF pp. 15-17", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Expedición Punitiva, John J. Pershing y combate de Carrizal", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 2-3; cronología, PDF pp. 17-20; documento 5, PDF pp. 28-29", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Telegrama Zimmermann, Primera Guerra Mundial y neutralidad mexicana", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 3-4; cronología, PDF pp. 19-23", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Mexicanos residentes en Estados Unidos: reclutamiento, asesoría consular y repatriación", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 3-4; cronología, PDF pp. 21-26", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Doctrina Carranza y principios de política internacional", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "cronología, PDF p. 27", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Seis referencias documentales y bibliografía para ampliar y corroborar", "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "PDF pp. 28-30", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_como_referencia_acotada",
+      "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "referencia bibliográfica a La invasión yaqui, nota al pie, PDF p. 2", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": [],
+      "nota": "La mención no desarrolla a los pueblos indígenas ni el conflicto yaqui; no debe presentarse como cobertura temática de ese eje."
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "revisión integral del artículo, PDF pp. 1-30", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "relaciones-mexico-eeuu-1911-1918.pdf", "localizador": "reclutamiento forzoso, restricciones y situación de mexicanos residentes en Estados Unidos, PDF pp. 3-4 y 21-26", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_5", "aprendizaje_3", "referencia_10"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["ubicar", "secuenciar", "contextualizar", "analizar fuentes", "contrastar", "establecer relaciones causales", "argumentar"],
+    "nota": "Trabajar con selección focalizada, no con la cronología completa en una sola sesión. Iniciar con la síntesis de las pp. 1-4 y construir una línea de tiempo de cinco momentos: 1911, 1913, 1914, 1916 y 1917-1918. Elegir uno de los seis documentos para una ficha de fuente: emisor, destinatario, fecha, propósito, interés, lenguaje, evidencia y límite. Después contrastarlo con la entrada cronológica correspondiente y una fuente complementaria. Integrar de manera explícita soberanía, intereses económicos, negociación, violencia y efectos sobre población migrante. Evitar pedir explicaciones monocausales de la intervención o presentar las valoraciones del artículo como hechos indiscutibles."
+  },
+  "observaciones": [
+    "El artículo reúne una síntesis institucional, cronología y referencias a documentos. Las citas documentales no convierten al artículo completo en fuente primaria; sus pasajes deben leerse con su procedencia y contexto propios.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar el recurso; antes de reproducir documentos o imágenes vinculados, verificar procedencia, derechos, transcripción y condiciones de uso de cada pieza.",
+    "La cronología llega a 1919 aunque el título se delimita a 1911-1918; esa ampliación está registrada en el control temporal para evitar confundir el rango del título con el alcance efectivo del recurso.",
+    "La lectura es especialmente pertinente para estudiar dimensiones internacionales de la Revolución. No sustituye fuentes sobre experiencias indígenas, mujeres, diplomacia estadounidense, regiones fronterizas específicas ni las múltiples corrientes revolucionarias; dichos aspectos requieren complementos deliberados."
+  ]
+}

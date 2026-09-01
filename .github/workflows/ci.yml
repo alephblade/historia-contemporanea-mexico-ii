@@ -1,0 +1,41 @@
+name: Validación y construcción
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependencias reproducibles
+        run: npm ci
+
+      - name: Validar corpus, proyección, tipos, construcción y enlaces
+        run: npm test
+        env:
+          ASTRO_TELEMETRY_DISABLED: "1"
+
+      - name: Conservar artefacto estático de revisión
+        uses: actions/upload-artifact@v4
+        with:
+          name: sitio-estatico
+          path: dist/
+          if-no-files-found: error

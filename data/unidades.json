@@ -1,0 +1,37 @@
+[
+  {
+    "id": "u1",
+    "numero": 1,
+    "nombre": "Régimen Porfirista",
+    "slug": "regimen-porfirista",
+    "descripcion": "Modernización, concentración del poder, desigualdad, oposición y crisis del régimen porfirista."
+  },
+  {
+    "id": "u2",
+    "numero": 2,
+    "nombre": "Revolución Mexicana",
+    "slug": "revolucion-mexicana",
+    "descripcion": "Causas, actores, proyectos, conflictos, documentos y debates historiográficos de la Revolución Mexicana."
+  },
+  {
+    "id": "u3",
+    "numero": 3,
+    "nombre": "Estado surgido de la Revolución",
+    "slug": "estado-surgido-de-la-revolucion",
+    "descripcion": "Institucionalización, reformas sociales, soberanía, educación, cultura y contradicciones del Estado posrevolucionario."
+  },
+  {
+    "id": "u4",
+    "numero": 4,
+    "nombre": "Consolidación del sistema político autoritario",
+    "slug": "consolidacion-sistema-politico-autoritario",
+    "descripcion": "Presidencialismo, partido, elecciones, arreglos institucionales y límites del pluralismo político."
+  },
+  {
+    "id": "u5",
+    "numero": 5,
+    "nombre": "Neoliberalismo y alternancia",
+    "slug": "neoliberalismo-y-alternancia",
+    "descripcion": "Reacomodos del poder, transformaciones del sistema político, alternancia y problemas del México contemporáneo."
+  }
+]

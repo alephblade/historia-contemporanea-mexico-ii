@@ -1,0 +1,280 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0018",
+  "indice": "lectura_18",
+  "slug": "resena-loaeza-sombra-superpotencia",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en la reseña PDF local, la ficha editorial de Historia Mexicana y la fila histórica del Excel.",
+    "cambios": [
+      "Se corrige la identidad del recurso: es una reseña historiográfica de Pablo Kalax Orozco Barriga, no el libro de Soledad Loaeza reseñado.",
+      "Se corrige el año de publicación de 2022 a 2024; 2022 corresponde a la obra reseñada, mientras que el PDF local y la ficha editorial corresponden a la reseña de 2024.",
+      "Se reubica el recurso en la Unidad 4, porque analiza la conformación del presidencialismo autoritario entre 1945 y 1958; la clasificación histórica en Unidad 5 no se sostiene por el contenido de la reseña.",
+      "Se incorpora un control para diferenciar el argumento atribuido a Loaeza, la síntesis del reseñista y las objeciones críticas de éste."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Sobre Soledad Loaeza, A la sombra de la superpotencia: tres presidentes mexicanos en la Guerra Fría, 1945-1958",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "encabezado bibliográfico de la reseña, PDF p. 1", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "ficha editorial de reseña, Historia Mexicana 74(1), 2024", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "loaeza-sombra-superpotencia.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0018/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Pablo Kalax Orozco Barriga (El Colegio de México).",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "firma y adscripción de la reseña, PDF p. 6", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "ficha editorial y adscripción del reseñista", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Soledad Loaeza es autora del libro reseñado, no de la lectura asignada."
+    },
+    "descripcion_fuente": {
+      "valor": "Reseña historiográfica de seis páginas publicada en Historia Mexicana, vol. 74, núm. 1, 2024, pp. 448-453. Expone y evalúa el argumento de Soledad Loaeza sobre los límites externos del presidencialismo mexicano durante la Guerra Fría, y formula observaciones sobre su tratamiento de cardenismo, corrupción y autoritarismo.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "reseña completa, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2024,
+      "evidencias": [
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "Historia Mexicana, vol. 74, núm. 1, julio-septiembre de 2024; publicación electrónica 23 de agosto de 2024", "estado": "verificado_fuente_institucional"},
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "metadatos técnicos de creación y modificación, 21 de mayo de 2024", "estado": "verificado_metadato_tecnico"}
+      ],
+      "nota": "El libro de Soledad Loaeza reseñado se publicó en 2022; no debe confundirse esa fecha con la de la reseña."
+    },
+    "tipo_material": {
+      "valor": "Artículo / reseña historiográfica",
+      "codigo": "articulo_resena_historiografica",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "sección Reseñas, aparato de citas y firma, PDF pp. 1-6", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "sección editorial Reseñas", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "ficha editorial con licencia Creative Commons y acceso al texto completo; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.scielo.org.mx/scielo.php?pid=S2448-65312024000300448&script=sci_arttext",
+      "evidencias": [
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "página del artículo y DOI 10.24201/hm.v74i1.4562", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "La reseña presenta el libro de Soledad Loaeza como una explicación histórica de la modernización e institucionalización del presidencialismo mexicano bajo las presiones de Estados Unidos y la Guerra Fría. Según la síntesis de Pablo Kalax Orozco Barriga, Loaeza rechaza imaginar a los presidentes como omnipotentes y destaca sus límites, márgenes de negociación e independencia relativa. La obra reseñada estudia a Manuel Ávila Camacho, Miguel Alemán y Adolfo Ruiz Cortines, así como coyunturas de 1945 a 1958. El reseñista valora su originalidad, pero cuestiona su caracterización de cardenistas y lombardistas y considera insuficiente la discusión sobre corrupción y autoritarismo. La lectura permite trabajar cómo una reseña reconstruye, evalúa y discute una interpretación historiográfica, no sustituir la lectura del libro reseñado.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Consolidación del sistema político autoritario",
+      "secundarias": ["Estado surgido de la Revolución"],
+      "valor_excel": "Neoliberalismo y alternancia",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "presidencialismo, institucionalización y autoritarismo entre 1945 y 1958, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La clasificación histórica de Unidad 5 se corrige porque la reseña no aborda neoliberalismo ni alternancia como contenido sustantivo. Su aporte directo es la discusión del sistema político autoritario de posguerra; la Unidad 3 se relaciona por las herencias del régimen revolucionario y el cardenismo."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "reseña historiográfica",
+        "interpretación histórica",
+        "presidencialismo mexicano",
+        "autoritarismo posrevolucionario",
+        "institucionalización",
+        "Guerra Fría",
+        "relaciones México-Estados Unidos",
+        "independencia relativa",
+        "límites al poder presidencial",
+        "Manuel Ávila Camacho",
+        "Miguel Alemán",
+        "Adolfo Ruiz Cortines",
+        "Conferencia de Chapultepec",
+        "matanza de León",
+        "visita de Harry Truman",
+        "golpe de Estado en Guatemala de 1954",
+        "cardenismo",
+        "lombardismo",
+        "pluralismo limitado",
+        "no reelección",
+        "partido hegemónico",
+        "corrupción",
+        "legitimidad y desarrollo"
+      ],
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 1-6", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "reseña breve pero conceptualmente densa, que presupone distinción entre libro, reseñista, debates historiográficos y política internacional", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "Puede utilizarse con estudiantes de nivel intermedio solo con un andamiaje explícito sobre qué es una reseña y mediante selección de párrafos."
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1945-1958",
+      "nota": "La reseña discute una obra centrada en los gobiernos de Manuel Ávila Camacho, Miguel Alemán y Adolfo Ruiz Cortines. Menciona antecedentes cardenistas y consecuencias posteriores solo para evaluar el argumento del libro.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "ficha del libro reseñado, PDF p. 1; desarrollo, PDF pp. 2-6", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2024,
+      "evidencias": [
+        {"fuente": "Historia Mexicana / SciELO México", "localizador": "vol. 74, núm. 1, julio-septiembre de 2024; publicación electrónica 23 de agosto de 2024", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2024-05-21",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato del PDF local, compatible con la edición de la reseña y distinto del año de publicación del libro reseñado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Distinguir los niveles de autoría y argumento: Soledad Loaeza como autora del libro, Pablo Kalax Orozco Barriga como reseñista y el estudiantado como lector crítico.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "ficha de obra reseñada y firma del reseñista, PDF pp. 1 y 6; desarrollo, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Valora críticamente fuentes e interpretaciones para explicar el sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar la hipótesis atribuida a Loaeza: las relaciones con Estados Unidos y la Guerra Fría limitaron y, a la vez, configuraron la institucionalización del presidencialismo mexicano.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "hipótesis y consecuencias institucionales sintetizadas por el reseñista, PDF pp. 2-4", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza factores nacionales e internacionales de la consolidación del sistema político autoritario.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "La hipótesis se conoce a través de la reseña. No se debe atribuir al libro más evidencia o matices de los que la reseña presenta; para profundizar se requiere la obra de Loaeza."
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar el concepto de independencia relativa y usarlo para formular preguntas sobre soberanía, negociación y asimetría en la relación México-Estados Unidos durante la Guerra Fría.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "independencia relativa y márgenes de maniobra, PDF pp. 4-5", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Relaciona procesos políticos nacionales con contextos internacionales de la posguerra.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Ubicar y relacionar coyunturas de 1945-1958 —Conferencia de Chapultepec, León, visita de Truman y Guatemala de 1954— con las preguntas sobre presidencialismo y política exterior.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "casos del libro reseñado, PDF p. 4", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Organiza procesos y coyunturas para explicar la consolidación del régimen posrevolucionario.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Comparar una tesis historiográfica con una objeción crítica al identificar qué evidencia, énfasis o concepto cuestiona el reseñista sobre cardenismo, corrupción y autoritarismo.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "observaciones críticas de la reseña, PDF pp. 5-6", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Reconoce que las explicaciones históricas son debatibles y se sostienen con interpretaciones y evidencias contrastables.", "alcance": "directo"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la consolidación del sistema político autoritario considerando la relación entre presidencialismo, institucionalización, partido hegemónico y contexto internacional de la Guerra Fría.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 1-5", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Explica procesos de consolidación del sistema político autoritario y sus dimensiones nacionales e internacionales.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Distingue entre reseña, obra reseñada y argumento historiográfico, y construye una valoración crítica fundamentada sobre los alcances de una interpretación.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "estructura argumentativa y observaciones críticas, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Valora el carácter interpretativo, debatible y documentable del conocimiento histórico.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona herencias revolucionarias y cardenistas con arreglos de poder de la posguerra, sin reducir estos procesos a una continuidad automática.",
+      "evidencias": [
+        {"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "discusión de cardenistas, avilacamachistas y origen revolucionario del régimen, PDF pp. 3-6", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u3", "referente_programa": "Relaciona procesos e instituciones surgidos de la Revolución con desarrollos posteriores del Estado mexicano.", "alcance": "contextual"},
+        {"unidad_id": "u4", "referente_programa": "Analiza continuidades y reacomodos en el sistema político autoritario de posguerra.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Reseña de A la sombra de la superpotencia y datos bibliográficos del libro de 2022", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF p. 1", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Sistema político mexicano como objeto de interpretación historiográfica", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 1-2", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Crítica a la omnipotencia presidencial y atención a límites y negociaciones", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 2-3", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Estados Unidos, Guerra Fría e institucionalización del presidencialismo", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 3-4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Pluralismo limitado, no reelección, autonomía sexenal y partido hegemónico", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF p. 4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Ávila Camacho, Alemán, Ruiz Cortines y coyunturas de 1945-1958", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 3-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Conferencia de Chapultepec, León 1946, Truman 1947 y Guatemala 1954", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF p. 4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Independencia relativa y márgenes de maniobra frente a Estados Unidos", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 4-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Cardenismo, lombardismo y debates sobre transformación y statu quo", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF p. 5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Corrupción, represión, manipulación electoral y autoritarismo", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 5-6", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Argumento de la reseña, valoración académica y límites de una obra reseñada", "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "PDF pp. 1-6", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "revisión integral de la reseña, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "revisión integral de la reseña, PDF pp. 1-6", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "loaeza-sombra-superpotencia.pdf", "localizador": "referencias a exclusión, represión, manipulación electoral, corrupción, desarrollo y legitimidad, PDF pp. 3-6", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_5", "aprendizaje_1", "referencia_10"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["identificar niveles de autoría", "reconstruir argumentos", "distinguir síntesis y crítica", "contextualizar", "comparar interpretaciones", "argumentar"],
+    "nota": "Iniciar identificando en una tabla: recurso leído, reseñista, obra reseñada, autora de la obra, periodo histórico y año de cada publicación. Leer las pp. 2-4 para reconstruir la tesis atribuida a Loaeza y las pp. 5-6 para localizar las objeciones del reseñista. Pedir una afirmación con tres niveles claramente señalados: qué sostiene Loaeza según la reseña, qué observa Orozco Barriga y qué evidencia adicional sería necesaria para valorar el debate. Vincular los casos de 1945-1958 con la Unidad 4. No usar la reseña como sustituto del libro ni como evidencia primaria de las coyunturas mencionadas."
+  },
+  "observaciones": [
+    "El contenido sustantivo se conoce mediante una reseña; no equivale al libro de 470 páginas de Soledad Loaeza. Las citas y juicios sobre el libro deben atribuirse al reseñista cuando corresponda.",
+    "La fila histórica del Excel confundía el año del libro reseñado (2022) con el de la reseña (2024) y la ubicaba en Unidad 5. El registro conserva esa información como antecedente y adopta los datos verificados del recurso real.",
+    "La lectura ofrece una entrada valiosa al debate sobre presidencialismo y Guerra Fría, pero no cubre de manera suficiente experiencias de mujeres, pueblos indígenas, organizaciones populares, regiones ni las consecuencias sociales diferenciadas del desarrollo de posguerra.",
+    "El acceso al artículo en SciELO se declara bajo licencia Creative Commons. Aun así, cualquier reutilización en el repositorio debe conservar atribución completa, URL, DOI y las condiciones de la licencia vigente."
+  ]
+}

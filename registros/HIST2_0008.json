@@ -1,0 +1,534 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0008",
+  "indice": "lectura_8",
+  "slug": "documentos-fundamentales-revolucion-mexicana",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0 a partir del PDF local, su índice y la ruta institucional del INEHRM.",
+    "cambios": [
+      "Se identifica el recurso como una selección documental y no como una interpretación historiográfica única.",
+      "Se separan el año de edición de la compilación y el arco temporal de los documentos reproducidos.",
+      "Se registran como relaciones directas únicamente los documentos y procesos que la selección localiza de manera explícita.",
+      "La revisión de la hoja de cálculo histórica no aportó contenido verificable para la columna de la Lectura 8; no se trasladaron celdas vacías ni fórmulas como datos del registro."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Documentos fundamentales de la Revolución Mexicana",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "portada, PDF p. 4",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "documentos-fundamentales-revolucion.pdf",
+      "evidencias": [
+        {
+          "fuente": "archivo local",
+          "localizador": "fuentes/lecturas/HIST2_0008/",
+          "estado": "verificado_metadato_tecnico"
+        }
+      ]
+    },
+    "autoria": {
+      "valor": "Selección de documentos: Rafael Hernández Ángeles. Edición institucional del Instituto Nacional de Estudios Históricos de las Revoluciones de México (INEHRM).",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "nota": "Las autorías históricas de cada documento no se atribuyen a la persona que realiza la selección editorial; deben identificarse al trabajar cada fuente."
+    },
+    "descripcion_fuente": {
+      "valor": "Selección institucional de documentos, facsímiles y reproducciones hemerográficas vinculados con antecedentes, proyectos, conflictos y reformas de la Revolución Mexicana. Reúne manifiestos, programas, planes, tratados, leyes, decretos y artículos constitucionales fechados entre 1869 y 1953.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7; página legal, PDF p. 5",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio": {
+      "valor": 2021,
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "portada, PDF p. 4; página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "tipo_material": {
+      "valor": "Compilación de fuentes primarias y documentales",
+      "codigo": "compilacion_fuentes_primarias_documentales",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7; leyendas de procedencia de los documentos, PDF pp. 16, 20, 38, 48, 74, 96 y 130",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "publicación institucional en PDF y bibliografía institucional, ruta verificada el 2026-08-31",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.inehrm.gob.mx/recursos/Libros/Documentos_fundamentales_de_la_Revolucion_Mexicana.pdf",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "Bibliografía institucional del curso Revolución, Reforma y Formación de México, entrada de la obra; ruta verificada el 2026-08-31",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "La compilación permite estudiar la Revolución Mexicana mediante las voces normativas, políticas y periodísticas de sus actores y de los procesos que prolongaron sus reformas. Incluye antecedentes como el Programa del Partido Liberal Mexicano; documentos de la lucha revolucionaria —Plan de San Luis, Tratados de Ciudad Juárez, Plan de Ayala, Plan de Guadalupe y sus adiciones—; la Ley Agraria, el Pacto con la Casa del Obrero Mundial y artículos de la Constitución de 1917; así como documentos del cardenismo y de ampliación de derechos sociales y políticos. Su uso exige distinguir autoría, fecha, tipo de documento, propósito y límites de cada fuente.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7; leyendas de procedencia, PDF pp. 16, 20, 24, 38, 48, 62, 74, 96, 110, 130, 142 y 152",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": [
+        "Régimen Porfirista",
+        "Estado surgido de la Revolución",
+        "Consolidación del sistema político autoritario"
+      ],
+      "valor_excel": "sin contenido verificable para lectura_8 en la hoja histórica",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice: Programa del PLM, Plan de San Luis, Planes de Ayala y Guadalupe, Ley Agraria, Constitución, Plan Sexenal, expropiación petrolera, PDF pp. 6-7",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La Unidad 2 organiza la selección. La Unidad 1 se aborda mediante antecedentes de 1906 y 1910; las Unidades 3 y 4 se vinculan por documentos de 1915 a 1953, sin que la compilación sustituya una explicación historiográfica completa de esos periodos."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Programa del Partido Liberal Mexicano",
+        "Plan de San Luis",
+        "Tratados de Ciudad Juárez",
+        "Plan de Ayala",
+        "Plan de Guadalupe",
+        "constitucionalismo",
+        "reforma agraria",
+        "Ley Agraria de 1915",
+        "Pacto con la Casa del Obrero Mundial",
+        "Constitución de 1917",
+        "artículos 3, 27 y 123",
+        "cardenismo",
+        "expropiación petrolera",
+        "seguridad social",
+        "sufragio femenino",
+        "fuente primaria"
+      ],
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": [
+        "intermedio",
+        "avanzado"
+      ],
+      "evidencias": [
+        {
+          "fuente": "decisión de curaduría",
+          "localizador": "162 páginas, 18 documentos de fechas, procedencias, tipos y lenguajes distintos",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1869-1953",
+      "nota": "El núcleo de la selección corresponde a 1906-1938. El manifiesto de 1869 se presenta como antecedente y el decreto de 1953 prolonga el registro hacia la ampliación de derechos políticos posterior a la fase armada.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2021,
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2021-10-05",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se conserva separado del año de cada documento histórico y del año editorial de la selección."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Relacionar el Programa del Partido Liberal Mexicano y el Plan de San Luis con críticas al régimen porfirista y con la formulación de demandas políticas previas al levantamiento de 1910.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Programa del Partido Liberal Mexicano, PDF pp. 14-17; Plan de San Luis, PDF pp. 18-21",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Proyecto de modernización, conflictos sociales y oposición política del Régimen Porfirista.",
+          "alcance": "directo"
+        },
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue causas políticas y sociales de la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "No se presenta un solo documento como causa única de la Revolución; se comparan demandas, destinatarios y contextos."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Comparar proyectos revolucionarios y disputas de legitimidad mediante los Tratados de Ciudad Juárez, el Plan de Ayala, el Plan de Guadalupe, sus reformas y sus adiciones.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Tratados de Ciudad Juárez, PDF pp. 22-25; Plan de Ayala, PDF pp. 34-43; Plan de Guadalupe, PDF pp. 44-53; reformas y adiciones, PDF pp. 54-69",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Analiza la diversidad de proyectos, facciones y conflictos de la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Los planes y tratados expresan posiciones situadas. La comparación requiere diferenciar tipo de documento, destinatario, fecha, demanda y relación con otros proyectos."
+    },
+    {
+      "id": "ch_3",
+      "valor": "Explicar cómo las demandas agrarias, obreras y constitucionales se formularon en la Ley Agraria de 1915, el Pacto con la Casa del Obrero Mundial y los artículos 3, 27 y 123 de la Constitución de 1917.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Ley Agraria, PDF pp. 70-85; Pacto con la Casa del Obrero Mundial, PDF pp. 86-91; Constitución, PDF pp. 92-105",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Relaciona demandas sociales de la Revolución con el nuevo orden constitucional.",
+          "alcance": "directo"
+        },
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Analiza la formación del Estado surgido de la Revolución y sus bases jurídicas y sociales.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Analizar el Plan Sexenal, la reforma educativa de 1934, la reorganización administrativa y la expropiación petrolera como documentos de proyectos estatales y reformas del cardenismo.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Plan Sexenal, PDF pp. 106-117; reforma al artículo 3º, PDF pp. 118-123; Ley de Secretarías, PDF pp. 124-133; decreto de expropiación petrolera, PDF pp. 134-137",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Define características del cardenismo y su proyecto de transformación social, económica y política.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Reconocer la ampliación y la institucionalización de derechos sociales y políticos mediante la Ley del Seguro Social de 1943 y la reforma constitucional sobre ciudadanía y voto de las mujeres de 1953.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Ley del Seguro Social, PDF pp. 138-151; decreto de reforma a los artículos 34 y 115, PDF pp. 152-155",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Relaciona reformas sociales y políticas con la construcción del Estado posrevolucionario.",
+          "alcance": "contextual"
+        },
+        {
+          "unidad_id": "u4",
+          "referente_programa": "Examina procesos de institucionalización política y social durante la consolidación del sistema político mexicano.",
+          "alcance": "secundario"
+        }
+      ],
+      "nota_curaduria": "El decreto de 1953 permite una entrada puntual sobre ciudadanía y mujeres; no cubre por sí solo la condición de las mujeres en todo el periodo."
+    },
+    {
+      "id": "ch_6",
+      "valor": "Evaluar críticamente fuentes primarias al distinguir compilación editorial, autoría histórica, fecha, tipo documental, destinatario, propósito, evidencia y silencio.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "página legal, PDF p. 5; índice, PDF pp. 6-7; leyendas de procedencia de documentos, PDF pp. 16, 20, 24, 28, 38, 48, 62, 74, 96, 110, 130 y 142",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Valora el análisis crítico de fuentes para estudiar la Revolución Mexicana.",
+          "alcance": "contextual"
+        }
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Distingue causas de la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Programa del Partido Liberal Mexicano, PDF pp. 14-17; Plan de San Luis, PDF pp. 18-21",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "El aprendizaje se apoya mediante comparación de documentos y requiere contextualización histórica complementaria.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue causas de la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Analiza la diversidad de proyectos y conflictos que participaron en la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Tratados de Ciudad Juárez, PDF pp. 22-25; Plan de Ayala, PDF pp. 34-43; Plan de Guadalupe y adiciones, PDF pp. 44-69",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Analiza la diversidad de proyectos y grupos participantes en la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona demandas agrarias y obreras con el nuevo orden constitucional de 1917.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Ley Agraria, PDF pp. 70-85; Pacto con la Casa del Obrero Mundial, PDF pp. 86-91; Constitución, PDF pp. 92-105",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Reconoce consecuencias sociales y políticas de la Revolución Mexicana.",
+          "alcance": "directo"
+        },
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Analiza bases sociales y jurídicas del Estado surgido de la Revolución.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Define características del cardenismo y su proyecto de transformación social, económica y política.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "Plan Sexenal, PDF pp. 106-117; reforma al artículo 3º, PDF pp. 118-123; expropiación petrolera, PDF pp. 134-137",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Define características del cardenismo y su proyecto de transformación social, económica y política.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_5",
+      "valor": "Valora el análisis crítico de fuentes al reconocer su procedencia, perspectiva y límites.",
+      "evidencias": [
+        {
+          "fuente": "documentos-fundamentales-revolucion.pdf",
+          "localizador": "índice, PDF pp. 6-7; leyendas de procedencia de documentos, PDF pp. 16, 20, 24, 28, 38, 48, 62, 74, 96, 110, 130 y 142",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.",
+          "alcance": "contextual"
+        }
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {
+      "id": "referencia_1",
+      "valor": "Manifiesto a todos los oprimidos y pobres de México y del Universo, 20 de abril de 1869",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducción, PDF pp. 8-13", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_2",
+      "valor": "Programa del Partido Liberal Mexicano, 1º de julio de 1906",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducción, PDF pp. 14-17", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_3",
+      "valor": "Plan de San Luis, 5 de octubre de 1910",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducción, PDF pp. 18-21", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_4",
+      "valor": "Tratados de Ciudad Juárez, 21 de mayo de 1911",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducción, PDF pp. 22-25", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_5",
+      "valor": "Artículos de prensa sobre paz, autonomía y yaquis, 1911 y 1921",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; sección La paz con los yaquis, PDF pp. 26-33", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_6",
+      "valor": "Manuscrito original del Plan de Ayala, 28 de noviembre de 1911",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; manuscrito, PDF pp. 34-43", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_7",
+      "valor": "Manuscrito del Plan de Guadalupe, 26 de marzo de 1913",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; manuscrito, PDF pp. 44-53", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_8",
+      "valor": "Reformas al Plan de Ayala y Adiciones al Plan de Guadalupe, 1913 y 1914",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducciones, PDF pp. 54-69", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_9",
+      "valor": "Ley Agraria, 6 de enero de 1915",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 6; reproducción, PDF pp. 70-85", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_10",
+      "valor": "Pacto con la Casa del Obrero Mundial, 17 de febrero de 1915",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducción, PDF pp. 86-91", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_11",
+      "valor": "Constitución de 1917: artículos 3º, 27 y 123",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducción, PDF pp. 92-105", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_12",
+      "valor": "Plan Sexenal del Partido Nacional Revolucionario y reforma al artículo 3º constitucional, 1934",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducciones, PDF pp. 106-123", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_13",
+      "valor": "Ley de Secretarías y Departamentos de Estado, 1935",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducción, PDF pp. 124-133", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_14",
+      "valor": "Decreto de expropiación de los bienes de las empresas petroleras, 1938",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducción, PDF pp. 134-137", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_15",
+      "valor": "Ley del Seguro Social, 1943, y reforma constitucional de ciudadanía y voto de las mujeres, 1953",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "índice, PDF p. 7; reproducciones, PDF pp. 138-155", "estado": "verificado_fuente_primaria"}]
+    }
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "La paz con los yaquis, PDF pp. 26-33; Plan de Ayala, PDF pp. 34-43; Ley Agraria, PDF pp. 70-85", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_2", "ch_3", "referencia_5", "referencia_6", "referencia_9"]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "presente_en_fuente_de_manera_acotada",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "decreto que reforma los artículos 34 y 115 constitucionales, PDF pp. 152-155", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_5", "referencia_15"]
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [{"fuente": "documentos-fundamentales-revolucion.pdf", "localizador": "Programa del PLM, PDF pp. 14-17; Ley Agraria, PDF pp. 70-85; Pacto con la Casa del Obrero Mundial, PDF pp. 86-91; Constitución, PDF pp. 92-105; Ley del Seguro Social, PDF pp. 138-151", "estado": "verificado_fuente_primaria"}],
+      "proyeccion_registro": ["ch_1", "ch_3", "ch_5", "referencia_2", "referencia_9", "referencia_10", "referencia_11", "referencia_15"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["contextualizar", "clasificar fuentes", "comparar", "identificar demandas", "relacionar procesos", "argumentar"],
+    "nota": "No se asigna como lectura íntegra. Comenzar con el índice (PDF pp. 6-7) y una cronología 1906-1953. Seleccionar una pareja o tríada documental según el propósito: Programa del PLM y Plan de San Luis; Tratados de Ciudad Juárez, Plan de Ayala y Plan de Guadalupe; Ley Agraria, Pacto con la Casa del Obrero Mundial y Constitución; o Plan Sexenal, expropiación petrolera y Ley del Seguro Social. Para cada documento, completar una ficha de crítica de fuente con autoría histórica, fecha, tipo, destinatario, demanda o disposición, evidencia y límite. La sección sobre yaquis y el decreto de 1953 deben trabajarse como entradas situadas, sin convertirlas en una representación exhaustiva de pueblos indígenas o de mujeres."
+  },
+  "observaciones": [
+    "La selección editorial es de 2021, pero los documentos reproducidos corresponden a momentos y autorías históricas heterogéneas. No se debe atribuir a la selección la autoría ni el punto de vista de cada documento.",
+    "El PDF combina manuscritos, facsímiles, textos legales, programas, planes y notas de prensa. La reproducción y su leyenda de procedencia son evidencia de que el documento fue seleccionado, pero no sustituyen la consulta de otros archivos o versiones críticas cuando se requiera una investigación especializada.",
+    "La amplitud temporal permite articular unidades, pero exige rutas cortas, contexto y contraste. No debe emplearse como cronología lineal ni como repertorio de citas descontextualizadas.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar la obra; cualquier reproducción, transcripción extensa o derivado debe revisar derechos, créditos y permisos."
+  ]
+}

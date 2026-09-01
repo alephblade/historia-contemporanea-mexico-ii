@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "paginas_html": 36,
+  "hipervinculos_totales": 689,
+  "rutas_internas_resueltas": 586,
+  "anclas_resueltas": 63,
+  "externos_pendientes_revision": 0,
+  "urls_externas_activas_unicas": 20,
+  "fuentes_registradas_verificadas": 20,
+  "fuentes_disponibles": 19,
+  "fuentes_con_bloqueo_tecnico": 1,
+  "fuentes_no_disponibles": 0,
+  "marcadores_o_rutas_a_corregir": 0,
+  "nota": "Los recursos derivados planeados sin URL no son hipervínculos rotos; deben revisarse como estado editorial intencional."
+}

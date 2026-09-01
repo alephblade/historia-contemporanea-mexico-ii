@@ -1,0 +1,292 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0016",
+  "indice": "lectura_16",
+  "slug": "sistema-politico-etapa-clasica",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el capítulo PDF local, la Biblioteca Jurídica Virtual del IIJ-UNAM y la fila histórica del Excel.",
+    "cambios": [
+      "Se identifica el recurso como capítulo de ensayo o estudio político, no como diagnóstico contemporáneo ni síntesis definitiva del sistema político mexicano.",
+      "Se registra 2002 como año de la obra y se separa del periodo histórico de análisis, que el autor delimita principalmente entre 1940 y 1982.",
+      "Se documentan presidencialismo, partido oficial, elecciones, oposición, federalismo, economía, corporativismo, discurso, corrupción, control y legitimidad como componentes analíticos del régimen.",
+      "Se incorporan controles de lectura para contextualizar el lenguaje y las tesis de 2002, distinguir marco analítico de hecho empírico y no proyectar automáticamente el modelo clásico a la política mexicana posterior."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "El sistema político mexicano: la etapa clásica",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "título del capítulo e índice, PDF pp. 1-2", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "PDF institucional del capítulo", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "sistema-politico-etapa-clasica.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0016/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "José Carbonell.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "encabezado de capítulo con nombre de autor, PDF pp. 3 y 43", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "portada de la obra El fin de las certezas autoritarias, PDF institucional del libro", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Capítulo del libro El fin de las certezas autoritarias. Hacia la construcción de un nuevo sistema político y constitucional para México. Ofrece una caracterización analítica del régimen posrevolucionario, especialmente de 1940 a 1982, mediante las relaciones entre presidencia, partido oficial, elecciones, oposición, federalismo, economía y corporativismo.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "introducción, índice y conclusión, PDF pp. 1-4 y 60-64", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "anio": {
+      "valor": 2002,
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "derechos de autor del Instituto de Investigaciones Jurídicas de la UNAM, PDF pp. 1-64", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "ficha o portada de El fin de las certezas autoritarias, obra impresa en 2002", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "El PDF conserva metadato de creación de 2001 y modificación de 2018; la edición institucional identificada es de 2002."
+    },
+    "tipo_material": {
+      "valor": "Ensayo / estudio político",
+      "codigo": "ensayo_estudio_politico",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "planteamiento de una radiografía estática y de macroprocesos, PDF pp. 2-4; desarrollo analítico, PDF pp. 4-64", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "PDF de acceso público del capítulo; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://archivos.juridicas.unam.mx/www/bjv/libros/1/181/4.pdf",
+      "evidencias": [
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "PDF institucional del capítulo", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "José Carbonell propone una caracterización de la etapa clásica del sistema político mexicano, que delimita entre 1940 y 1982, aunque reconoce crisis desde 1968 y persistencias posteriores. Explica el presidencialismo como eje del régimen y analiza su relación con el PRI, los poderes Legislativo y Judicial, la sucesión presidencial, las elecciones, la oposición, el federalismo y la economía. Describe un sistema autoritario y corporativo cuya estabilidad se apoyaba en control político, disciplina, inclusión canalizada, legitimidad de origen revolucionario, desempeño económico, cooptación y recursos estatales. El capítulo permite analizar el funcionamiento institucional del autoritarismo, pero exige contextualizar su lenguaje y sus tesis como una interpretación elaborada en 2002, no como descripción invariable de toda la historia política de México.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 2-4, 4-43 y 43-64", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Consolidación del sistema político autoritario",
+      "secundarias": ["Estado surgido de la Revolución", "Neoliberalismo y alternancia"],
+      "valor_excel": "Consolidación del sistema político autoritario",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "delimitación de etapa clásica, PDF pp. 2-4; instituciones y características del régimen, PDF pp. 4-64", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 4 es el eje del capítulo. La Unidad 3 se vincula con la conformación del arreglo posrevolucionario y la presidencia cardenista de 1935-1940; la Unidad 5 solo se trata como umbral contextual a partir de la crisis de 1982 y las tensiones de transición que el texto menciona desde su perspectiva de 2002."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "sistema político mexicano",
+        "etapa clásica",
+        "régimen posrevolucionario",
+        "presidencialismo",
+        "facultades metaconstitucionales",
+        "sucesión presidencial",
+        "tapado y dedazo",
+        "partido oficial",
+        "PRI",
+        "partido hegemónico",
+        "elecciones no competitivas",
+        "oposición política",
+        "federalismo y centralismo",
+        "poder Legislativo",
+        "poder Judicial",
+        "corporativismo",
+        "autoritarismo",
+        "institucionalización",
+        "legitimidad",
+        "control político",
+        "cooptación",
+        "corrupción",
+        "modelo de desarrollo estabilizador",
+        "crisis de 1968 y 1982"
+      ],
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "índice, PDF p. 1; desarrollo, PDF pp. 2-64", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "64 páginas, vocabulario especializado de ciencia política y derecho constitucional, aparato de citas y tesis interpretativas que requieren contextualización", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "Puede trabajarse en nivel intermedio únicamente mediante fragmentos seleccionados, glosario y una comparación guiada con otras lecturas."
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1940-1982, con antecedentes en 1935-1940 y referencias de crisis y transición hasta 1997",
+      "nota": "El autor define 1940-1982 como etapa clásica, aunque señala desgaste desde 1968, referencias a los años setenta y a la crisis de 1982. Para explicar la dificultad de fijar un cierre, alude a procesos que llegan hasta 1994 y 1997 desde la perspectiva de una obra publicada en 2002.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "delimitación temporal, PDF pp. 2-4; antecedentes cardenistas, PDF pp. 9 y 22; referencias a 1994 y 1997, PDF p. 3", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2002,
+      "evidencias": [
+        {"fuente": "Biblioteca Jurídica Virtual IIJ-UNAM", "localizador": "El fin de las certezas autoritarias, edición de 2002", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2001-12-05",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local. No sustituye la fecha de edición de 2002 ni corresponde al periodo histórico de análisis."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Definir la etapa clásica del sistema político mexicano según el autor y distinguir su delimitación analítica de otras posibles periodizaciones históricas.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "introducción y delimitación 1940-1982, PDF pp. 2-4", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Explica la consolidación y las transformaciones del sistema político autoritario mediante periodizaciones fundamentadas.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "La delimitación 1940-1982 es una propuesta del autor, no una frontera canónica única. Debe contrastarse con otras periodizaciones y con los procesos de crisis que el propio capítulo menciona."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar cómo se articulaban presidencialismo, partido oficial, mayorías legislativas, subordinación judicial y centralización federal dentro del arreglo político autoritario.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "presidencialismo y controles, PDF pp. 4-23; partido oficial, PDF pp. 24-31; federalismo, PDF pp. 38-40", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza las instituciones, mecanismos de control y relaciones de poder del sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar la función de elecciones, oposición y sucesión presidencial como mecanismos de legitimación, control, negociación y reproducción del régimen, sin confundir su existencia formal con competencia efectiva.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "sucesión presidencial, PDF pp. 20-23; papel de las elecciones, PDF pp. 32-35; oposición política, PDF pp. 36-37", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Explica mecanismos de legitimación, control y participación en el sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Relacionar corporativismo, organizaciones obreras, campesinas y populares, gestión de demandas, cooptación y límites de la movilización independiente.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "partido oficial y organizaciones de masas, PDF pp. 24-31; corporativismo, PDF pp. 45-49; conclusión, PDF pp. 60-64", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza la relación entre Estado, organizaciones sociales y mecanismos corporativos de control e incorporación.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "Evitar describir la incorporación corporativa como representación plena o como ausencia total de agencia social. Se debe distinguir entre organizaciones oficiales, liderazgos, demandas, negociación, cooptación y formas de organización independiente."
+    },
+    {
+      "id": "ch_5",
+      "valor": "Examinar la relación entre desarrollo económico, recursos estatales, legitimidad de desempeño y estabilidad política, identificando también sus límites y desigualdades.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "funcionamiento de la economía, PDF pp. 41-43; conclusión sobre legitimidad y crecimiento, PDF pp. 62-64", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Relaciona políticas económicas, legitimidad y estabilidad en la consolidación del sistema político autoritario.", "alcance": "contextual"},
+        {"unidad_id": "u5", "referente_programa": "Reconoce la crisis de 1982 como umbral de reconfiguraciones económicas y políticas posteriores.", "alcance": "contextual"}
+      ]
+    },
+    {
+      "id": "ch_6",
+      "valor": "Distinguir tesis, conceptos analíticos, fuentes secundarias y afirmaciones empíricas del capítulo, y contrastar al menos una de sus interpretaciones con una fuente complementaria más reciente.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "declaración metodológica de radiografía estática, PDF pp. 2-4; aparato de citas y conclusión, PDF pp. 4-64", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Valora críticamente fuentes e interpretaciones para explicar procesos políticos históricos.", "alcance": "directo"}
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Explica la consolidación del sistema político autoritario a partir de la relación entre presidencia, partido hegemónico, poderes públicos, elecciones y centralización.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 4-40", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Explica mecanismos e instituciones de consolidación del sistema político autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Analiza el corporativismo y la gestión de demandas como formas de integración, negociación y control político con alcances diferenciados para los actores sociales.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 24-31, 45-49 y 60-64", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza vínculos entre Estado, sectores sociales y control corporativo durante el régimen autoritario.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Reconoce la crisis de 1968 y la de 1982 como referencias para problematizar los límites del arreglo clásico y las reconfiguraciones posteriores.",
+      "evidencias": [
+        {"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 2-4", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Analiza tensiones y crisis del sistema político autoritario.", "alcance": "contextual"},
+        {"unidad_id": "u5", "referente_programa": "Relaciona la crisis de 1982 con transformaciones posteriores del modelo político y económico.", "alcance": "contextual"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "Etapa clásica, delimitación 1940-1982 y crisis de 1968 y 1982", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 2-4", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Presidencialismo, facultades constitucionales y metaconstitucionales", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 4-20", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Relación del presidente con PRI, Legislativo, Judicial, estados y municipios", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 9-19", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Sucesión presidencial, tapado, dedazo y disciplina de la clase política", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 20-23", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Partido oficial, PRI, partido hegemónico y organización de masas", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 24-31", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Elecciones no competitivas y sus funciones de legitimación y estabilización", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 32-35", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Oposición política, registro de partidos y límites a la competencia", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 36-37", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Federalismo, gobiernos estatales y municipios frente al poder central", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 38-40", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Desarrollo estabilizador, economía y recursos de legitimidad", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 41-43 y 62-64", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Autoritarismo, corporativismo, institucionalización e inclusión canalizada", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 43-52", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Constitución, leyes, discurso político y corrupción", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 53-60", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Control político, consenso, legitimidad de origen revolucionario y legitimidad de desempeño", "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "PDF pp. 60-64", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "revisión integral del capítulo, PDF pp. 1-64", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "revisión integral del capítulo, PDF pp. 1-64", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "sistema-politico-etapa-clasica.pdf", "localizador": "organizaciones obreras, campesinas y populares, PDF pp. 24-31 y 45-49; legalidad y corrupción, PDF pp. 53-60; legitimidad y niveles de vida, PDF pp. 62-64", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_4", "ch_5", "aprendizaje_2"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["definir", "mapear relaciones", "periodizar", "comparar interpretaciones", "analizar conceptos", "contrastar", "argumentar"],
+    "nota": "Trabajar mediante fragmentos y un mapa de relaciones, no como lectura lineal obligatoria de las 64 páginas. Comenzar con la periodización y advertencia metodológica de las pp. 2-4. Seleccionar uno de tres núcleos: presidencialismo y contrapesos (pp. 4-23), partido y elecciones (pp. 24-37), o corporativismo, economía y legitimidad (pp. 41-64). En cada núcleo, distinguir concepto del autor, mecanismo descrito, actores implicados, evidencia citada y posible límite de la explicación. Cerrar con una comparación con otra lectura del repositorio que trate elecciones, oposición o crisis, especificando coincidencias y diferencias. No usar términos como inclusión, consenso, estabilidad o desarrollo como sinónimos de democracia, bienestar universal o ausencia de conflicto."
+  },
+  "observaciones": [
+    "El PDF corresponde a un capítulo de libro de 2002 y no contiene la portada bibliográfica completa. La autoría, título de la obra, edición y acceso se corroboraron en la Biblioteca Jurídica Virtual del Instituto de Investigaciones Jurídicas de la UNAM.",
+    "La lectura formula una radiografía estática y declara ese límite metodológico. Las tesis sobre instituciones, relaciones de poder y periodizaciones deben presentarse como interpretación de su autor y contrastarse con bibliografía posterior o con fuentes sobre casos específicos.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar el capítulo; antes de reproducir fragmentos extensos, verificar derechos y condiciones de uso de la Biblioteca Jurídica Virtual y del IIJ-UNAM.",
+    "El capítulo no ofrece un tratamiento suficiente de pueblos indígenas, mujeres o experiencias regionales concretas. Una ficha pedagógica deberá complementarlo para evitar que el sistema político se explique exclusivamente desde élites, instituciones centrales y lenguaje androcéntrico."
+  ]
+}

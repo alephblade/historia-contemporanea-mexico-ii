@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U2_TRAMA_02",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Maderismo, Decena Trágica y ruptura de 1913",
+  "slug": "maderismo-decena-tragica-ruptura-1913",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-09-01",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u2",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Orientación formal para examinar tensiones del maderismo, versiones sobre la Decena Trágica y la ruptura política de 1913 mediante fragmentos breves y crítica de fuentes.",
+  "proposito": "Construir una explicación multicausal de la ruptura de 1913 que distinga documentos, versiones e interpretaciones y conecte el golpe con el problema posterior de la legitimidad constitucionalista.",
+  "rutas_analisis": [
+    {
+      "id": "B",
+      "titulo": "Maderismo, Decena Trágica y ruptura de 1913",
+      "pregunta_guia": "¿Qué tensiones del maderismo y qué decisiones políticas y militares ayudan a explicar la ruptura de 1913?",
+      "intervencion_didactica": "Construir un diagrama de versiones con el prólogo de HIST2_0005 y contrastarlo con la sección carrancista focalizada de HIST2_0006, separando procedencia, afirmación, evidencia, perspectiva y silencio.",
+      "evidencia_esperada": "Explicación multicausal de 1913 con dos lecturas, tres localizadores, dos actores en tensión y una reserva crítica sobre el enfoque de cada obra."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {
+      "lectura_id": "HIST2_0005",
+      "rutas_analisis": ["B"],
+      "alcance": "directo",
+      "referencias_canonicas": ["referencia_3", "referencia_5", "referencia_6", "referencia_7"]
+    },
+    {
+      "lectura_id": "HIST2_0006",
+      "rutas_analisis": ["B"],
+      "alcance": "contextual",
+      "referencias_canonicas": ["referencia_1", "referencia_2", "referencia_3"]
+    }
+  ],
+  "evidencia_integradora": {
+    "tipo": "diagrama_versiones_argumentado",
+    "titulo": "¿Cómo explicar la ruptura política de 1913?",
+    "requisitos": [
+      "Tres o más localizadores distribuidos entre HIST2_0005 y HIST2_0006.",
+      "Distinción entre documento, archivo, versión referida e interpretación autoral.",
+      "Dos actores o posiciones en tensión y una relación entre golpe y legitimidad.",
+      "Conclusión multicausal con una pregunta de corroboración."
+    ]
+  },
+  "cobertura_curricular": [
+    {
+      "aprendizaje": "Analiza características y tensiones del gobierno de Francisco I. Madero",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["B"]
+    },
+    {
+      "aprendizaje": "Explica la crisis maderista, la Decena Trágica y la ruptura de 1913",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["B"]
+    },
+    {
+      "aprendizaje": "Explicación completa de la dictadura huertista y la lucha de todas las facciones",
+      "estado": "no_acreditado_por_esta_secuencia",
+      "rutas_analisis": []
+    }
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U2_TRAMA_02.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Diagrama convertible en tabla, fragmentos breves, consignas por pasos, alternativa escrita a la discusión y localizadores explícitos.",
+  "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas."
+}

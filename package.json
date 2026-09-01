@@ -1,0 +1,40 @@
+{
+  "name": "repositorio-historia-contemporanea-mexico-ii",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "predev": "npm run validate:corpus && npm run project",
+    "start": "npm run dev",
+    "project": "node scripts/proyectar_contenido.mjs",
+    "validate:corpus": "python scripts/validar_produccion.py",
+    "validate:projection": "node scripts/proyectar_contenido.mjs --check",
+    "prebuild": "npm run validate:corpus && npm run project && npm run validate:projection",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test:links": "node scripts/validar_enlaces.mjs",
+    "test": "npm run build && npm run check && npm run test:links",
+    "review:inventory": "node scripts/inventariar_hipervinculos.mjs",
+    "review:hashes": "node scripts/calcular_huellas_corpus.mjs",
+    "review:prepare": "npm test && npm run review:inventory && npm run review:hashes"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "astro": "^7.2.10",
+    "gray-matter": "^4.0.3",
+    "marked": "^16.4.1",
+    "sanitize-html": "^2.17.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/node": "^24.3.0",
+    "@types/sanitize-html": "^2.16.0",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

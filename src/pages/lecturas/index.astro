@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ReadingCard from '../../components/ReadingCard.astro';
+import { readings, units, statusLabel } from '../../lib/public-data';
+
+const types = [...new Map(readings.map((reading) => [reading.tipo_material.codigo ?? reading.tipo_material.etiqueta, reading.tipo_material.etiqueta])).entries()]
+  .sort((a, b) => a[1].localeCompare(b[1], 'es'));
+const levels = ['introductorio', 'intermedio', 'avanzado'];
+const statuses = [...new Set(readings.map((reading) => reading.estado_editorial))];
+---
+
+<BaseLayout title="Lecturas" description="Catálogo filtrable de las 20 lecturas curadas y sus fichas pedagógicas para Historia Contemporánea de México II.">
+  <div class="page-shell">
+    <header class="page-intro">
+      <div>
+        <p class="eyebrow">Catálogo curado</p>
+        <h1>Lecturas y fichas pedagógicas</h1>
+        <p class="lead">Explora el corpus por unidad, nivel, tipo de material o estado editorial. Cada ruta conserva su identificador canónico y remite a la fuente institucional.</p>
+      </div>
+      <aside class="review-notice">
+        <strong>20 de 20 fichas vinculadas</strong>
+        Los filtros funcionan localmente en el navegador; no envían datos ni consultan servicios externos.
+      </aside>
+    </header>
+
+    <form class="filter-panel" data-filter-form>
+      <h2>Filtrar el catálogo</h2>
+      <div class="filter-grid">
+        <div class="field field-search">
+          <label for="buscar">Buscar por título, autoría o tema</label>
+          <input id="buscar" name="buscar" type="search" autocomplete="off" placeholder="Ej. cardenismo, territorio, elecciones" />
+        </div>
+        <div class="field">
+          <label for="unidad">Unidad</label>
+          <select id="unidad" name="unidad">
+            <option value="">Todas</option>
+            {units.map((unit) => <option value={unit.id}>Unidad {unit.numero}: {unit.nombre}</option>)}
+          </select>
+        </div>
+        <div class="field">
+          <label for="nivel">Nivel sugerido</label>
+          <select id="nivel" name="nivel">
+            <option value="">Todos</option>
+            {levels.map((level) => <option value={level}>{level[0].toUpperCase() + level.slice(1)}</option>)}
+          </select>
+        </div>
+        <div class="field">
+          <label for="tipo">Tipo de material</label>
+          <select id="tipo" name="tipo">
+            <option value="">Todos</option>
+            {types.map(([value, label]) => <option value={value}>{label}</option>)}
+          </select>
+        </div>
+        <div class="field">
+          <label for="estado">Estado editorial</label>
+          <select id="estado" name="estado">
+            <option value="">Todos</option>
+            {statuses.map((status) => <option value={status}>{statusLabel(status)}</option>)}
+          </select>
+        </div>
+      </div>
+      <div class="filter-actions">
+        <p class="results-count" aria-live="polite"><strong data-result-count>{readings.length}</strong> lecturas visibles</p>
+        <button type="reset">Limpiar filtros</button>
+      </div>
+    </form>
+
+    <div class="reading-grid" data-filter-list>
+      {readings.map((reading) => <ReadingCard reading={reading} />)}
+    </div>
+    <p class="empty-state" data-empty-state hidden>No hay lecturas que coincidan con los filtros seleccionados.</p>
+  </div>
+
+  <script>
+    const form = document.querySelector('[data-filter-form]');
+    const items = [...document.querySelectorAll('[data-filter-item]')];
+    const count = document.querySelector('[data-result-count]');
+    const empty = document.querySelector('[data-empty-state]');
+    const normalize = (value: string) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('es-MX').trim();
+
+    const update = () => {
+      if (!(form instanceof HTMLFormElement)) return;
+      const data = new FormData(form);
+      const search = normalize(String(data.get('buscar') ?? ''));
+      const unit = String(data.get('unidad') ?? '');
+      const level = String(data.get('nivel') ?? '');
+      const type = String(data.get('tipo') ?? '');
+      const status = String(data.get('estado') ?? '');
+      let visible = 0;
+      items.forEach((item) => {
+        if (!(item instanceof HTMLElement)) return;
+        const searchText = normalize(item.dataset.search ?? '');
+        const matches = (!search || searchText.includes(search))
+          && (!unit || (item.dataset.unit ?? '').split(' ').includes(unit))
+          && (!level || (item.dataset.level ?? '').split(' ').includes(level))
+          && (!type || item.dataset.type === type)
+          && (!status || item.dataset.status === status);
+        item.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      if (count) count.textContent = String(visible);
+      if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
+    };
+
+    form?.addEventListener('input', update);
+    form?.addEventListener('change', update);
+    form?.addEventListener('reset', () => requestAnimationFrame(update));
+  </script>
+</BaseLayout>

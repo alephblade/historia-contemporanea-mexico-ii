@@ -1,0 +1,94 @@
+
+> repositorio-historia-contemporanea-mexico-ii@0.1.0 prebuild
+> npm run validate:corpus && npm run project && npm run validate:projection
+
+
+> repositorio-historia-contemporanea-mexico-ii@0.1.0 validate:corpus
+> python scripts/validar_produccion.py
+
+VALIDACI�N APROBADA
+Registros revisados: 20
+Fichas revisadas: 20
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+> repositorio-historia-contemporanea-mexico-ii@0.1.0 project
+> node scripts/proyectar_contenido.mjs
+
+PROYECCIÓN PÚBLICA GENERADA
+Lecturas: 20 · Unidades: 5 · Orientaciones: 1 · CSV: exports/lecturas.csv
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+> repositorio-historia-contemporanea-mexico-ii@0.1.0 validate:projection
+> node scripts/proyectar_contenido.mjs --check
+
+PROYECCIÓN PÚBLICA APROBADA
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
+
+> repositorio-historia-contemporanea-mexico-ii@0.1.0 build
+> astro build
+
+00:21:21 [types] Generated 53ms
+00:21:21 [build] output: "static"
+00:21:21 [build] mode: "static"
+00:21:21 [build] directory: C:\Proyectos\Historia de México II - UACH - Resumen Analitico\dist\
+00:21:21 [build] Collecting build info...
+00:21:21 [build] ✓ Completed in 82ms.
+00:21:21 [build] Building static entrypoints...
+00:21:21 [vite] ✓ built in 167ms
+00:21:21 [vite] ✓ built in 14ms
+00:21:21 [build] Rearranging server assets...
+
+ generating static routes 
+00:21:21   ├─ /404.html (+16ms) 
+00:21:21   ├─ /acerca/index.html (+5ms) 
+00:21:21   ├─ /lecturas/dictadura-porfirista/index.html (+27ms) 
+00:21:21   ├─ /lecturas/yaquis-memoria-territorio-participacion-politica/index.html (+5ms) 
+00:21:21   ├─ /lecturas/sistema-politico-mexicano/index.html (+5ms) 
+00:21:21   ├─ /lecturas/crisis-del-porfirismo/index.html (+4ms) 
+00:21:21   ├─ /lecturas/maderismo/index.html (+3ms) 
+00:21:21   ├─ /lecturas/revolucion-constitucionalista/index.html (+3ms) 
+00:21:21   ├─ /lecturas/teorizando-revolucion-mexicana/index.html (+4ms) 
+00:21:21   ├─ /lecturas/documentos-fundamentales-revolucion-mexicana/index.html (+4ms) 
+00:21:21   ├─ /lecturas/historia-militar-revolucion-epoca-maderista-tomo-1/index.html (+4ms) 
+00:21:21   ├─ /lecturas/historia-militar-revolucion-epoca-maderista-tomo-2/index.html (+3ms) 
+00:21:21   ├─ /lecturas/historia-militar-revolucion-epoca-maderista-tomo-3/index.html (+3ms) 
+00:21:21   ├─ /lecturas/revolucion-mexicana-laboratorio-visual-fotografos-camaras/index.html (+3ms) 
+00:21:21   ├─ /lecturas/prensa-instrumento-cientifico-revolucion/index.html (+3ms) 
+00:21:21   ├─ /lecturas/relaciones-mexico-estados-unidos-1911-1918/index.html (+3ms) 
+00:21:21   ├─ /lecturas/elecciones-sistema-politico/index.html (+3ms) 
+00:21:21   ├─ /lecturas/sistema-politico-etapa-clasica/index.html (+3ms) 
+00:21:21   ├─ /lecturas/sistema-politico-desarrollo-reacomodo-poder/index.html (+3ms) 
+00:21:21   ├─ /lecturas/resena-loaeza-sombra-superpotencia/index.html (+4ms) 
+00:21:21   ├─ /lecturas/porfirio-diaz-constitucion-dictadura-reeleccion/index.html (+3ms) 
+00:21:21   ├─ /lecturas/felipe-angeles-general-revolucionario-generoso-academico/index.html (+3ms) 
+00:21:21   ├─ /lecturas/index.html (+6ms) 
+00:21:21   ├─ /orientaciones/unidad-3-estado-surgido-de-la-revolucion/index.html (+4ms) 
+00:21:21   ├─ /orientaciones/index.html (+4ms) 
+00:21:21   ├─ /unidades/regimen-porfirista/index.html (+3ms) 
+00:21:21   ├─ /unidades/revolucion-mexicana/index.html (+1ms) 
+00:21:21   ├─ /unidades/estado-surgido-de-la-revolucion/index.html (+2ms) 
+00:21:21   ├─ /unidades/consolidacion-sistema-politico-autoritario/index.html (+1ms) 
+00:21:21   ├─ /unidades/neoliberalismo-y-alternancia/index.html (+2ms) 
+00:21:21   ├─ /index.html (+3ms) 
+00:21:21 ✓ Completed in 388ms.
+
+00:21:21 [build] ✓ Completed in 607ms.
+00:21:21 [build] 31 page(s) built in 705ms
+00:21:21 [build] Complete!
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice

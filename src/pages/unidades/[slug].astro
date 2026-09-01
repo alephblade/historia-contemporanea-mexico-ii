@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import { orientations, readings, scopeLabel, units } from '../../lib/public-data';
+import { withBase } from '../../lib/paths';
+
+export function getStaticPaths() {
+  return units.map((unit) => ({ params: { slug: unit.slug }, props: { unit } }));
+}
+
+const { unit } = Astro.props;
+const related = readings
+  .filter((reading) => reading.unidades.some((relation) => relation.id === unit.id))
+  .sort((a, b) => {
+    const aRole = a.unidades.find((relation) => relation.id === unit.id)?.rol;
+    const bRole = b.unidades.find((relation) => relation.id === unit.id)?.rol;
+    return (aRole === bRole ? a.id.localeCompare(b.id) : aRole === 'principal' ? -1 : 1);
+  });
+const principal = related.filter((reading) => reading.unidades.find((relation) => relation.id === unit.id)?.rol === 'principal');
+const secondary = related.filter((reading) => reading.unidades.find((relation) => relation.id === unit.id)?.rol === 'secundaria');
+const unitOrientations = orientations.filter((orientation) => orientation.unidades.some((relation) => relation.id === unit.id));
+const isUnitThree = unit.id === 'u3';
+---
+
+<BaseLayout title={`Unidad ${unit.numero}: ${unit.nombre}`} description={unit.descripcion}>
+  <div class="page-shell">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <ol><li><a href={withBase('/')}>Inicio</a></li><li aria-current="page">Unidad {unit.numero}</li></ol>
+    </nav>
+    <header class="page-intro">
+      <div>
+        <p class="eyebrow">Unidad {unit.numero} · programa canónico</p>
+        <h1>{unit.nombre}</h1>
+        <p class="lead">{unit.descripcion}</p>
+      </div>
+      <dl class="metadata-list">
+        <div><dt>Lecturas principales</dt><dd>{principal.length}</dd></div>
+        <div><dt>Lecturas relacionadas</dt><dd>{secondary.length}</dd></div>
+        <div><dt>Orientaciones docentes</dt><dd>{unitOrientations.length}</dd></div>
+      </dl>
+    </header>
+
+    {isUnitThree && (
+      <aside class="warning-panel">
+        <h2>Unidad organizada como itinerario transversal curado</h2>
+        <p>No hay una lectura cuya unidad principal sea la Unidad 3. Las relaciones secundarias verificadas se articulan mediante <a href={withBase('/orientaciones/unidad-3-estado-surgido-de-la-revolucion/')}>ORI_HIST2_U3_TRAMA_01</a>, sin reasignar fuentes artificialmente.</p>
+        <p><strong>Brecha explícita:</strong> el corpus no acredita cobertura suficiente de la Guerra Cristera ni de las relaciones Estado–Iglesia para este periodo.</p>
+      </aside>
+    )}
+
+    {unitOrientations.length > 0 && (
+      <section style="margin-top: var(--space-7);" aria-labelledby="orientaciones-unidad">
+        <div class="section-heading"><h2 id="orientaciones-unidad">Orientaciones para esta unidad</h2></div>
+        <div class="orientation-grid">
+          {unitOrientations.map((orientation) => (
+            <article class="orientation-card">
+              <div class="card-kicker"><span class="canonical-id">{orientation.id}</span><StatusBadge status={orientation.estado_editorial} /></div>
+              <h2><a href={withBase(`/orientaciones/${orientation.slug}/`)}>{orientation.titulo}</a></h2>
+              <p>{orientation.descripcion}</p>
+              <a class="text-link" href={withBase(`/orientaciones/${orientation.slug}/`)}>Consultar orientación <span aria-hidden="true">→</span></a>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {principal.length > 0 && (
+      <section style="margin-top: var(--space-7);" aria-labelledby="lecturas-principales">
+        <div class="section-heading"><h2 id="lecturas-principales">Lecturas con relación principal</h2><p>{principal.length} recursos</p></div>
+        <div class="linked-list">
+          {principal.map((reading) => {
+            const relation = reading.unidades.find((item) => item.id === unit.id)!;
+            return (
+              <article class="linked-reading">
+                <span class="canonical-id">{reading.id}</span>
+                <div><h3><a href={withBase(`/lecturas/${reading.slug}/`)}>{reading.titulo}</a></h3><p>{reading.tipo_material.etiqueta} · {reading.niveles.join(' · ')}</p></div>
+                <div><span class="scope-tag">Relación principal</span>{relation.alcances.map((scope) => <span class="scope-tag">{scopeLabel(scope)}</span>)}</div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    {secondary.length > 0 && (
+      <section style="margin-top: var(--space-7);" aria-labelledby="lecturas-relacionadas">
+        <div class="section-heading"><h2 id="lecturas-relacionadas">Lecturas con relación secundaria</h2><p>{secondary.length} recursos</p></div>
+        <div class="linked-list">
+          {secondary.map((reading) => {
+            const relation = reading.unidades.find((item) => item.id === unit.id)!;
+            return (
+              <article class="linked-reading">
+                <span class="canonical-id">{reading.id}</span>
+                <div><h3><a href={withBase(`/lecturas/${reading.slug}/`)}>{reading.titulo}</a></h3><p>Unidad principal: {reading.unidades.find((item) => item.rol === 'principal')?.nombre}</p></div>
+                <div>
+                  <span class="scope-tag">Relación secundaria</span>
+                  {relation.alcances.map((scope) => <span class="scope-tag">{scopeLabel(scope)}</span>)}
+                  {relation.alcances.length === 0 && <span class="scope-tag">Alcance no explicitado</span>}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

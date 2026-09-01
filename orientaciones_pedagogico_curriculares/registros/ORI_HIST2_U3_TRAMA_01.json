@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U3_TRAMA_01",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Trama transversal de la Unidad 3 — Estado surgido de la Revolución",
+  "slug": "unidad-3-estado-surgido-de-la-revolucion",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u3",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Itinerario docente que convierte relaciones secundarias ya verificadas del corpus en cinco rutas de análisis para estudiar la formación, reformas, contradicciones y herencias del Estado surgido de la Revolución.",
+  "proposito": "Articular evidencias de varias lecturas para que los aprendizajes de la Unidad 3 se trabajen mediante rutas intencionales, sin reasignar artificialmente unidades principales ni ocultar límites de cobertura.",
+  "rutas_analisis": [
+    {
+      "id": "A",
+      "titulo": "Del caudillismo a las instituciones",
+      "pregunta_guia": "¿Qué se institucionaliza, quién conserva poder y con qué mecanismos?",
+      "intervencion_didactica": "Contrastar caudillismo, PNR/PRM, elecciones de 1920–1922 y centralización.",
+      "evidencia_esperada": "Mapa relacional y línea de tiempo argumentada."
+    },
+    {
+      "id": "B",
+      "titulo": "Cardenismo, territorio y reformas sociales",
+      "pregunta_guia": "¿Cómo se combinan reforma social, territorio, nacionalismo y límites de incorporación?",
+      "intervencion_didactica": "Comparar reparto agrario, políticas de incorporación, Plan Sexenal, educación, expropiación petrolera y agencia yaqui.",
+      "evidencia_esperada": "Matriz de continuidad, cambio, actor y límite."
+    },
+    {
+      "id": "C",
+      "titulo": "Soberanía, Constitución y política exterior",
+      "pregunta_guia": "¿Qué márgenes y límites tuvo la soberanía estatal frente a actores internacionales?",
+      "intervencion_didactica": "Conectar Constitución de 1917, petróleo, neutralidad, independencia relativa y coyunturas de posguerra.",
+      "evidencia_esperada": "Ficha de fuente y explicación multicausal."
+    },
+    {
+      "id": "D",
+      "titulo": "Educación, ciencia, cultura y ciudadanía",
+      "pregunta_guia": "¿Quiénes fueron incluidos, representados o silenciados en los proyectos culturales y educativos del Estado?",
+      "intervencion_didactica": "Examinar reconstrucción, educación pública, ciencia, ciudadanía y memorias de mujeres yaquis.",
+      "evidencia_esperada": "Mapa conceptual con una ausencia documentada y fuente complementaria propuesta."
+    },
+    {
+      "id": "E",
+      "titulo": "Herencias, arreglos y contradicciones de posguerra",
+      "pregunta_guia": "¿Qué cambió y qué persistió al pasar del Estado posrevolucionario al sistema político autoritario?",
+      "intervencion_didactica": "Relacionar herencias cardenistas, elecciones, partido, presidencialismo y pluralismo limitado sin convertir la posguerra en continuidad automática.",
+      "evidencia_esperada": "Párrafo comparativo con tesis, evidencia y límite."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {"lectura_id": "HIST2_0002", "rutas_analisis": ["B", "D"], "alcance": "directo", "referencias_canonicas": ["ch_5", "ch_6", "ch_7", "ch_8", "aprendizaje_4", "aprendizaje_5"]},
+    {"lectura_id": "HIST2_0003", "rutas_analisis": ["A"], "alcance": "directo", "referencias_canonicas": ["ch_3", "aprendizaje_2", "aprendizaje_3"]},
+    {"lectura_id": "HIST2_0007", "rutas_analisis": ["A"], "alcance": "contextual", "referencias_canonicas": ["ch_5"]},
+    {"lectura_id": "HIST2_0008", "rutas_analisis": ["B", "C", "D"], "alcance": "directo", "referencias_canonicas": ["ch_3", "ch_4", "ch_5", "aprendizaje_3", "aprendizaje_4"]},
+    {"lectura_id": "HIST2_0013", "rutas_analisis": ["D"], "alcance": "contextual", "referencias_canonicas": ["ch_5"]},
+    {"lectura_id": "HIST2_0014", "rutas_analisis": ["C"], "alcance": "contextual", "referencias_canonicas": ["ch_4"]},
+    {"lectura_id": "HIST2_0015", "rutas_analisis": ["A", "E"], "alcance": "contextual", "referencias_canonicas": ["ch_3", "aprendizaje_3"]},
+    {"lectura_id": "HIST2_0016", "rutas_analisis": ["A", "E"], "alcance": "contextual", "referencias_canonicas": []},
+    {"lectura_id": "HIST2_0018", "rutas_analisis": ["C", "E"], "alcance": "contextual", "referencias_canonicas": ["aprendizaje_3"]}
+  ],
+  "evidencia_integradora": {
+    "tipo": "dossier_argumentado_o_presentacion_equivalente",
+    "titulo": "¿Cómo se construyó y qué contradicciones tuvo el Estado surgido de la Revolución?",
+    "requisitos": [
+      "Una evidencia de institucionalización política.",
+      "Una evidencia de reforma social, territorial o de derechos.",
+      "Una evidencia de soberanía, política exterior, educación o cultura.",
+      "Una comparación con un arreglo de posguerra.",
+      "Al menos cuatro localizadores y un límite explícito de la evidencia disponible."
+    ]
+  },
+  "cobertura_curricular": [
+    {"aprendizaje": "Caudillismo, Maximato y PNR", "estado": "cubierto_directo", "rutas_analisis": ["A"]},
+    {"aprendizaje": "Cardenismo y proyecto de transformación social, económica y política", "estado": "cubierto_directo", "rutas_analisis": ["B"]},
+    {"aprendizaje": "Soberanía, recursos naturales y política exterior", "estado": "cubierto_contextual_documental", "rutas_analisis": ["C"]},
+    {"aprendizaje": "Educación, cultura y participación de las mujeres", "estado": "cubierto_parcial_critico", "rutas_analisis": ["D"]},
+    {"aprendizaje": "Guerra Cristera y relaciones entre Estado e Iglesia", "estado": "no_acreditado_por_corpus", "rutas_analisis": []}
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U3_TRAMA_01.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Contenido Markdown semántico, navegación interna, tablas con encabezados y declaración explícita de límites de cobertura.",
+  "licencia_y_creditos": "Contenido propio del repositorio, sujeto a la licencia institucional que se determine. Las afirmaciones sobre lecturas remiten a sus registros canónicos y no autorizan reproducir fuentes de terceros."
+}

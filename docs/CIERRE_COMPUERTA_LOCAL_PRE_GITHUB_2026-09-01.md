@@ -1,0 +1,47 @@
+# Cierre de compuerta local previa a GitHub
+
+Repositorio educativo de Historia Contemporánea de México II · Universidad Autónoma Chapingo  
+**Fecha:** 1 de septiembre de 2026  
+**Alcance:** preparación local; sin remoto y sin activación de GitHub Pages
+
+## 1. Resultado
+
+La versión local satisface las compuertas automáticas de corpus, proyección, construcción, tipos, rutas, accesibilidad estructural, inventario de hipervínculos y exclusión de fuentes. Las seis orientaciones formales conservan `en_revision`; esta revisión no promueve estados académicos.
+
+| Control | Resultado |
+| --- | --- |
+| Corpus | 20 registros y 20 fichas aprobados. |
+| Orientaciones | 6 pares JSON/Markdown coherentes; identificadores, slugs, unidades, lecturas y referencias válidos. |
+| Construcción | 36 páginas estáticas; 0 errores, 0 advertencias y 0 indicaciones de Astro. |
+| Enlaces | 689 enlaces inventariados; 586 rutas internas y 63 anclas resueltas; 0 filas sin decisión o evidencia. |
+| Accesibilidad automatizable | Enlace de salto y destino enfocable en las 36 páginas; etiquetas de formulario; ausencia de `tabindex` positivo; foco global visible; tablas con encabezados; destinos interactivos no vacíos. |
+| Adaptación visual | Catálogo y orientaciones verificadas sin desbordamiento en escritorio y 375 px. |
+| Fuentes | 0 fuentes locales de terceros en `dist/`; `fuentes/lecturas/` y `fuentes/materiales_asociados_pendientes/` ignorados por Git. |
+| CI | `.github/workflows/ci.yml` activo para validación y build; Pages permanece como plantilla `.example` inactiva. |
+| Git local | Repositorio inicializado en la rama `main`; sin commits y sin remotos. |
+
+## 2. Huellas del corte
+
+- `registros`: 20 archivos · `0f47165688822fa5032829bb17f88d4dc773b0b30e4771dcc5fe2e494c07e614`
+- `fichas_pedagogicas`: 20 archivos · `5d6b9af739c20068d022572ad9461851a72b65a0d567b6e58a380c4c2eb861bd`
+- `orientaciones_pedagogico_curriculares`: 12 archivos · `c636228b952b1b7d2c87efd7e693c2041ec0eab98149933eea43c16f5be2ac49`
+- `fuentes`: 28 archivos locales auditados · `f2b68deb5bc7dc95ee9c22063b381eb32fcfc61d492ad58765675b44dc8c06bb`
+
+La huella de `fuentes` sirve para control local; no autoriza ni implica su incorporación al repositorio remoto.
+
+## 3. Límites del cierre
+
+La automatización comprobó la estructura de navegación por teclado y el contorno de foco visible. El recorrido secuencial completo mediante una tecla Tab física sigue siendo una prueba humana: el control de navegador disponible no reproduce de forma fiable ese avance desde el inicio del documento. Esta limitación se registra sin convertirla en aprobación simulada.
+
+Arnoldo Prado confirmó y autorizó normalizar todas las constancias bajo el nombre Arnoldo Prado y usar `Arnoldo Prado <juliopao@gmail.com>` como identidad del commit inicial.
+
+## 4. Próxima orden operativa
+
+Con la identidad confirmada, el siguiente paso local autorizado es:
+
+1. configurar `Arnoldo Prado <juliopao@gmail.com>` únicamente en este repositorio;
+2. revisar el índice de archivos versionables;
+3. crear el commit inicial reproducible; y
+4. volver a ejecutar `npm run review:prepare` sobre el commit.
+
+Crear el remoto público bajo `alephblade`, subir la rama y activar GitHub Pages siguen siendo acciones separadas que requieren autorización operativa expresa.

@@ -1,0 +1,785 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0002",
+  "indice": "lectura_2",
+  "slug": "yaquis-memoria-territorio-participacion-politica",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Migración controlada al esquema 2.0: identidad pública, control editorial, evidencias uniformes y alineación curricular estructurada.",
+    "cambios": [
+      "Se distinguió la coordinación editorial de las autorías de capítulo.",
+      "Se separaron el año editorial, el coloquio de origen y el periodo histórico abordado.",
+      "Se registró de forma explícita la cobertura de pueblos indígenas, mujeres y desigualdad o derechos.",
+      "Se migró desde el esquema 1.1 sin alterar las conclusiones históricas ni los localizadores de evidencia."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Yaquis. Memoria, territorio y participación política",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "portada interior, p. 3",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "yaquis-memoria-territorio-politica.pdf",
+      "evidencias": [
+        {
+          "fuente": "archivo local",
+          "localizador": "nombre de archivo",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "autoria": {
+      "valor": "Regina Tapia y Veremundo Carrillo Reveles (coordinadores); obra colectiva de siete capítulos con autorías identificadas en el índice.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "portada interior, p. 3; índice, pp. 5-6; página legal, p. 4",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Libro colectivo de investigación histórica que articula territorio, participación política, memoria e identidad del pueblo yaqui mediante siete capítulos de distintas autorías.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "índice, pp. 5-6; presentación, pp. 9-11",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio": {
+      "valor": 2025,
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "portada interior, p. 3; página legal, p. 4",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "tipo_material": {
+      "valor": "Libro colectivo de investigación histórica",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "índice y página legal, pp. 4-6",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "codigo": "libro_colectivo_investigacion_historica"
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "PDF institucional de acceso público",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.inehrm.gob.mx/recursos/Libros/2025_yaquis_memoria_territorio_yparticipacion_politica.pdf",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "publicación institucional en PDF",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "Este libro colectivo estudia la historia yaqui desde tres ejes: territorio, participación política y memoria. Explica el sentido cultural del valle y el río, el despojo asociado a la mercantilización de la tierra a finales del siglo XIX y las posibilidades, límites y continuidades del reparto agrario posrevolucionario. Analiza estrategias de agencia, negociación, rebelión, elecciones y protesta pacífica; recupera las memorias de mujeres sobre guerra y deportación; y problematiza las políticas de incorporación nacional entre 1935 y 1951. Un capítulo final relaciona la resistencia histórica con conflictos hídricos contemporáneos.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, pp. 9-11; capítulos, pp. 35, 53-54, 69-70, 97-99, 123-124 y 153-154",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Régimen Porfirista",
+      "secundarias": [
+        "Revolución Mexicana",
+        "Estado surgido de la Revolución",
+        "Neoliberalismo y alternancia"
+      ],
+      "valor_excel": "Régimen Porfirista|Revolución Mexicana|Estado surgido de la Revolución|Neoliberalismo y alternancia",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, pp. 10-11; memoria, pp. 97-99; políticas posrevolucionarias, pp. 123-125; conflicto hídrico, pp. 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La unidad 5 es un vínculo secundario: el texto aporta un caso contemporáneo de conflicto territorial y derechos, sin desarrollar por sí mismo el modelo neoliberal ni la alternancia política nacional."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "pueblo yaqui o yoeme",
+        "territorio",
+        "territorialidad",
+        "valle y río Yaqui",
+        "despojo",
+        "reparto agrario",
+        "agencia",
+        "negociación",
+        "insurrección",
+        "cardenismo",
+        "memoria",
+        "deportación",
+        "mexicanización",
+        "autonomía",
+        "derecho a la consulta"
+      ],
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "índice, pp. 5-6; presentación, pp. 9-11; capítulos, pp. 35, 54, 69-70, 97-100, 123-125 y 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": [
+        "intermedio",
+        "avanzado"
+      ],
+      "evidencias": [
+        {
+          "fuente": "decisión de curaduría",
+          "localizador": "extensión, estructura colectiva y uso de categorías historiográficas",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "Finales del siglo XIX-2021",
+      "nota": "El núcleo analítico recorre el Porfiriato, la Revolución, el cardenismo y políticas de 1935-1951; un capítulo parte del conflicto por el Acueducto Independencia (2010) y de hechos de 2021.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, pp. 10-11; pp. 97-99, 123-125 y 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2025,
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "portada interior, p. 3; página legal, p. 4",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "antecedente_editorial": {
+      "valor": "Parte de los trabajos fue presentada en el coloquio virtual Grandes temas del pueblo yaqui, celebrado el 7 de octubre de 2021.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 9",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2025-04-07",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato PDF; se conserva separado del año editorial y del periodo histórico."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Explicar el territorio yaqui como una construcción cultural, histórica y política, no solo como superficie o propiedad.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 9; Territorio y territorialidad, pp. 18-19",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Proyecto de modernización económica y conflictos sociales del Porfiriato.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: modernización económica y conflictos sociales; aporta una lectura situada de territorio y pueblos originarios."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Relacionar la entrada de la tierra al mercado y la modernización económica con la pérdida de control territorial yaqui a finales del siglo XIX.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10; Territorio, propiedad y reparto agrario, p. 35",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Proceso de modernización e instauración del capitalismo en el Porfiriato.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: proyecto de modernización e instauración del capitalismo y conflictos sociales del Porfiriato."
+    },
+    {
+      "id": "ch_3",
+      "valor": "Analizar la deportación y el despojo como formas de violencia de Estado y sus consecuencias sociales, culturales y de memoria.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 97-100",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Describe los conflictos sociales del porfiriato.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: describe conflictos sociales del Porfiriato y reconoce a los pueblos indígenas como sujetos históricos."
+    },
+    {
+      "id": "ch_4",
+      "valor": "Distinguir agencia, negociación e insurrección como estrategias históricas de participación política yaqui durante los siglos XIX y XX.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10; La participación política de los yaquis, pp. 53-54",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Existencia de grupos políticos opositores y conflictos sociales del Porfiriato.",
+          "alcance": "contextual"
+        },
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue las causas de la Revolución Mexicana.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota_curaduria": "Unidades 1 y 2: oposición, conflicto social y diversidad de actores en procesos de transformación política."
+    },
+    {
+      "id": "ch_5",
+      "valor": "Explicar las posibilidades y límites de la Reforma Agraria para recuperar tierras y formas de vida tradicionales después de la Revolución.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Impacto de la Revolución Mexicana en la transformación del México contemporáneo.",
+          "alcance": "contextual"
+        },
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Estado nacionalista del cardenismo y sus reformas sociales.",
+          "alcance": "secundario"
+        }
+      ],
+      "nota_curaduria": "Unidad 2: impacto de la Revolución; Unidad 3: reformas sociales del Estado posrevolucionario."
+    },
+    {
+      "id": "ch_6",
+      "valor": "Comparar las formas armadas de lucha por la tierra con la gestión, participación electoral y protesta pacífica desarrolladas durante el cardenismo.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Lideratos cardenistas, pp. 69-71",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Características del cardenismo y su proyecto de transformación social, económica y política.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 3: Estado cardenista y transformación social, económica y política."
+    },
+    {
+      "id": "ch_7",
+      "valor": "Problematizar la tensión entre reconocimiento territorial, autonomía y políticas de incorporación o mexicanización en el México posrevolucionario.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "¿Mexicanizar al yaqui?, pp. 123-125",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Características del cardenismo y su proyecto de transformación social, económica y política.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 3: nacionalismo, instituciones y proyecto de transformación social del cardenismo."
+    },
+    {
+      "id": "ch_8",
+      "valor": "Valorar los testimonios y memorias de mujeres yaquis como fuentes para reconstruir violencia, duelo, resistencia y transmisión intergeneracional.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 99-100",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Condición de las mujeres en la sociedad porfirista.",
+          "alcance": "contextual"
+        },
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Papel de las mujeres en la transformación política y cultural de México.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota_curaduria": "Enfoque transversal del programa: derechos, inclusión e interculturalidad; Unidad 1: condición de las mujeres."
+    },
+    {
+      "id": "ch_9",
+      "valor": "Relacionar la defensa histórica del territorio con conflictos hídricos recientes y con el derecho de los pueblos indígenas a la consulta e información.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, pp. 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Problemas actuales de la sociedad mexicana como país multiétnico y pluricultural.",
+          "alcance": "secundario"
+        }
+      ],
+      "nota_curaduria": "Unidad 5: analiza movimientos sociales y problemas actuales de un país multiétnico y pluricultural."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Identifica el proceso de modernización e instauración del capitalismo en el porfiriato.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La fuente lo aborda mediante la entrada de la tierra al mercado y el despojo territorial.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Identifica el proceso de modernización e instauración del capitalismo en el porfiriato.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Describe los conflictos sociales del porfiriato.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 97-99",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Describe los conflictos sociales del porfiriato.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Distingue las causas de la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10; ¿Mexicanizar al yaqui?, p. 125, nota 4",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "Apoyo contextual: permite ubicar la continuidad de la guerra y la demanda territorial en el proceso revolucionario.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue las causas de la Revolución Mexicana.",
+          "alcance": "contextual"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Define las características del cardenismo y su proyecto de transformación social, económica y política.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Lideratos cardenistas, pp. 69-71; ¿Mexicanizar al yaqui?, pp. 123-125",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Define las características del cardenismo y su proyecto de transformación social, económica y política.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_5",
+      "valor": "Identifica las principales expresiones culturales, los aportes de la cultura popular y el papel de las mujeres en la transformación política y cultural de México.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 99-100",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "Aporta específicamente memorias y voces de mujeres yaquis; no cubre por sí solo todas las expresiones culturales de la unidad.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u3",
+          "referente_programa": "Identifica las principales expresiones culturales, los aportes de la cultura popular y el papel de las mujeres en la transformación política y cultural de México.",
+          "alcance": "contextual"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_6",
+      "valor": "Analiza las crisis económicas y los movimientos sociales que buscan una sociedad justa, democrática e igualitaria.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, pp. 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "Vínculo secundario con la Unidad 5, centrado en el conflicto por el agua y la defensa territorial.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Analiza las crisis económicas y los movimientos sociales que buscan una sociedad justa, democrática e igualitaria.",
+          "alcance": "secundario"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_7",
+      "valor": "Identifica los problemas actuales de la sociedad mexicana como un país multiétnico y pluricultural.",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, pp. 153-155",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u5",
+          "referente_programa": "Identifica los problemas actuales de la sociedad mexicana como un país multiétnico y pluricultural.",
+          "alcance": "secundario"
+        }
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {
+      "id": "referencia_1",
+      "valor": "Pueblo yaqui o yoeme y los ocho pueblos del centro-sur de Sonora",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "La participación política de los yaquis, pp. 53-54",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_2",
+      "valor": "Territorio, territorialidad y significaciones imaginario-sociales",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Territorio y territorialidad, pp. 18-19",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_3",
+      "valor": "Valle, río, sierra y mar como componentes del territorio e identidad yaqui",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 9",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_4",
+      "valor": "Mercantilización de la tierra, modernidad económica y despojo territorial a finales del siglo XIX",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10; Territorio, propiedad y reparto agrario, p. 35",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    {
+      "id": "referencia_5",
+      "valor": "Guerra Yaqui, deportaciones y diáspora durante el Porfiriato y años revolucionarios",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 97-99",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_6",
+      "valor": "Agencia, alianzas, diálogo, negociación e insurrección yaqui",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "La participación política de los yaquis, pp. 53-54",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_7",
+      "valor": "Reforma Agraria y recuperación parcial de tierras y formas de vida tradicionales",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "presentación, p. 10",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_8",
+      "valor": "Cardenismo, reparto agrario, ejido colectivo y nuevos liderazgos en el Valle del Yaqui",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Lideratos cardenistas, pp. 69-71",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_9",
+      "valor": "Participación electoral, corporaciones, partidos y protesta pacífica por la tierra",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Lideratos cardenistas, pp. 69-70",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_10",
+      "valor": "Nacionalismo posrevolucionario, indigenismo y mexicanización, 1935-1951",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "¿Mexicanizar al yaqui?, pp. 123-125",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_11",
+      "valor": "Reconocimiento territorial, autonomía de facto y vacíos jurídicos",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "¿Mexicanizar al yaqui?, pp. 124-125",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_12",
+      "valor": "Memoria oral, duelo y transmisión intergeneracional en las historias de mujeres yaquis",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 99-100",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_13",
+      "valor": "Mujeres indígenas como productoras de historia y agentes históricos",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, p. 100",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_14",
+      "valor": "Tomás Rojo Valencia y la defensa contemporánea de la nación yaqui",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, p. 153",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_15",
+      "valor": "Acueducto Independencia, trasvase de agua y conflicto territorial desde 2010",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, pp. 153-155",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_16",
+      "valor": "Derecho a la consulta e información frente a obras de infraestructura en territorio indígena",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Continuidad y discontinuidad, p. 155",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    }
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "obra completa; presentación, pp. 9-11",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_1",
+        "ch_2",
+        "ch_3",
+        "ch_4",
+        "ch_7",
+        "ch_9",
+        "referencia_1",
+        "referencia_2",
+        "referencia_16"
+      ]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 99-100",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_8",
+        "aprendizaje_5",
+        "referencia_12",
+        "referencia_13"
+      ]
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "yaquis-memoria-territorio-politica.pdf",
+          "localizador": "Sobresaltos de la memoria, pp. 97-100; Continuidad y discontinuidad, pp. 154-155",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_3",
+        "ch_9",
+        "referencia_5",
+        "referencia_15",
+        "referencia_16"
+      ]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": [
+      "intermedio",
+      "avanzado"
+    ],
+    "operaciones_cognitivas_recomendadas": [
+      "explicar",
+      "comparar",
+      "relacionar",
+      "interpretar",
+      "problematizar",
+      "evaluar fuentes"
+    ],
+    "nota": "Conviene trabajar por capítulos o fragmentos seleccionados y ofrecer mediación previa sobre los conceptos de territorio, agencia, memoria y políticas indigenistas."
+  },
+  "observaciones": [
+    "La relación con la Unidad 5 es secundaria y está fundamentada solo en el capítulo sobre el conflicto hídrico contemporáneo; no se atribuye al libro un análisis integral del neoliberalismo o la alternancia.",
+    "El año 2025 corresponde a la edición del recurso; 2021 identifica el coloquio de procedencia de parte de los trabajos, no la publicación.",
+    "La obra cuenta con siete capítulos identificados en el índice del PDF local; se registraron únicamente relaciones respaldadas por el texto consultado."
+  ]
+}

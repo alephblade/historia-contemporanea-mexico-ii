@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import UnitRelationList from '../../components/UnitRelationList.astro';
+import { orientations, orientationTypeLabel, scopeLabel } from '../../lib/public-data';
+import { renderPublicMarkdown } from '../../lib/markdown';
+import { withBase } from '../../lib/paths';
+
+export function getStaticPaths() {
+  return orientations.map((orientation) => ({ params: { slug: orientation.slug }, props: { orientation } }));
+}
+
+const { orientation } = Astro.props;
+const contentHtml = renderPublicMarkdown(orientation.markdown);
+const coverageGaps = orientation.cobertura_curricular.filter((item) => item.estado === 'no_acreditado_por_corpus');
+const routeById = new Map(orientation.rutas_analisis.map((route) => [route.id, route]));
+const routeAnchor = (id: string) => `ruta-analisis-${id.toLowerCase()}`;
+const primaryUnit = orientation.unidades.find((relation) => relation.rol === 'principal') ?? orientation.unidades[0];
+const unitNumber = primaryUnit.id.replace(/^u/, '');
+const routeCount = orientation.rutas_analisis.length;
+---
+
+<BaseLayout title={orientation.titulo} description={orientation.descripcion}>
+  <div class="page-shell">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <ol><li><a href={withBase('/')}>Inicio</a></li><li><a href={withBase('/orientaciones/')}>Orientaciones</a></li><li aria-current="page">{orientation.id}</li></ol>
+    </nav>
+
+    <header class="detail-header">
+      <div>
+        <p class="eyebrow">{orientation.id} · {orientationTypeLabel(orientation.tipo)}</p>
+        <h1>{orientation.titulo}</h1>
+        <p class="detail-summary">{orientation.descripcion}</p>
+      </div>
+      <dl class="metadata-list">
+        <div><dt>Estado editorial</dt><dd><StatusBadge status={orientation.estado_editorial} /></dd></div>
+        <div><dt>Audiencia declarada</dt><dd>{orientation.audiencia.join(' · ')}</dd></div>
+        <div><dt>Lecturas vinculadas</dt><dd>{orientation.lecturas_vinculadas.length}</dd></div>
+        <div><dt>Evidencia integradora</dt><dd>{orientation.evidencia_integradora.titulo}</dd></div>
+      </dl>
+    </header>
+
+    {coverageGaps.length > 0 && (
+      <aside class="warning-panel" style="margin-top: var(--space-6);">
+        <h2>Límite explícito de cobertura</h2>
+        <ul>
+          {coverageGaps.map((gap) => <li><strong>{gap.aprendizaje}:</strong> no acreditado por el corpus actual. La orientación no lo declara cubierto ni lo sustituye con inferencias.</li>)}
+        </ul>
+      </aside>
+    )}
+
+    <section class="analysis-routes-section" aria-labelledby="rutas-analisis">
+      <div class="section-heading">
+        <h2 id="rutas-analisis">{routeCount === 1 ? 'Ruta' : 'Rutas'} de análisis de la Unidad {unitNumber}</h2>
+        <p>{routeCount} {routeCount === 1 ? 'ruta verificada' : 'rutas verificadas'}</p>
+      </div>
+      <p class="analysis-routes-intro">Cada ruta reúne fragmentos y referencias de varias lecturas para estudiar un problema de la Unidad {unitNumber}. Una lectura puede contribuir a más de una ruta sin cambiar su unidad temática principal.</p>
+      <div class="analysis-route-list">
+        {orientation.rutas_analisis.map((route) => {
+          const linkedReadings = orientation.lecturas_vinculadas.filter((link) => link.rutas_analisis.includes(route.id));
+          return (
+            <article class="analysis-route-card" id={routeAnchor(route.id)}>
+              <header>
+                <p class="eyebrow">Ruta de análisis {route.id}</p>
+                <h3>{route.titulo}</h3>
+              </header>
+              <dl class="analysis-route-details">
+                <div><dt>Pregunta guía</dt><dd>{route.pregunta_guia}</dd></div>
+                <div><dt>Intervención didáctica</dt><dd>{route.intervencion_didactica}</dd></div>
+                <div><dt>Evidencia esperada</dt><dd>{route.evidencia_esperada}</dd></div>
+                <div>
+                  <dt>Lecturas y referencias</dt>
+                  <dd>
+                    <ul class="analysis-route-readings">
+                      {linkedReadings.map((link) => (
+                        <li>
+                          <a href={withBase(`/lecturas/${link.slug}/`)}>{link.lectura_id}: {link.titulo}</a>
+                          <span>{link.referencias_canonicas.length > 0 ? ` · ${link.referencias_canonicas.join(', ')}` : ' · relación contextual declarada'}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </dd>
+                </div>
+              </dl>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <section style="margin-top: var(--space-7);" aria-labelledby="lecturas-trama">
+      <div class="section-heading"><h2 id="lecturas-trama">Lecturas relacionadas con {routeCount === 1 ? 'la ruta' : 'las rutas'} de análisis</h2><p>{orientation.lecturas_vinculadas.length} relaciones verificadas</p></div>
+      <div class="linked-list">
+        {orientation.lecturas_vinculadas.map((link) => (
+          <article class="linked-reading linked-reading--orientation">
+            <div>
+              <span class="canonical-id">{link.lectura_id}</span>
+              <div class="analysis-route-links">
+                {link.rutas_analisis.map((item) => {
+                  const route = routeById.get(item)!;
+                  return <a class="analysis-route-link" href={`#${routeAnchor(item)}`}>Ruta {item}: {route.titulo}</a>;
+                })}
+              </div>
+            </div>
+            <div>
+              <h3><a href={withBase(`/lecturas/${link.slug}/`)}>{link.titulo}</a></h3>
+              <p>Unidad principal: {link.unidad_principal} · referencias: {link.referencias_canonicas.length || 'relación contextual declarada'}</p>
+            </div>
+            <span class="scope-tag">{scopeLabel(link.alcance)}</span>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <div class="detail-layout">
+      <article class="markdown-body" aria-labelledby="contenido-orientacion">
+        <h2 id="contenido-orientacion">Contenido de la orientación</h2>
+        <div set:html={contentHtml} />
+      </article>
+      <aside class="detail-aside" aria-label="Ficha de la orientación">
+        <section>
+          <h2>Relación curricular</h2>
+          <UnitRelationList relations={orientation.unidades} compact />
+        </section>
+        <section>
+          <h2>Propósito</h2>
+          <p>{orientation.proposito}</p>
+        </section>
+        <section>
+          <h2>Evidencia integradora</h2>
+          <p><strong>{orientation.evidencia_integradora.titulo}</strong></p>
+          <ul>{orientation.evidencia_integradora.requisitos.map((requirement) => <li>{requirement}</li>)}</ul>
+        </section>
+        <section>
+          <h2>Condición de acceso</h2>
+          <p>La intención docente no restringe el acceso en esta versión estática.</p>
+        </section>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

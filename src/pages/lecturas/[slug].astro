@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StatusBadge from '../../components/StatusBadge.astro';
+import UnitRelationList from '../../components/UnitRelationList.astro';
+import {
+  derivedTypeLabel,
+  orientationById,
+  readings,
+  sourceAvailabilityLabel,
+  sourceVerification,
+  sourceVerificationByReadingId,
+} from '../../lib/public-data';
+import { renderPublicMarkdown } from '../../lib/markdown';
+import { withBase } from '../../lib/paths';
+
+export function getStaticPaths() {
+  return readings.map((reading) => ({ params: { slug: reading.slug }, props: { reading } }));
+}
+
+const { reading } = Astro.props;
+const verification = sourceVerificationByReadingId.get(reading.id);
+if (!verification) throw new Error(`Falta verificación operativa de la fuente ${reading.id}.`);
+const fichaHtml = renderPublicMarkdown(reading.ficha.markdown, {
+  source: {
+    url: reading.fuente_url,
+    title: reading.titulo,
+    availability: verification.estado,
+  },
+});
+const verificationDate = new Intl.DateTimeFormat('es-MX', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+}).format(new Date(`${sourceVerification.fecha_revision}T00:00:00Z`));
+const relatedOrientations = reading.orientaciones_relacionadas
+  .map((id) => orientationById.get(id))
+  .filter(Boolean);
+---
+
+<BaseLayout title={reading.titulo} description={reading.resumen}>
+  <div class="page-shell">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <ol>
+        <li><a href={withBase('/')}>Inicio</a></li>
+        <li><a href={withBase('/lecturas/')}>Lecturas</a></li>
+        <li aria-current="page">{reading.id}</li>
+      </ol>
+    </nav>
+
+    <header class="detail-header">
+      <div>
+        <p class="eyebrow">{reading.id} · {reading.tipo_material.etiqueta}</p>
+        <h1>{reading.titulo}</h1>
+        <p class="detail-summary">{reading.resumen}</p>
+        <div class="inline-actions">
+          {verification.estado === 'no_disponible' ? (
+            <span class="button button-disabled" aria-disabled="true">Fuente temporalmente no disponible</span>
+          ) : (
+            <a class="button" href={reading.fuente_url} target="_blank" rel="noreferrer noopener" aria-describedby="source-status">
+              Abrir fuente institucional <span class="sr-only">de {reading.titulo}</span>
+            </a>
+          )}
+        </div>
+        <div id="source-status" class:list={['source-status', `source-status-${verification.estado}`]}>
+          <strong>{sourceAvailabilityLabel(verification.estado)}</strong>
+          <span>{verification.evidencia}</span>
+          <small>Comprobación operativa del {verificationDate}; no modifica la URL canónica ni la modalidad declarada.</small>
+          {verification.estado === 'no_disponible' && <code>{reading.fuente_url}</code>}
+        </div>
+      </div>
+      <dl class="metadata-list">
+        <div><dt>Estado editorial</dt><dd><StatusBadge status={reading.estado_editorial} /></dd></div>
+        <div><dt>Autoría</dt><dd>{reading.autoria}</dd></div>
+        <div><dt>Año del recurso</dt><dd>{reading.anio ?? 'No determinado'}</dd></div>
+        <div><dt>Modalidad declarada en el registro</dt><dd>{reading.acceso}</dd></div>
+        <div><dt>Nivel sugerido</dt><dd>{reading.niveles.join(' · ')}</dd></div>
+      </dl>
+    </header>
+
+    <div class="detail-layout">
+      <article class="markdown-body" aria-labelledby="ficha-heading">
+        <h2 id="ficha-heading">Ficha pedagógica</h2>
+        <p class="review-notice"><strong>{reading.ficha.id}</strong> Contenido pedagógico derivado del registro canónico; estado: «En revisión».</p>
+        <div set:html={fichaHtml} />
+      </article>
+
+      <aside class="detail-aside" aria-label="Trazabilidad y relaciones">
+        <section>
+          <h2>Relación curricular</h2>
+          <UnitRelationList relations={reading.unidades} compact />
+        </section>
+        <section>
+          <h2>Recursos derivados</h2>
+          <p>Estos objetos están planeados. No existe todavía una URL pública ni se presentan como disponibles.</p>
+          <ul class="resource-list">
+            {reading.ficha.recursos_derivados.map((resource) => (
+              <li>
+                <strong>{derivedTypeLabel(resource.tipo)} <StatusBadge status={resource.estado} /></strong>
+                <small>{resource.id}</small>
+              </li>
+            ))}
+          </ul>
+        </section>
+        {relatedOrientations.length > 0 && (
+          <section>
+            <h2>Orientación docente relacionada</h2>
+            <ul class="linked-list">
+              {relatedOrientations.map((orientation) => orientation && (
+                <li><a href={withBase(`/orientaciones/${orientation.slug}/`)}>{orientation.titulo}</a></li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <section>
+          <h2>Temas clave</h2>
+          <ul class="topic-list">{reading.temas.map((topic) => <li>{topic}</li>)}</ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

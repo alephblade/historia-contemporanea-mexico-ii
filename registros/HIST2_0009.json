@@ -1,0 +1,492 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0009",
+  "indice": "lectura_9",
+  "slug": "historia-militar-revolucion-epoca-maderista-tomo-1",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el PDF local, el índice facsimilar y la página institucional del INEHRM.",
+    "cambios": [
+      "Se distingue la edición electrónica de 2020 de la primera edición de la obra, publicada en 1976.",
+      "Se clasifica el material como historia militar de interpretación, no como fuente primaria ni como historia general definitiva de la Revolución.",
+      "Se registran las rutas regionales y las dos fases de la campaña maderista en Chihuahua con localizadores del índice y de los capítulos.",
+      "La hoja de cálculo histórica solo aportó una URL institucional para lectura_9; no se transfirieron celdas vacías como información verificada."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Historia militar de la Revolución en la época maderista. Tomo I",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "portada, PDF p. 1; portadilla facsimilar, PDF p. 8",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "historia-militar-maderista-tomo-1.pdf",
+      "evidencias": [
+        {
+          "fuente": "archivo local",
+          "localizador": "fuentes/lecturas/HIST2_0009/",
+          "estado": "verificado_metadato_tecnico"
+        }
+      ]
+    },
+    "autoria": {
+      "valor": "Miguel A. Sánchez Lamego.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "portada, PDF p. 1; portadilla facsimilar, PDF p. 8; página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Estudio de historia militar sobre antecedentes, levantamientos precursores y la fase maderista inicial de la Revolución Mexicana. El Tomo I organiza el relato por fuerzas contendientes y por regiones del país, con particular detalle en las campañas y levantamientos de 1910 a mayo de 1911.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF pp. 10-11; capítulos I-III, PDF pp. 12, 34 y 46",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio": {
+      "valor": 2020,
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "portada editorial, PDF p. 4; página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "nota": "Corresponde a la primera edición electrónica del INEHRM. La primera edición de la obra es de 1976 y la segunda edición facsimilar integrada es de 2011."
+    },
+    "tipo_material": {
+      "valor": "Estudio histórico militar",
+      "codigo": "estudio_historico_militar",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "título, PDF pp. 1 y 8; índice temático-regional, PDF pp. 10-11",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "página institucional Historia militar de la Revolución en la época maderista, con opción de descarga; ruta verificada el 2026-08-31",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://inehrm.gob.mx/recursos/Libros/HistoriaMilitarEpocaMaderistaT1.pdf",
+      "evidencias": [
+        {
+          "fuente": "hoja histórica de lecturas y página institucional del INEHRM",
+          "localizador": "hoja Lecturas, fila 10, columna lectura_9; página institucional verificada el 2026-08-31",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "El tomo presenta una interpretación militar de los antecedentes de la Revolución y de los levantamientos maderistas iniciales. Describe las fuerzas gubernamentales y las fuerzas revolucionarias, y recorre la expansión del movimiento por Chihuahua, Coahuila, Nuevo León, Tamaulipas, Sonora, Baja California, Sinaloa, Nayarit, Durango, Zacatecas, San Luis Potosí, Michoacán, Jalisco, Colima, Guerrero, Morelos, Puebla, Tlaxcala, Veracruz, Oaxaca, Tabasco, Chiapas, Yucatán, Estado de México, Hidalgo, Querétaro, Guanajuato y Aguascalientes. Aporta una lectura regional y cronológica de la fase maderista, pero su énfasis en campañas, fuerzas y jefaturas debe complementarse con fuentes sobre demandas sociales, vida civil, pueblos indígenas y mujeres.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF pp. 10-11; capítulos II, III, VI, IX y XII, PDF pp. 34, 46, 160, 244 y 308",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Revolución Mexicana",
+      "secundarias": [
+        "Régimen Porfirista"
+      ],
+      "valor_excel": "Revolución Mexicana",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "título y capítulos: antecedentes y levantamientos precursores; revolución maderista regional, PDF pp. 1, 10-12 y 46-314",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La Unidad 2 es el foco del volumen. La Unidad 1 es un antecedente mediante el análisis de las fuerzas gubernamentales, levantamientos precursores y el orden porfirista; el tomo no aborda la formación del Estado posrevolucionario."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Revolución maderista",
+        "levantamientos precursores",
+        "fuerzas contendientes",
+        "fuerzas armadas gubernamentales",
+        "rurales federales",
+        "Plan de San Luis",
+        "maderismo",
+        "campaña militar",
+        "levantamiento regional",
+        "Chihuahua",
+        "Sonora",
+        "Baja California",
+        "Guerrero y Morelos",
+        "Puebla, Tlaxcala y Veracruz",
+        "sudeste y península yucateca",
+        "centro del país",
+        "perspectiva historiográfica"
+      ],
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF pp. 10-11; capítulos II, III, VI, IX y XII, PDF pp. 34, 46, 160, 244 y 308",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": [
+        "avanzado"
+      ],
+      "evidencias": [
+        {
+          "fuente": "decisión de curaduría",
+          "localizador": "314 páginas digitales, facsímil de una obra de 1976, amplitud regional, vocabulario militar y densidad de nombres, organizaciones y movimientos",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "Antecedentes de larga duración y fase inicial de la Revolución maderista, con énfasis en noviembre de 1910-mayo de 1911",
+      "nota": "El capítulo I introduce antecedentes históricos más amplios. El índice delimita dos fases de la revolución en Chihuahua, de noviembre de 1910 a febrero de 1911 y de febrero a mayo de 1911, mientras los capítulos regionales siguen el movimiento maderista inicial.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF p. 10; capítulos I y III, PDF pp. 12 y 46",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2020,
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "antecedente_editorial": {
+      "valor": "Primera edición, INEHRM, 1976; segunda edición facsimilar integrada de los tres tomos, INEHRM, 2011; primera edición electrónica, INEHRM, 2020.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "página legal, PDF p. 5",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2020-10-01",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico del PDF local; se conserva separado del año de las ediciones impresas y del periodo histórico estudiado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Relacionar los levantamientos precursores, la organización de las fuerzas gubernamentales y el orden porfirista con las condiciones de inicio de la Revolución maderista.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "capítulo I, PDF pp. 12-33; capítulo II, PDF pp. 34-45",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Conflictos sociales, oposición y mecanismos de control del Régimen Porfirista.",
+          "alcance": "contextual"
+        },
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue causas y antecedentes de la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "La relación se trabaja como antecedente y no atribuye a la dimensión militar una explicación única de las causas revolucionarias."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar la relación entre el Plan de San Luis y los primeros levantamientos armados de Chihuahua en noviembre de 1910.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "capítulo III, La Revolución en el estado de Chihuahua (noviembre de 1910 a febrero de 1911), PDF pp. 46-93; inicio, PDF p. 46",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Explica el inicio de la Revolución Mexicana y el fin de la dictadura porfirista.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Comparar la evolución de la campaña maderista en Chihuahua entre las fases de noviembre de 1910-febrero de 1911 y de febrero-mayo de 1911.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF p. 10; capítulos III y IV, PDF pp. 46-129",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Analiza el proceso revolucionario mediante cronología, actores y conflictos regionales.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Reconocer que la Revolución maderista adquirió dinámicas regionales diferenciadas en el norte, occidente, sur, oriente, sudeste y centro del país.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice, PDF pp. 10-11; capítulos V-XII, PDF pp. 130-314; inicios de capítulos VI, IX y XII, PDF pp. 160, 244 y 308",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Analiza la diversidad regional de actores y procesos en la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Analizar cómo una perspectiva militar organiza la historia mediante fuerzas, jefaturas, campañas y control territorial, e identificar qué preguntas sociales quedan abiertas.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "título, PDF pp. 1 y 8; índice, PDF pp. 10-11; capítulo II, PDF p. 34; capítulos regionales, PDF pp. 46, 160, 244 y 308",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Valora el análisis crítico de fuentes e interpretaciones sobre la Revolución Mexicana.",
+          "alcance": "contextual"
+        }
+      ]
+    },
+    {
+      "id": "ch_6",
+      "valor": "Usar una cronología y un mapa histórico para relacionar fechas, espacios, fuerzas y liderazgos sin reducir la Revolución a una sucesión de batallas.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice regional y cronológico, PDF pp. 10-11; capítulos III-XII, PDF pp. 46-314",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Organiza información histórica por temporalidades, espacios y actores para explicar procesos revolucionarios.",
+          "alcance": "contextual"
+        }
+      ]
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Distingue causas y antecedentes de la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "capítulo I, PDF pp. 12-33; capítulo II, PDF pp. 34-45",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "Apoyo parcial: debe complementarse con una lectura específica sobre demandas sociales, políticas y económicas del Porfiriato.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue causas de la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Explica el inicio de la Revolución Mexicana y la expansión regional del movimiento maderista.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "capítulos III-XII, PDF pp. 46-314; índice, PDF pp. 10-11",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Explica el inicio de la Revolución Mexicana y el fin de la dictadura porfirista.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Analiza la diversidad regional de actores y conflictos de la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "índice por regiones, PDF pp. 10-11; capítulos VI, IX y XII, PDF pp. 160, 244 y 308",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Analiza la diversidad de procesos, proyectos y grupos participantes en la Revolución Mexicana.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Valora críticamente una interpretación histórica al reconocer su enfoque, evidencias y límites.",
+      "evidencias": [
+        {
+          "fuente": "historia-militar-maderista-tomo-1.pdf",
+          "localizador": "título, PDF pp. 1 y 8; página legal, PDF p. 5; índice, PDF pp. 10-11",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Valora el estudio de la historia mediante el análisis crítico de fuentes e interpretaciones.",
+          "alcance": "contextual"
+        }
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {
+      "id": "referencia_1",
+      "valor": "Antecedentes de la Revolución y levantamientos precursores",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo I, PDF pp. 12-33", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_2",
+      "valor": "Fuerzas armadas gubernamentales, rurales federales y control del orden público",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo II, Las fuerzas contendientes, PDF pp. 34-45", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_3",
+      "valor": "Plan de San Luis y primeras sublevaciones en Chihuahua",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo III, PDF pp. 46-93; inicio, PDF p. 46", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_4",
+      "valor": "Campaña maderista en Chihuahua, febrero-mayo de 1911",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo IV, PDF pp. 94-129", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_5",
+      "valor": "Revolución maderista en Coahuila, Nuevo León y Tamaulipas",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo V, PDF pp. 130-159", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_6",
+      "valor": "Sonora y Territorio Norte de la Baja California",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo VI, PDF pp. 160-191; inicio, PDF p. 160", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_7",
+      "valor": "Sinaloa, Nayarit, Durango, Zacatecas y San Luis Potosí",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo VII, PDF pp. 192-237", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_8",
+      "valor": "Michoacán, Jalisco y Colima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo VIII, PDF pp. 238-243", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_9",
+      "valor": "Guerrero y Morelos",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo IX, PDF pp. 244-273; inicio, PDF p. 244", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_10",
+      "valor": "Puebla, Tlaxcala y Veracruz",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo X, PDF pp. 274-295", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_11",
+      "valor": "Oaxaca, Tabasco, Chiapas y península yucateca",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo XI, PDF pp. 296-307", "estado": "verificado_fuente_primaria"}]
+    },
+    {
+      "id": "referencia_12",
+      "valor": "Estado de México, Hidalgo, Querétaro, Guanajuato y Aguascalientes",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo XII, PDF pp. 308-314; inicio, PDF p. 308", "estado": "verificado_fuente_primaria"}]
+    }
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "no_verificado_como_eje_en_ruta_minima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "índice regional, PDF pp. 10-11; capítulo VI sobre Sonora y Baja California, PDF pp. 160-191", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_4", "referencia_6"]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "no_verificado_como_eje_en_ruta_minima",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "título e índice privilegian historia militar, campañas y regiones, PDF pp. 1 y 10-11", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_de_manera_contextual",
+      "evidencias": [{"fuente": "historia-militar-maderista-tomo-1.pdf", "localizador": "capítulo I, inicio, PDF p. 12; índice y estructura militar, PDF pp. 10-11", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_1", "aprendizaje_1"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["avanzado"],
+    "operaciones_cognitivas_recomendadas": ["contextualizar", "periodizar", "mapear", "comparar regiones", "analizar perspectiva", "argumentar"],
+    "nota": "No se asigna como lectura íntegra. Trabajar el índice (PDF pp. 10-11) con un mapa histórico y elegir uno o dos estudios de caso. Ruta inicial sugerida: fuerzas contendientes (PDF p. 34), Chihuahua noviembre de 1910-febrero de 1911 (PDF p. 46) y una región de contraste —Sonora/Baja California, Guerrero/Morelos o centro— (PDF pp. 160, 244 o 308). Solicitar una matriz con región, temporalidad, fuerzas, hecho descrito, evidencia, perspectiva militar y una pregunta social no respondida. La lectura de antecedentes debe complementarse con una fuente sobre demandas agrarias, obreras, indígenas, mujeres u otras experiencias civiles según el propósito didáctico."
+  },
+  "observaciones": [
+    "El tomo corresponde a una obra publicada originalmente en 1976 y reeditada electrónicamente en 2020. Su lenguaje, categorías y énfasis deben contextualizarse y contrastarse con historiografía más reciente.",
+    "La obra privilegia fuerzas armadas, campañas, jefaturas y control territorial. Su utilidad para conocer la expansión regional no autoriza a tratarla como representación exhaustiva de las experiencias campesinas, obreras, indígenas, de mujeres o de la población civil.",
+    "La paginación impresa del facsímil comienza en la p. 11 en la PDF p. 12; se conservan los localizadores de la PDF para navegación estable en el repositorio.",
+    "El acceso institucional abierto no equivale a licencia abierta. El repositorio debe enlazar y citar la obra; cualquier reproducción o derivado requiere revisar derechos, créditos y permisos."
+  ]
+}

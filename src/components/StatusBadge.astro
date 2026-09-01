@@ -1,0 +1,11 @@
+---
+import { statusLabel, type EditorialStatus } from '../lib/public-data';
+
+interface Props {
+  status: EditorialStatus | 'planeado';
+}
+
+const { status } = Astro.props;
+---
+
+<span class:list={['status-badge', `status-${status}`]}>{statusLabel(status)}</span>

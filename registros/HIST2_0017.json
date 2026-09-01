@@ -1,0 +1,291 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0017",
+  "indice": "lectura_17",
+  "slug": "sistema-politico-desarrollo-reacomodo-poder",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Alta inicial bajo el esquema 2.0, fundada en el artículo PDF local, sus metadatos editoriales y el registro histórico del Excel.",
+    "cambios": [
+      "Se identifica el recurso como artículo académico de Iberóforum, no como un balance actualizado de la democracia mexicana.",
+      "Se registra 2008 como año de publicación del artículo y límite de su coyuntura analítica, separado del arco histórico de reformas que comienza en 1977.",
+      "Se documentan reformas electorales, pluralismo, alternancia, gobiernos divididos, presidencialismo, IFE e instituciones de rendición de cuentas como ejes del argumento.",
+      "Se incorporan controles para tratar valoraciones, previsiones partidistas y diagnósticos sobre 2006-2008 como posiciones situadas del autor, que requieren contraste con fuentes posteriores."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "Sistema político mexicano: desarrollo y reacomodo del poder",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "título, PDF pp. 1-2", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Redalyc", "localizador": "ficha o resumen editorial del artículo", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "sistema-politico-desarrollo-poder.pdf",
+      "evidencias": [
+        {"fuente": "archivo local", "localizador": "fuentes/lecturas/HIST2_0017/", "estado": "verificado_metadato_tecnico"}
+      ]
+    },
+    "autoria": {
+      "valor": "Juan Pablo Navarrete Vela.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "ficha editorial y autoría, PDF pp. 1-2", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Artículo académico publicado en Iberóforum. Revista de Ciencias Sociales de la Universidad Iberoamericana, año III, núm. 6, julio-diciembre de 2008, pp. 131-148. Analiza reformas político-electorales, cambio en el sistema de partidos, pluralismo, alternancia y desafíos institucionales de la democratización mexicana hasta 2008.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "ficha editorial, resumen e introducción, PDF pp. 1-3", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio": {
+      "valor": 2008,
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "ficha editorial de Iberóforum, vol. III, núm. 6, julio-diciembre de 2008, PDF pp. 1-2", "estado": "verificado_fuente_primaria"},
+        {"fuente": "Redalyc", "localizador": "ficha o resumen editorial de Iberóforum 3(6), 2008, pp. 131-148; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "Los metadatos técnicos del PDF local son de 2015 y corresponden a la distribución digital, no a la publicación original."
+    },
+    "tipo_material": {
+      "valor": "Artículo académico",
+      "codigo": "articulo_academico",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "revista, resumen, palabras clave, notas y bibliografía, PDF pp. 1-19", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {"fuente": "Redalyc", "localizador": "registro editorial de acceso abierto del artículo; ruta verificada el 2026-08-31", "estado": "verificado_fuente_institucional"}
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.redalyc.org/pdf/2110/211015582008.pdf",
+      "evidencias": [
+        {"fuente": "Redalyc", "localizador": "URL de distribución consignada en el registro histórico y en los metadatos editoriales del PDF", "estado": "verificado_fuente_institucional"}
+      ],
+      "nota": "La consulta web del PDF puede requerir un navegador compatible con la plataforma, pero la identidad bibliográfica se corroboró en los metadatos del archivo y el resumen editorial de Redalyc."
+    },
+    "resumen_analitico": {
+      "valor": "Juan Pablo Navarrete Vela estudia el reacomodo del poder en México a partir de las reformas político-electorales y de la transformación del sistema de partido hegemónico hacia mayor competencia. Revisa la apertura de 1977, las reformas de 1986, 1989-1990, 1993, 1994, 1996 y 2007, y relaciona los comicios de 1988, 1994, 1997, 2000 y 2006 con pluralismo, alternancia y gobiernos divididos. El artículo sostiene que la transición fue gradual y que la democracia electoral no equivalía todavía a una democracia consolidada. Sus interpretaciones sobre el IFE, los partidos y las elecciones de 2006-2008 son propias de esa coyuntura; sirven para analizar preguntas de reforma y legitimidad, no para describir automáticamente el sistema político actual.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "resumen e introducción, PDF pp. 2-3; reformas, PDF pp. 3-9; transición y consolidación, PDF pp. 9-17", "estado": "derivado_de_texto_verificado"}
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Neoliberalismo y alternancia",
+      "secundarias": ["Consolidación del sistema político autoritario"],
+      "valor_excel": "Neoliberalismo y alternancia",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "transición desde 1977, fin del sistema hegemónico, alternancia de 2000 y coyuntura 2006-2008, PDF pp. 3-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "nota": "La Unidad 5 es el eje por el estudio de apertura, reformas y alternancia. La Unidad 4 opera como antecedente analítico a través del sistema de partido hegemónico y el presidencialismo; el artículo no ofrece una historia integral del régimen autoritario anterior."
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "sistema político mexicano",
+        "reformas político-electorales",
+        "liberalización",
+        "democratización",
+        "transición democrática",
+        "competencia electoral",
+        "pluralismo moderado excluyente",
+        "sistema de partido hegemónico",
+        "PRI",
+        "PAN",
+        "PRD",
+        "representación proporcional",
+        "LFOPPE",
+        "IFE",
+        "COFIPE",
+        "instituciones electorales",
+        "elecciones de 1988",
+        "alternancia de 2000",
+        "elecciones de 2006",
+        "reforma electoral de 2007",
+        "gobierno dividido",
+        "poder compartido",
+        "presidencialismo",
+        "rendición de cuentas",
+        "consolidación democrática"
+      ],
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "palabras clave, desarrollo y conclusión, PDF pp. 2-17", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": ["intermedio", "avanzado"],
+      "evidencias": [
+        {"fuente": "decisión de curaduría", "localizador": "17 páginas de artículo con cronología de reformas, conceptos de ciencia política, notas, bibliografía y necesidad de contextualizar su fecha de corte", "estado": "derivado_de_texto_verificado"}
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1968-2008, con énfasis en reformas de 1977-2007 y alternancia de 2000",
+      "nota": "El autor presenta 1968 como fisura, sitúa el inicio de la apertura gradual en 1977 y analiza reformas hasta 2007, así como la coyuntura de 2006-2008. Sus afirmaciones prospectivas y diagnósticos políticos se detienen en 2008.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 3-17", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2008,
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "Iberóforum, año III, núm. 6, julio-diciembre de 2008, PDF pp. 1-2", "estado": "verificado_fuente_primaria"}
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2015-03-24",
+      "estado": "verificado_metadato_tecnico",
+      "nota": "Metadato técnico de la copia distribuida por Redalyc; no equivale al año de publicación ni al periodo histórico analizado."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Secuenciar las reformas político-electorales de 1977, 1986, 1989-1990, 1993, 1994, 1996 y 2007, e identificar qué reglas, instituciones o condiciones de competencia modificó cada una según el artículo.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "reformas de 1977 a 2007, PDF pp. 3-9", "estado": "verificado_fuente_primaria"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Analiza cambios institucionales y reformas electorales vinculadas con la transición, el neoliberalismo y la alternancia.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_2",
+      "valor": "Explicar por qué la transición democrática puede ser gradual, desigual y resultado de negociaciones, reformas, movilización ciudadana y cambios en la competencia electoral.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "introducción, PDF pp. 3-5; transición y sistema de partidos, PDF pp. 9-11; conclusión, PDF p. 17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Explica la alternancia y la democratización como procesos graduales, conflictivos y multicausales.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_3",
+      "valor": "Distinguir sistema de partido hegemónico, pluralismo moderado excluyente y competencia electoral, relacionándolos con las elecciones de 1988, 1997 y 2000.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "sistema hegemónico y 1988, PDF pp. 5 y 9-11; pluralismo y alternancia, PDF pp. 10-11 y 15-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Reconoce mecanismos y límites del sistema de partido hegemónico como antecedente de la transición.", "alcance": "contextual"},
+        {"unidad_id": "u5", "referente_programa": "Analiza la reconfiguración del sistema de partidos y la alternancia política.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_4",
+      "valor": "Analizar el vínculo entre reglas electorales, autoridad administrativa, financiamiento, medios de comunicación, transparencia y confianza en los resultados.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "creación y cambios del IFE, PDF pp. 6-8; reforma de medios de 2007 y fiscalización, PDF pp. 8-9; elecciones de 2006, PDF pp. 12-14", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Valora la relación entre instituciones electorales, competencia, financiamiento y legitimidad democrática.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_5",
+      "valor": "Comparar presidencialismo y sistema presidencial, e interpretar gobiernos divididos y poder compartido como problemas y oportunidades de equilibrio institucional.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "presidencialismo y sistema hegemónico, PDF pp. 5 y 9-12; gobierno dividido y relaciones entre poderes, PDF pp. 12, 15-16", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Analiza reacomodos del poder y relaciones entre poderes públicos en el periodo de alternancia.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "ch_6",
+      "valor": "Contextualizar las valoraciones del autor sobre 2006-2008 y contrastarlas con evidencia posterior antes de convertirlas en explicaciones del presente.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "evaluaciones sobre IFE, partidos, gobiernos de Fox y Calderón y perspectivas hacia 2009, PDF pp. 12-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Valora críticamente fuentes e interpretaciones históricas situadas sobre la democratización y la alternancia.", "alcance": "directo"}
+      ],
+      "nota_curaduria": "No solicitar predicciones retrospectivas ni presentar las expectativas del texto como resultados posteriores. Distinguir fecha de publicación, evidencia disponible al autor e información que hoy requeriría fuentes actualizadas."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Analiza la transición y la alternancia mediante cambios en reglas electorales, instituciones, partidos y competencia política.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 3-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Explica reformas y procesos que posibilitaron la alternancia política en México.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Reconoce la persistencia de desafíos institucionales y sociales después de la alternancia, sin reducir la democracia a la celebración de elecciones competitivas.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "democracia no consolidada, PDF pp. 12-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u5", "referente_programa": "Analiza alcances y límites de la democratización, la alternancia y los reacomodos del poder.", "alcance": "directo"}
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Relaciona el debilitamiento del partido hegemónico y la ampliación de contrapesos con cambios posteriores en la representación y el ejercicio del poder.",
+      "evidencias": [
+        {"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 5, 9-12 y 15-17", "estado": "derivado_de_texto_verificado"}
+      ],
+      "alineacion_curricular": [
+        {"unidad_id": "u4", "referente_programa": "Reconoce el sistema de partido hegemónico como antecedente del proceso de apertura democrática.", "alcance": "contextual"},
+        {"unidad_id": "u5", "referente_programa": "Relaciona alternancia, pluralismo y reacomodos institucionales del poder.", "alcance": "directo"}
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {"id": "referencia_1", "valor": "1968, apertura controlada y reforma política de 1977", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 3-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_2", "valor": "Representación proporcional, LFOPPE y acceso de oposiciones al Legislativo", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 4-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_3", "valor": "Elecciones de 1988, pérdida de consenso priista y demanda de transparencia", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 4-5", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_4", "valor": "Reformas de 1986, 1989-1990, 1993 y 1994", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 6-7", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_5", "valor": "Reforma de 1996: IFE, representación, justicia electoral y Distrito Federal", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 7-8", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_6", "valor": "Reforma electoral de medios de 2007, campañas, radio, televisión y fiscalización", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 8-9", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_7", "valor": "Sistema de partido hegemónico, presidencialismo y reacomodo desde 1988", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 9-11", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_8", "valor": "Pluralismo moderado excluyente, PRI, PAN, PRD y competencia electoral", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 10-11 y 15-17", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_9", "valor": "Alternancia de 2000 y ruta de transición gradual", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 10-11 y 13", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_10", "valor": "Gobiernos divididos, presidencialismo reformado y contrapesos", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 11-12 y 15-16", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_11", "valor": "Elecciones de 2006, legitimidad, IFE y debate sobre transición concluida", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 12-14", "estado": "verificado_fuente_primaria"}]},
+    {"id": "referencia_12", "valor": "Democracia electoral, consolidación democrática y tareas pendientes hacia 2008", "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "PDF pp. 14-17", "estado": "verificado_fuente_primaria"}]}
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "revisión integral del artículo y bibliografía, PDF pp. 1-19", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "revisión integral del artículo y bibliografía, PDF pp. 1-19", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": []
+    },
+    {
+      "eje": "Desigualdad social, derechos y justicia",
+      "estado": "presente_como_posibilidad_de_lectura_critica_no_desarrollada_de_forma_monografica",
+      "evidencias": [{"fuente": "sistema-politico-desarrollo-poder.pdf", "localizador": "participación ciudadana, pobreza, representación y rendición de cuentas, PDF pp. 3, 7-9 y 14-17", "estado": "derivado_de_texto_verificado"}],
+      "proyeccion_registro": ["ch_4", "ch_6", "aprendizaje_2"]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": ["intermedio", "avanzado"],
+    "operaciones_cognitivas_recomendadas": ["secuenciar", "definir", "relacionar causas y efectos", "comparar", "analizar argumentos", "contrastar", "argumentar"],
+    "nota": "Trabajar con una línea del tiempo analítica de reformas, no como enumeración de fechas. Formar equipos que analicen 1977, 1988, 1996, 2000 y 2007 a partir de cuatro preguntas: qué cambió, qué actores intervinieron, qué problema buscaba atender y qué límite identifica el autor. Contrastar la distinción entre democracia electoral y democracia consolidada con dos breves extractos de las pp. 13-17. El cierre debe identificar enunciados descriptivos, interpretaciones y previsiones del texto de 2008. Evitar usar sus afirmaciones sobre partidos, IFE o elecciones posteriores a 2008 como información vigente; complementarlas con fuentes posteriores si se solicita actualidad."
+  },
+  "observaciones": [
+    "El artículo tiene fecha de corte 2008. Sus evaluaciones de las administraciones de Fox y Calderón, de la elección de 2006, de la reforma de 2007 y de expectativas para 2009 son fuentes para estudiar una coyuntura, no datos actuales.",
+    "La URL histórica de Redalyc puede requerir acceso mediante un navegador compatible. La identidad editorial, resumen, autoría, año, volumen, número y páginas están verificados en los metadatos del PDF local y en el registro editorial de Redalyc.",
+    "El acceso abierto no equivale a licencia abierta. El repositorio debe enlazar y citar el artículo; antes de reproducir texto, tablas o imágenes, verificar las condiciones vigentes de Redalyc, Iberóforum y la Universidad Iberoamericana.",
+    "El texto no desarrolla de manera suficiente experiencias de mujeres, pueblos indígenas, organizaciones comunitarias o desigualdades regionales. La futura ficha debe complementar estos silencios cuando se estudie participación, representación y democracia."
+  ]
+}

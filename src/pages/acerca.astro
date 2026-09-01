@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout title="Acerca del repositorio" description="Propósito, metodología, trazabilidad y límites de publicación del repositorio educativo de Historia Contemporánea de México II.">
+  <div class="page-shell">
+    <header class="page-intro">
+      <div>
+        <p class="eyebrow">Propósito, método y límites</p>
+        <h1>Un repositorio para consultar, revisar y enseñar</h1>
+        <p class="lead">Esta primera versión proyecta contenidos ya curados para revisión. No modifica conclusiones históricas ni convierte materiales de trabajo en publicaciones.</p>
+      </div>
+      <aside class="review-notice">
+        <strong>Versión estática local</strong>
+        Sin CMS, cuentas, analítica, base de datos, autenticación ni edición desde navegador.
+      </aside>
+    </header>
+
+    <div class="detail-layout">
+      <article class="markdown-body">
+        <h2>Qué reúne</h2>
+        <p>El repositorio organiza veinte registros canónicos de lectura, veinte fichas pedagógicas derivadas y la primera orientación pedagógico-curricular formal. Cada lectura mantiene una URL pública estable basada en su <em>slug</em> y muestra su identificador <code>HIST2_XXXX</code>.</p>
+
+        <h2>Cómo se genera</h2>
+        <p>Los componentes de la interfaz no contienen copias manuales de los metadatos. Un transformador validado lee los JSON canónicos y los Markdown, selecciona campos públicos explícitos y produce archivos deterministas para Astro y una salida CSV de intercambio. El CSV no es una fuente primaria de edición.</p>
+
+        <h2>Qué no se publica</h2>
+        <p>Los PDFs, videos, imágenes y documentos conservados en <code>fuentes/</code> son insumos locales de trabajo. El sitio solo enlaza la URL institucional registrada y no incluye copias de terceros en su artefacto estático.</p>
+        <p>Los videos, infografías y cuestionarios de las fichas permanecen como recursos <strong>planeados</strong>. No tienen enlace de descarga ni apariencia de disponibilidad hasta que exista un registro propio, una URL pública y la revisión correspondiente.</p>
+
+        <h2>Licencias y fuentes</h2>
+        <p>El contenido académico y editorial original se ofrece bajo <strong>CC BY-SA 4.0</strong>; el código original del sitio, bajo <strong>MIT</strong>. Las obras de terceros, dependencias y los signos institucionales quedan excluidos de esas licencias y conservan sus propias condiciones.</p>
+        <p>La política pública prioriza enlazar la fuente oficial. Una copia preservada solo podrá incorporarse con licencia abierta compatible, autorización escrita, evidencia de dominio público u otro fundamento institucional documentado.</p>
+
+        <h2>Estados editoriales</h2>
+        <p>Todo el corpus se conserva en <strong>En revisión</strong>. Este estado significa que pasó controles técnicos y curatoriales, pero todavía requiere promoción académica explícita antes de presentarse como publicable o publicado.</p>
+
+        <h2>Límites de cobertura</h2>
+        <p>La Unidad 3 se trabaja mediante una trama transversal de nueve lecturas vinculadas. El corpus no acredita cobertura suficiente de la Guerra Cristera; esa brecha se declara en la orientación y solo podrá resolverse incorporando una fuente complementaria con registro y ficha propios.</p>
+
+        <h2>Decisiones y controles pendientes</h2>
+        <ul>
+          <li>Recorrido humano secuencial completo por teclado antes del primer despliegue.</li>
+          <li>Revisión académica y promoción de estados editoriales.</li>
+          <li>Definición de una fuente para la Guerra Cristera y otras brechas curriculares.</li>
+        </ul>
+
+        <p><a href={withBase('/lecturas/')}>Explorar las lecturas</a> · <a href={withBase('/orientaciones/')}>Consultar la navegación docente</a></p>
+      </article>
+      <aside class="detail-aside">
+        <section>
+          <h2>Principios de publicación</h2>
+          <ul>
+            <li>Trazabilidad por identificador canónico.</li>
+            <li>Proyección pública mínima y explícita.</li>
+            <li>Estados editoriales siempre visibles.</li>
+            <li>Límites de evidencia sin simulación.</li>
+            <li>Navegación semántica y accesible.</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "source_sha256": "34673ee9ee196c39a08c1b2a4fe974119a46d40339d70d61abc681b087b59e7b",
+  "conteos": {
+    "lecturas": 20,
+    "fichas": 20,
+    "orientaciones": 6,
+    "unidades": 5
+  },
+  "exclusiones": [
+    "fuentes/lecturas/",
+    "fuentes/materiales_asociados_pendientes/"
+  ]
+}

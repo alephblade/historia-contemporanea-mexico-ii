@@ -1,0 +1,759 @@
+[
+  {
+    "id": "ORI_HIST2_U1_TRAMA_01",
+    "tipo": "trama_transversal",
+    "titulo": "Modernización, territorio y contradicciones en el Régimen Porfirista",
+    "slug": "modernizacion-territorio-contradicciones-regimen-porfirista",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u1",
+        "nombre": "Régimen Porfirista",
+        "slug": "regimen-porfirista",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Orientación formal para contrastar el discurso de orden y progreso, los cambios materiales del Porfiriato y sus costos sociales y territoriales mediante evidencia general y el caso yaqui situado.",
+    "proposito": "Relacionar modernización, concentración de recursos, orden político y costos sociales sin reducir el proceso a una causalidad única ni generalizar un estudio de caso regional.",
+    "rutas_analisis": [
+      {
+        "id": "A",
+        "titulo": "Modernización, territorio y contradicciones",
+        "pregunta_guia": "¿Cómo se relacionaron modernización, concentración de recursos, orden político y costos sociales durante el Porfiriato?",
+        "intervencion_didactica": "Contrastar discursos y cambios materiales del régimen con los efectos territoriales documentados en el caso yaqui, clasificando cada afirmación como discurso, cambio material, efecto territorial o límite de la fuente.",
+        "evidencia_esperada": "Matriz comparativa argumentada con al menos cuatro localizadores y una conclusión que relacione modernización y desigualdad sin presentarlas como causalidad única."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0001",
+        "slug": "dictadura-porfirista",
+        "titulo": "La dictadura porfirista",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_1",
+          "ch_3"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0002",
+        "slug": "yaquis-memoria-territorio-participacion-politica",
+        "titulo": "Yaquis. Memoria, territorio y participación política",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_2",
+          "ch_3"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0019",
+        "slug": "porfirio-diaz-constitucion-dictadura-reeleccion",
+        "titulo": "Porfirio Díaz (1830-1915): La Constitución, la dictadura y la reelección",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "referencia_2"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "matriz_comparativa_argumentada",
+      "titulo": "¿Qué modernizó el Porfiriato, para quién y con qué costos?",
+      "requisitos": [
+        "Al menos cuatro localizadores distribuidos entre dos o más lecturas.",
+        "Clasificación explícita de discurso, cambio material, efecto territorial e interpretación.",
+        "Uso del caso yaqui como modelo analítico situado de despojo agrario, no como representación de todas las regiones.",
+        "Una conclusión argumentada y un límite explícito de la evidencia disponible."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Modernización e instauración del capitalismo en el Porfiriato",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Contradicciones y conflictos sociales del Porfiriato",
+        "estado": "cubierto_directo_situado",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Historia económica integral y comparación regional nacional",
+        "estado": "no_acreditado_por_corpus",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Secuencia con instrucciones por texto, matriz con encabezados, alternativas a la exposición oral, localizadores explícitos y límites de generalización.",
+    "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas.",
+    "markdown": "# Modernización, territorio y contradicciones en el Régimen Porfirista\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 1 de septiembre de 2026**  \n**Estado:** orientación formal en revisión, redactada a partir de una ruta aprobada por la Mtra. María Luisa Saavedra Solá.\n\n## 1. Decisión curricular y alcance\n\nEsta orientación formaliza la ruta de análisis **Modernización, territorio y contradicciones**. Articula `HIST2_0001`, `HIST2_0002` y `HIST2_0019` para contrastar el discurso de orden y progreso, los cambios materiales atribuidos al régimen y sus costos sociales y territoriales.\n\nEl caso yaqui se utiliza como **modelo analítico situado de despojo agrario**: permite examinar mecanismos y efectos concretos, pero no representa por sí solo todas las regiones, comunidades o experiencias del Porfiriato. La secuencia tampoco sustituye una historia económica integral del periodo.\n\n## 2. Metas de aprendizaje\n\nAl concluir la secuencia, el estudiantado podrá:\n\n1. comparar avances materiales y contradicciones sociales, políticas y económicas;\n2. relacionar modernización, entrada de la tierra al mercado y pérdida de control territorial;\n3. distinguir discurso, cambio material, efecto territorial, interpretación y límite de fuente;\n4. sostener una conclusión con localizadores verificables; y\n5. explicar por qué un estudio de caso ayuda a formular preguntas sin autorizar generalizaciones nacionales.\n\n## 3. Ruta de análisis estructurada\n\nLa pregunta guía, la intervención didáctica, la evidencia esperada y las lecturas relacionadas se conservan en el registro `ORI_HIST2_U1_TRAMA_01.json` y se proyectan automáticamente en la interfaz. Este Markdown desarrolla su secuencia, evaluación y reglas de uso sin duplicar esos metadatos en componentes.\n\n## 4. Preparación docente y selección de fragmentos\n\nNo es necesario asignar tres lecturas completas. Antes de la sesión, el docente selecciona:\n\n- `HIST2_0001`, `ch_1` y `ch_3`: balance de avances y contradicciones; positivismo, orden y progreso;\n- `HIST2_0002`, `ch_2` y `ch_3`: mercantilización de la tierra, modernización, deportación y despojo; y\n- `HIST2_0019`, `referencia_2`: orden y progreso, libertades públicas y límites del poder como apoyo focalizado.\n\nCada fragmento debe conservar título, autoría, localizador y tipo de enunciado. Si una fuente institucional no abre, se trabaja con los apuntes y localizadores ya preparados por el docente; esta orientación no autoriza distribuir copias locales.\n\n## 5. Secuencia presencial sugerida — 120 minutos\n\n| Tiempo | Acción docente | Actividad del estudiantado | Evidencia parcial |\n| --- | --- | --- | --- |\n| 0–10 min | Presentar la pregunta guía y recuperar ideas previas sobre “orden”, “progreso” y “modernización”. | Formular una hipótesis inicial de dos oraciones. | Hipótesis fechada. |\n| 10–30 min | Modelar la clasificación de un enunciado: discurso, cambio material, efecto territorial o interpretación. | Clasificar dos ejemplos y justificar una decisión. | Dos celdas justificadas. |\n| 30–55 min | Orientar el trabajo con `HIST2_0001`. | Registrar avances atribuidos, contradicciones y localizadores. | Primera sección de la matriz. |\n| 55–80 min | Introducir el caso yaqui como estudio situado, no representativo de todo México. | Relacionar mercado de tierras, pérdida territorial, deportación y límites de la fuente. | Segunda sección de la matriz. |\n| 80–100 min | Pedir un contraste entre discurso general y efecto territorial documentado. | Construir dos relaciones y marcar su grado de certeza. | Cruce comparativo. |\n| 100–115 min | Acompañar la redacción de una conclusión sin causalidad única. | Escribir una tesis de 120–150 palabras con cuatro localizadores. | Borrador argumentativo. |\n| 115–120 min | Aplicar cierre y autoevaluación. | Entregar un límite y una pregunta de corroboración. | Boleto de salida. |\n\n### Trabajo independiente sugerido — 60 minutos\n\nEl estudiantado revisa la matriz, corrige atribuciones y entrega una versión final con una conclusión de 180–220 palabras. Puede realizarse individualmente o en pareja; la autoría de cada apartado debe quedar identificada.\n\n## 6. Evidencia integradora\n\n**Matriz comparativa argumentada: “¿Qué modernizó el Porfiriato, para quién y con qué costos?”**\n\nLa entrega contiene:\n\n- al menos cuatro localizadores distribuidos entre dos o más lecturas;\n- una clasificación explícita de cada evidencia;\n- dos relaciones entre discurso, cambio material o efecto territorial;\n- una conclusión que evite una causalidad única;\n- una declaración explícita de que el caso yaqui es situado; y\n- un límite o necesidad de corroboración.\n\n## 7. Rúbrica de evaluación\n\n| Criterio | 4 · Logro sólido | 3 · Logro suficiente | 2 · En proceso | 1 · Inicial |\n| --- | --- | --- | --- | --- |\n| Trazabilidad y localizadores | Usa cuatro o más localizadores pertinentes y atribuye cada fuente. | Usa cuatro localizadores con una imprecisión menor. | Usa dos o tres localizadores o atribuciones incompletas. | Presenta afirmaciones sin localizadores verificables. |\n| Clasificación de evidencia | Distingue consistentemente discurso, cambio, efecto e interpretación. | Distingue las categorías con una confusión menor. | Mezcla varias categorías sin justificar. | Trata toda afirmación como hecho equivalente. |\n| Comparación y argumentación | Relaciona fuentes, escalas y contradicciones con una tesis clara. | Compara las fuentes y formula una conclusión sustentada. | Resume fuentes con comparación limitada. | Enumera información sin relación argumentada. |\n| Alcance y límites | Usa el caso yaqui de forma situada y declara límites y corroboraciones. | Evita la generalización y menciona al menos un límite. | Reconoce el límite de manera vaga. | Generaliza el caso o presenta conclusiones no sostenidas. |\n\nCada criterio representa 25 % de la calificación de la evidencia.\n\n## 8. Límites y prohibiciones de inferencia\n\n- No presentar la modernización como proceso uniforme ni automáticamente benéfico o perjudicial.\n- No generalizar la experiencia yaqui a todos los pueblos indígenas o regiones.\n- No confundir el discurso de orden y progreso con una descripción neutral de resultados.\n- No afirmar una historia económica completa a partir de la selección.\n- No ocultar ausencias sobre vida cotidiana, mujeres y comparación regional.\n\n## 9. Accesibilidad y alternativas\n\nLa matriz debe ofrecerse con encabezados textuales y espacio suficiente para respuestas. La puesta en común oral tendrá alternativa escrita. Ninguna imagen será indispensable para completar la actividad. Las instrucciones, tiempos, criterios y ejemplos deben comunicarse antes de iniciar.\n\n## 10. Regla de mantenimiento\n\nUna nueva lectura solo podrá ampliar esta orientación después de contar con registro, ficha, referencias verificadas y aprobación académica. Cualquier cambio debe conservar la distinción entre evidencia canónica, mediación docente e interpretación del estudiantado."
+  },
+  {
+    "id": "ORI_HIST2_U1_TRAMA_02",
+    "tipo": "trama_transversal",
+    "titulo": "Estado, reelección y legitimidad en el Régimen Porfirista",
+    "slug": "estado-reeleccion-legitimidad-regimen-porfirista",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u1",
+        "nombre": "Régimen Porfirista",
+        "slug": "regimen-porfirista",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Orientación formal para distinguir diseño jurídico, legalidad, legitimidad y práctica política al estudiar la reelección y la concentración del poder durante el Porfiriato.",
+    "proposito": "Reconstruir los cambios constitucionales y su relación con la permanencia presidencial, atribuyendo las interpretaciones historiográficas a sus autores y evitando presentarlas como hechos o consensos indiscutibles.",
+    "rutas_analisis": [
+      {
+        "id": "B",
+        "titulo": "Estado, reelección y legitimidad",
+        "pregunta_guia": "¿Qué mecanismos legales, electorales y políticos permitieron concentrar y prolongar el poder presidencial?",
+        "intervencion_didactica": "Construir una línea de tiempo de planes y reformas, contrastar diseño jurídico con práctica política y clasificar los enunciados como hecho documentado, cita, interpretación atribuida o valoración del estudiantado.",
+        "evidencia_esperada": "Línea de tiempo analítica y párrafo argumentativo que distinga una reforma, su efecto político según la fuente y una interpretación propia explícitamente marcada."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0001",
+        "slug": "dictadura-porfirista",
+        "titulo": "La dictadura porfirista",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "B"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_2",
+          "ch_5"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0019",
+        "slug": "porfirio-diaz-constitucion-dictadura-reeleccion",
+        "titulo": "Porfirio Díaz (1830-1915): La Constitución, la dictadura y la reelección",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "B"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_1",
+          "ch_2",
+          "ch_3"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0003",
+        "slug": "sistema-politico-mexicano",
+        "titulo": "El sistema político mexicano",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "B"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "ch_1"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "linea_tiempo_analitica_y_parrafo_argumentativo",
+      "titulo": "¿Cómo se volvió legalmente posible la permanencia política de Porfirio Díaz?",
+      "requisitos": [
+        "Secuencia entre La Noria, Tuxtepec, las reformas de 1878, 1887 y 1890, y la reforma de 1911.",
+        "Distinción entre reforma constitucional, legalidad formal, legitimidad política y práctica histórica.",
+        "Atribución expresa a Imer B. Flores de la interpretación «constitucionalización de la dictadura».",
+        "Al menos cuatro localizadores, una valoración propia marcada y un límite historiográfico."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Características del Estado porfirista y mecanismos de concentración del poder",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "B"
+        ]
+      },
+      {
+        "aprendizaje": "Reelección, exclusión política y crisis final del régimen",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "B"
+        ]
+      },
+      {
+        "aprendizaje": "Explicación social integral del régimen y consenso historiográfico",
+        "estado": "no_acreditado_por_corpus",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Línea de tiempo textual equivalente, categorías explícitas de enunciado, instrucciones por escrito, alternativa individual o colaborativa y rúbrica comunicada antes de la actividad.",
+    "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas.",
+    "markdown": "# Estado, reelección y legitimidad en el Régimen Porfirista\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 1 de septiembre de 2026**  \n**Estado:** orientación formal en revisión, redactada a partir de una ruta aprobada por la Mtra. María Luisa Saavedra Solá.\n\n## 1. Decisión curricular y alcance\n\nEsta orientación formaliza la ruta **Estado, reelección y legitimidad**. Articula `HIST2_0001` y `HIST2_0019` como relaciones directas de la Unidad 1 y utiliza `HIST2_0003` únicamente como contraste contextual de larga duración.\n\nLa secuencia distingue diseño jurídico, legalidad formal, legitimidad política y práctica histórica. La expresión **“constitucionalización de la dictadura” se atribuye exclusivamente a Imer B. Flores**, autor de `HIST2_0019`; se trabaja como interpretación historiográfica situada, no como hecho autosuficiente ni consenso general.\n\n## 2. Metas de aprendizaje\n\nAl concluir la secuencia, el estudiantado podrá:\n\n1. reconstruir la secuencia entre La Noria, Tuxtepec y las reformas constitucionales de 1878, 1887, 1890 y 1911;\n2. explicar la paradoja entre el discurso antirreeleccionista y la permanencia presidencial;\n3. distinguir reforma jurídica, legalidad, legitimidad y práctica política;\n4. separar hechos documentados, citas, interpretaciones atribuidas y valoraciones propias; y\n5. elaborar un argumento con localizadores y límites historiográficos.\n\n## 3. Ruta de análisis estructurada\n\nLa pregunta guía, la intervención didáctica, la evidencia esperada y las lecturas relacionadas se conservan en `ORI_HIST2_U1_TRAMA_02.json` y se proyectan automáticamente. Este documento desarrolla la mediación y evaluación sin convertir la interpretación de un autor en metadato factual.\n\n## 4. Preparación docente y selección de fragmentos\n\nLa selección mínima comprende:\n\n- `HIST2_0019`, `ch_1`, `ch_2` y `ch_3`: secuencia normativa, paradoja antirreeleccionista y categorías de análisis;\n- `HIST2_0001`, `ch_2` y `ch_5`: mecanismos de concentración, reelección, exclusión y crisis; y\n- `HIST2_0003`, `ch_1`: control político, manipulación electoral y centralización como contraste contextual, no como prueba directa de cada reforma.\n\nEl docente prepara tarjetas o renglones con fecha, disposición, actor, fuente y localizador. Toda formulación interpretativa conserva su autoría explícita.\n\n## 5. Secuencia presencial sugerida — 120 minutos\n\n| Tiempo | Acción docente | Actividad del estudiantado | Evidencia parcial |\n| --- | --- | --- | --- |\n| 0–10 min | Presentar la pregunta guía y sondear qué entienden por legalidad y legitimidad. | Formular una diferencia provisional entre ambas. | Definiciones iniciales. |\n| 10–25 min | Modelar cuatro categorías: hecho, cita, interpretación atribuida y valoración propia. | Clasificar cuatro enunciados y justificar uno. | Tabla de clasificación. |\n| 25–55 min | Distribuir la secuencia La Noria–Tuxtepec–1878–1887–1890–1911. | Ordenar acontecimientos y registrar qué cambió jurídicamente. | Línea de tiempo base. |\n| 55–80 min | Contrastar la regla constitucional con sus efectos políticos según las lecturas. | Añadir actor, efecto atribuido, evidencia y reserva. | Línea de tiempo analítica. |\n| 80–95 min | Introducir la interpretación de Imer B. Flores y exigir atribución visible. | Comparar la interpretación con dos hechos o citas y formular una objeción posible. | Ficha de atribución. |\n| 95–115 min | Orientar un párrafo argumentativo sobre permanencia y legitimidad. | Redactar 150–180 palabras con tesis, evidencia y límite. | Borrador argumentativo. |\n| 115–120 min | Aplicar cierre metacognitivo. | Señalar qué parte es hecho, qué parte interpretación y qué faltaría corroborar. | Boleto de salida. |\n\n### Trabajo independiente sugerido — 60 minutos\n\nEl estudiantado corrige la línea de tiempo y entrega un párrafo final de 200–250 palabras. Debe subrayar o etiquetar al menos una reforma, una interpretación atribuida, una valoración propia y un límite.\n\n## 6. Evidencia integradora\n\n**Línea de tiempo analítica y párrafo: “¿Cómo se volvió legalmente posible la permanencia política de Porfirio Díaz?”**\n\nLa entrega incluye:\n\n- seis hitos mínimos entre 1871 y 1911;\n- disposición o acontecimiento, actor, efecto atribuido y localizador;\n- distinción entre legalidad formal y legitimidad política;\n- atribución expresa de la tesis de Imer B. Flores;\n- contraste contextual con `HIST2_0003` claramente marcado; y\n- una reserva sobre el alcance de la explicación política.\n\n## 7. Rúbrica de evaluación\n\n| Criterio | 4 · Logro sólido | 3 · Logro suficiente | 2 · En proceso | 1 · Inicial |\n| --- | --- | --- | --- | --- |\n| Secuencia y precisión | Ordena seis o más hitos, distingue sus efectos y usa localizadores exactos. | Ordena seis hitos con una imprecisión menor. | Omite hitos o confunde varios cambios. | La secuencia no permite reconocer el proceso. |\n| Categorías políticas y jurídicas | Distingue consistentemente legalidad, legitimidad, reforma y práctica. | Distingue las categorías centrales con una confusión menor. | Usa las categorías de manera parcial o intercambiable. | No distingue regla jurídica de práctica política. |\n| Atribución historiográfica | Atribuye a Flores, separa hechos y citas, y formula una valoración propia marcada. | Atribuye la tesis y distingue interpretación de hecho. | La atribución es incompleta o ambigua. | Presenta la tesis como hecho o sin autoría. |\n| Argumentación y límites | Formula una tesis sustentada, usa contraste contextual y declara límites. | Presenta argumento y un límite pertinente. | Predomina el resumen o el límite es vago. | Generaliza o concluye sin evidencia suficiente. |\n\nCada criterio representa 25 % de la calificación de la evidencia.\n\n## 8. Límites y prohibiciones de inferencia\n\n- No atribuir la tesis de Imer B. Flores a `HIST2_0004` ni a otro recurso.\n- No presentar “constitucionalización de la dictadura” como consenso historiográfico.\n- No equiparar legalidad formal con legitimidad democrática.\n- No usar `HIST2_0003` para demostrar directamente reformas del siglo XIX; su papel es contextual.\n- No reducir la crisis del Porfiriato a la reelección ni sustituir sus dimensiones sociales y regionales.\n\n## 9. Accesibilidad y alternativas\n\nLa línea de tiempo debe contar con una versión textual ordenada, no depender de posición espacial ni color. La discusión oral tendrá alternativa escrita y las categorías aparecerán definidas antes del ejercicio. La rúbrica se entrega al inicio.\n\n## 10. Regla de mantenimiento\n\nCualquier nueva interpretación se incorpora con autoría, localizador y estatus explícito. Una ampliación factual o curricular debe modificar primero el registro o la ficha correspondiente y superar revisión académica; no se añade únicamente en la interfaz."
+  },
+  {
+    "id": "ORI_HIST2_U2_TRAMA_01",
+    "tipo": "trama_transversal",
+    "titulo": "Del antirreeleccionismo al levantamiento",
+    "slug": "antirreeleccionismo-levantamiento-revolucion-mexicana",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u2",
+        "nombre": "Revolución Mexicana",
+        "slug": "revolucion-mexicana",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Orientación formal para explicar el paso del antirreeleccionismo al levantamiento de 1910 mediante una cronología regional focalizada y el contraste de documentos programáticos.",
+    "proposito": "Relacionar condiciones, demandas, decisiones y dinámicas regionales sin reducir el inicio de la Revolución Mexicana a una causa única ni generalizar el caso sinaloense.",
+    "rutas_analisis": [
+      {
+        "id": "A",
+        "titulo": "Del antirreeleccionismo al levantamiento",
+        "pregunta_guia": "¿Qué condiciones, demandas, decisiones y dinámicas regionales ayudan a explicar el paso de la oposición al levantamiento de 1910?",
+        "intervencion_didactica": "Cruzar una cronología focalizada del antirreeleccionismo sinaloense con fragmentos breves del Programa del Partido Liberal Mexicano y el Plan de San Luis, distinguiendo condición, demanda, decisión, escala y límite de cada fuente.",
+        "evidencia_esperada": "Línea de tiempo-mapa con al menos cinco entradas, localizadores verificables y una explicación de 150–180 palabras que rechace una causa única."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0005",
+        "slug": "maderismo",
+        "titulo": "La Revolución y los revolucionarios. Tomo II: Maderismo",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "referencia_1",
+          "referencia_2"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0008",
+        "slug": "documentos-fundamentales-revolucion-mexicana",
+        "titulo": "Documentos fundamentales de la Revolución Mexicana",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "referencia_2",
+          "referencia_3"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "linea_tiempo_mapa_argumentada",
+      "titulo": "De la oposición política al levantamiento de 1910",
+      "requisitos": [
+        "Cinco o más entradas con fecha o secuencia, actor, escala, acción y localizador.",
+        "Al menos una evidencia de HIST2_0005 y dos fragmentos documentales de HIST2_0008.",
+        "Distinción explícita entre condición, demanda, decisión e inicio del levantamiento.",
+        "Conclusión multicausal y límite sobre la representatividad del caso sinaloense."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Distingue causas y condiciones del inicio de la Revolución Mexicana",
+        "estado": "cubierto_directo_situado",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Relaciona oposición política, documentos programáticos y levantamiento de 1910",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Explicación regional integral del inicio de la Revolución",
+        "estado": "no_acreditado_por_corpus",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Cronología en tabla con encabezados textuales, alternativa al mapa gráfico, localizadores explícitos, instrucciones segmentadas y opción de entrega escrita.",
+    "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas.",
+    "markdown": "# Del antirreeleccionismo al levantamiento\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 1 de septiembre de 2026**  \n**Estado:** orientación formal en revisión, autorizada con ajustes por la Mtra. María Luisa Saavedra Solá.\n\n## 1. Decisión curricular y alcance\n\nEsta orientación formaliza la ruta U2-A y conserva su pregunta guía. Trabaja con una selección breve de `HIST2_0005` y `HIST2_0008` para relacionar antirreeleccionismo regional, demandas programáticas y convocatoria al levantamiento.\n\nEl caso sinaloense ofrece una escala regional verificable, pero no representa todos los procesos locales. La selección tampoco pretende agotar las causas sociales, económicas y territoriales de la Revolución Mexicana.\n\n## 2. Metas de aprendizaje\n\nAl concluir la secuencia, el estudiantado podrá:\n\n1. distinguir condición, demanda, decisión política e inicio del levantamiento;\n2. ordenar acontecimientos y documentos sin presentar una causalidad automática;\n3. relacionar escalas regional y nacional;\n4. sustentar afirmaciones con localizadores verificables; y\n5. declarar el límite de representatividad del caso estudiado.\n\n## 3. Ruta de análisis estructurada\n\nLa pregunta guía, la intervención didáctica, la evidencia esperada y las lecturas relacionadas se conservan en `ORI_HIST2_U2_TRAMA_01.json` y se proyectan automáticamente. Este documento desarrolla la mediación, evaluación y selección de fragmentos sin duplicar esos metadatos en componentes.\n\n## 4. Preparación docente y selección de fragmentos\n\nNo se asignan los facsímiles completos. Antes de la sesión, el docente selecciona:\n\n- `HIST2_0005`, `referencia_1` y `referencia_2`: Prólogo, PDF pp. 11–12, antirreeleccionismo e insurrección sinaloense;\n- `HIST2_0008`, `referencia_2`: Programa del Partido Liberal Mexicano, PDF pp. 14–17; y\n- `HIST2_0008`, `referencia_3`: Plan de San Luis, PDF pp. 18–21.\n\nCada fragmento debe conservar título, autoría, fecha, localizador y tipo de documento. La selección total sugerida es de diez páginas o menos. Si una fuente institucional no abre, se trabaja con localizadores y apuntes docentes; no se distribuyen copias locales desde el sitio.\n\n## 5. Secuencia presencial sugerida — 120 minutos\n\n| Tiempo | Acción docente | Actividad del estudiantado | Evidencia parcial |\n| --- | --- | --- | --- |\n| 0–10 min | Presentar la pregunta guía y recuperar explicaciones iniciales sobre el comienzo de la Revolución. | Escribir una hipótesis inicial y marcar si propone una o varias causas. | Hipótesis fechada. |\n| 10–30 min | Modelar la diferencia entre condición, demanda, decisión y acontecimiento. | Clasificar cuatro enunciados y justificar uno. | Tabla de clasificación. |\n| 30–50 min | Situar el caso sinaloense y advertir su escala regional. | Extraer actores, acciones y secuencia de `HIST2_0005`. | Tres entradas cronológicas. |\n| 50–75 min | Distribuir fragmentos focalizados del Programa del PLM y el Plan de San Luis. | Identificar demanda, destinatario, acción propuesta y localizador. | Dos cédulas documentales. |\n| 75–95 min | Guiar el cruce entre cronología regional y documentos nacionales. | Trazar relaciones y marcar cuáles son coincidencia, antecedente o decisión. | Línea de tiempo-mapa. |\n| 95–115 min | Pedir una explicación multicausal con límite de escala. | Redactar 150–180 palabras con tres localizadores. | Argumento breve. |\n| 115–120 min | Aplicar autoevaluación y cierre. | Entregar un límite y una pregunta de corroboración. | Boleto de salida. |\n\n### Trabajo independiente sugerido — 60 minutos\n\nEl estudiantado corrige la línea de tiempo-mapa, completa al menos cinco entradas y entrega una conclusión de 180–220 palabras. Puede sustituir el mapa gráfico por una tabla cronológica accesible con las mismas relaciones.\n\n## 6. Evidencia integradora\n\n**Línea de tiempo-mapa argumentada: “De la oposición política al levantamiento de 1910”.**\n\nLa entrega contiene:\n\n- cinco o más entradas con secuencia, actor, escala, acción y localizador;\n- al menos una evidencia de `HIST2_0005` y dos de `HIST2_0008`;\n- distinción entre condición, demanda, decisión y acontecimiento;\n- explicación que evite una causa única; y\n- límite explícito sobre la representatividad del caso sinaloense.\n\n## 7. Rúbrica de evaluación\n\n| Criterio | 4 · Logro sólido | 3 · Logro suficiente | 2 · En proceso | 1 · Inicial |\n| --- | --- | --- | --- | --- |\n| Cronología y escala | Ordena cinco o más entradas y distingue con precisión las escalas. | Ordena cinco entradas con una imprecisión menor. | Presenta secuencia incompleta o confunde escalas. | Enumera hechos sin orden ni escala. |\n| Trazabilidad | Usa tres o más localizadores pertinentes y atribuye los documentos. | Usa tres localizadores con una imprecisión menor. | Usa uno o dos localizadores o atribuciones incompletas. | Presenta afirmaciones sin respaldo localizable. |\n| Explicación multicausal | Relaciona condiciones, demandas y decisiones con una tesis clara. | Relaciona al menos tres elementos sin causalidad única. | Resume elementos con relación limitada. | Reduce el proceso a una causa o enumera datos. |\n| Alcance y límites | Distingue escalas y formula un límite y una corroboración pertinentes. | Evita generalizar y menciona un límite. | Reconoce el límite de manera vaga. | Generaliza el caso o presenta completitud indebida. |\n\nCada criterio representa 25 % de la calificación de la evidencia.\n\n## 8. Límites y prohibiciones de inferencia\n\n- No convertir un documento programático en prueba de su aplicación efectiva.\n- No generalizar la experiencia sinaloense a todas las regiones.\n- No confundir antecedente cronológico con causa suficiente.\n- No afirmar que esta selección cubre todas las causas sociales o económicas.\n- No asignar las obras completas cuando los fragmentos autorizados basten para la actividad.\n\n## 9. Accesibilidad y alternativas\n\nLa línea de tiempo tendrá alternativa tabular con encabezados. Los documentos deben presentarse con transcripción legible cuando la visualización institucional lo permita, sin alojar copias locales. La discusión oral tendrá alternativa escrita y las instrucciones se comunicarán antes de comenzar.\n\n## 10. Regla de mantenimiento\n\nUna lectura nueva solo podrá ampliar esta orientación después de contar con registro, ficha, referencias verificadas y aprobación académica. La incorporación no deberá ocultar el carácter situado de cada escala ni convertir recursos derivados planeados en materiales publicados."
+  },
+  {
+    "id": "ORI_HIST2_U2_TRAMA_02",
+    "tipo": "trama_transversal",
+    "titulo": "Maderismo, Decena Trágica y ruptura de 1913",
+    "slug": "maderismo-decena-tragica-ruptura-1913",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u2",
+        "nombre": "Revolución Mexicana",
+        "slug": "revolucion-mexicana",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Orientación formal para examinar tensiones del maderismo, versiones sobre la Decena Trágica y la ruptura política de 1913 mediante fragmentos breves y crítica de fuentes.",
+    "proposito": "Construir una explicación multicausal de la ruptura de 1913 que distinga documentos, versiones e interpretaciones y conecte el golpe con el problema posterior de la legitimidad constitucionalista.",
+    "rutas_analisis": [
+      {
+        "id": "B",
+        "titulo": "Maderismo, Decena Trágica y ruptura de 1913",
+        "pregunta_guia": "¿Qué tensiones del maderismo y qué decisiones políticas y militares ayudan a explicar la ruptura de 1913?",
+        "intervencion_didactica": "Construir un diagrama de versiones con el prólogo de HIST2_0005 y contrastarlo con la sección carrancista focalizada de HIST2_0006, separando procedencia, afirmación, evidencia, perspectiva y silencio.",
+        "evidencia_esperada": "Explicación multicausal de 1913 con dos lecturas, tres localizadores, dos actores en tensión y una reserva crítica sobre el enfoque de cada obra."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0005",
+        "slug": "maderismo",
+        "titulo": "La Revolución y los revolucionarios. Tomo II: Maderismo",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "B"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "referencia_3",
+          "referencia_5",
+          "referencia_6",
+          "referencia_7"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0006",
+        "slug": "revolucion-constitucionalista",
+        "titulo": "La Revolución y los revolucionarios. Tomo III: La revolución constitucionalista",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "B"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "referencia_1",
+          "referencia_2",
+          "referencia_3"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "diagrama_versiones_argumentado",
+      "titulo": "¿Cómo explicar la ruptura política de 1913?",
+      "requisitos": [
+        "Tres o más localizadores distribuidos entre HIST2_0005 y HIST2_0006.",
+        "Distinción entre documento, archivo, versión referida e interpretación autoral.",
+        "Dos actores o posiciones en tensión y una relación entre golpe y legitimidad.",
+        "Conclusión multicausal con una pregunta de corroboración."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Analiza características y tensiones del gobierno de Francisco I. Madero",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "B"
+        ]
+      },
+      {
+        "aprendizaje": "Explica la crisis maderista, la Decena Trágica y la ruptura de 1913",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "B"
+        ]
+      },
+      {
+        "aprendizaje": "Explicación completa de la dictadura huertista y la lucha de todas las facciones",
+        "estado": "no_acreditado_por_esta_secuencia",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Diagrama convertible en tabla, fragmentos breves, consignas por pasos, alternativa escrita a la discusión y localizadores explícitos.",
+    "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas.",
+    "markdown": "# Maderismo, Decena Trágica y ruptura de 1913\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 1 de septiembre de 2026**  \n**Estado:** orientación formal en revisión, autorizada con ajustes por la Mtra. María Luisa Saavedra Solá.\n\n## 1. Decisión curricular y alcance\n\nEsta orientación formaliza U2-B y conserva su pregunta guía. Usa fragmentos breves de `HIST2_0005` para estudiar negociaciones, tensiones y versiones sobre la caída de Madero, y una ventana focalizada de `HIST2_0006` para introducir la disputa posterior por la legitimidad.\n\nLa secuencia no resuelve responsabilidades controvertidas mediante una sola versión ni pretende cubrir toda la dictadura huertista, las campañas constitucionalistas o la diversidad completa de facciones.\n\n## 2. Metas de aprendizaje\n\nAl concluir la secuencia, el estudiantado podrá:\n\n1. identificar tensiones políticas del maderismo y actores involucrados;\n2. distinguir documento, archivo, versión referida e interpretación;\n3. explicar la ruptura de 1913 mediante relaciones multicausales;\n4. conectar el golpe con un problema de legitimidad política; y\n5. formular una reserva crítica y una pregunta de corroboración.\n\n## 3. Ruta de análisis estructurada\n\nLa pregunta guía, la intervención, la evidencia y las lecturas relacionadas se conservan en `ORI_HIST2_U2_TRAMA_02.json`. Este Markdown desarrolla la secuencia y la evaluación sin convertir versiones autorales en hechos incontrovertibles.\n\n## 4. Preparación docente y selección de fragmentos\n\nPara evitar saturación cognitiva, no se asignan los tomos completos. El docente prepara:\n\n- `HIST2_0005`, `referencia_3` y `referencia_5`: Prólogo, PDF pp. 12–15, Tratados de Ciudad Juárez y tensiones internas;\n- `HIST2_0005`, `referencia_6` y `referencia_7`: Prólogo, PDF pp. 15–16, Decena Trágica y versiones referidas; y\n- `HIST2_0006`, `referencia_1`–`referencia_3`: PDF pp. 23–25, sección carrancista, procedencia del archivo y actitud de Carranza en los últimos días del gobierno de Madero.\n\nLa selección sugerida no supera ocho páginas. Cada extracto conserva autoría, obra, localizador y tipo de evidencia. `HIST2_0006` funciona aquí como contraste y puente de legitimidad, no como sustituto de una historia completa del constitucionalismo.\n\n## 5. Secuencia presencial sugerida — 120 minutos\n\n| Tiempo | Acción docente | Actividad del estudiantado | Evidencia parcial |\n| --- | --- | --- | --- |\n| 0–10 min | Presentar la pregunta guía y recuperar una explicación inicial de la ruptura. | Escribir hipótesis y actores implicados. | Hipótesis fechada. |\n| 10–30 min | Modelar procedencia, afirmación, evidencia, perspectiva y silencio. | Clasificar un ejemplo y formular una pregunta crítica. | Cédula modelo. |\n| 30–55 min | Guiar la lectura focalizada sobre Tratados y tensiones internas. | Completar una matriz de actores, intereses y consecuencias. | Matriz de tensiones. |\n| 55–80 min | Introducir las versiones sobre la Decena Trágica. | Elaborar un diagrama que no equipare documento, entrevista e interpretación. | Diagrama de versiones. |\n| 80–100 min | Presentar la sección carrancista como contraste posterior al golpe. | Identificar procedencia, perspectiva y vínculo con legitimidad. | Ficha de crítica de fuente. |\n| 100–115 min | Acompañar una explicación multicausal. | Redactar 150–180 palabras con tres localizadores y una reserva. | Borrador argumentativo. |\n| 115–120 min | Aplicar cierre y autoevaluación. | Entregar una pregunta de corroboración. | Boleto de salida. |\n\n### Trabajo independiente sugerido — 60 minutos\n\nEl estudiantado revisa su diagrama y entrega una explicación final de 200–250 palabras. Debe atribuir cada versión, incluir al menos dos actores en tensión y separar lo que la evidencia permite afirmar de lo que requiere corroboración.\n\n## 6. Evidencia integradora\n\n**Diagrama de versiones argumentado: “¿Cómo explicar la ruptura política de 1913?”**\n\nLa entrega contiene:\n\n- tres o más localizadores entre `HIST2_0005` y `HIST2_0006`;\n- clasificación de cada pieza como documento, archivo, versión o interpretación;\n- dos actores o posiciones en tensión;\n- relación entre golpe y disputa de legitimidad; y\n- conclusión multicausal y pregunta de corroboración.\n\n## 7. Rúbrica de evaluación\n\n| Criterio | 4 · Logro sólido | 3 · Logro suficiente | 2 · En proceso | 1 · Inicial |\n| --- | --- | --- | --- | --- |\n| Crítica de fuentes | Distingue consistentemente procedencia, tipo, perspectiva y silencio. | Distingue las categorías con una confusión menor. | Mezcla varias categorías o atribuye de forma incompleta. | Trata todas las versiones como hechos equivalentes. |\n| Trazabilidad | Usa tres o más localizadores pertinentes en dos lecturas. | Usa tres localizadores con una imprecisión menor. | Usa uno o dos localizadores. | Carece de evidencia verificable. |\n| Explicación histórica | Relaciona tensiones, decisiones y actores en una tesis multicausal. | Formula una explicación sustentada sin causa única. | Resume hechos con relaciones limitadas. | Enumera o afirma una causa única. |\n| Reserva crítica | Formula un límite preciso y una pregunta viable de corroboración. | Declara un límite pertinente. | Menciona una duda vaga. | Presenta una conclusión cerrada e incontrovertible. |\n\nCada criterio representa 25 % de la calificación de la evidencia.\n\n## 8. Límites y prohibiciones de inferencia\n\n- No resolver responsabilidades históricas controvertidas con una sola versión.\n- No confundir la mención de un archivo con acceso directo a todos sus documentos.\n- No tratar la perspectiva carrancista como descripción neutral del proceso.\n- No presentar esta secuencia como cobertura completa del huertismo o el constitucionalismo.\n- No asignar facsímiles extensos cuando los fragmentos focalizados basten.\n\n## 9. Accesibilidad y alternativas\n\nEl diagrama tendrá alternativa en tabla. Las consignas estarán numeradas y cada fragmento incluirá localizador textual. La discusión oral tendrá respuesta escrita equivalente. Ninguna reproducción visual será indispensable para completar la evidencia.\n\n## 10. Regla de mantenimiento\n\nLa ampliación hacia huertismo, constitucionalismo o facciones requiere dictamen de las rutas retenidas y referencias canónicas verificadas. Esta orientación no convierte recursos derivados planeados en publicados ni autoriza alojar fuentes de terceros."
+  },
+  {
+    "id": "ORI_HIST2_U3_TRAMA_01",
+    "tipo": "trama_transversal",
+    "titulo": "Trama transversal de la Unidad 3 — Estado surgido de la Revolución",
+    "slug": "unidad-3-estado-surgido-de-la-revolucion",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u3",
+        "nombre": "Estado surgido de la Revolución",
+        "slug": "estado-surgido-de-la-revolucion",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Itinerario docente que convierte relaciones secundarias ya verificadas del corpus en cinco rutas de análisis para estudiar la formación, reformas, contradicciones y herencias del Estado surgido de la Revolución.",
+    "proposito": "Articular evidencias de varias lecturas para que los aprendizajes de la Unidad 3 se trabajen mediante rutas intencionales, sin reasignar artificialmente unidades principales ni ocultar límites de cobertura.",
+    "rutas_analisis": [
+      {
+        "id": "A",
+        "titulo": "Del caudillismo a las instituciones",
+        "pregunta_guia": "¿Qué se institucionaliza, quién conserva poder y con qué mecanismos?",
+        "intervencion_didactica": "Contrastar caudillismo, PNR/PRM, elecciones de 1920–1922 y centralización.",
+        "evidencia_esperada": "Mapa relacional y línea de tiempo argumentada."
+      },
+      {
+        "id": "B",
+        "titulo": "Cardenismo, territorio y reformas sociales",
+        "pregunta_guia": "¿Cómo se combinan reforma social, territorio, nacionalismo y límites de incorporación?",
+        "intervencion_didactica": "Comparar reparto agrario, políticas de incorporación, Plan Sexenal, educación, expropiación petrolera y agencia yaqui.",
+        "evidencia_esperada": "Matriz de continuidad, cambio, actor y límite."
+      },
+      {
+        "id": "C",
+        "titulo": "Soberanía, Constitución y política exterior",
+        "pregunta_guia": "¿Qué márgenes y límites tuvo la soberanía estatal frente a actores internacionales?",
+        "intervencion_didactica": "Conectar Constitución de 1917, petróleo, neutralidad, independencia relativa y coyunturas de posguerra.",
+        "evidencia_esperada": "Ficha de fuente y explicación multicausal."
+      },
+      {
+        "id": "D",
+        "titulo": "Educación, ciencia, cultura y ciudadanía",
+        "pregunta_guia": "¿Quiénes fueron incluidos, representados o silenciados en los proyectos culturales y educativos del Estado?",
+        "intervencion_didactica": "Examinar reconstrucción, educación pública, ciencia, ciudadanía y memorias de mujeres yaquis.",
+        "evidencia_esperada": "Mapa conceptual con una ausencia documentada y fuente complementaria propuesta."
+      },
+      {
+        "id": "E",
+        "titulo": "Herencias, arreglos y contradicciones de posguerra",
+        "pregunta_guia": "¿Qué cambió y qué persistió al pasar del Estado posrevolucionario al sistema político autoritario?",
+        "intervencion_didactica": "Relacionar herencias cardenistas, elecciones, partido, presidencialismo y pluralismo limitado sin convertir la posguerra en continuidad automática.",
+        "evidencia_esperada": "Párrafo comparativo con tesis, evidencia y límite."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0002",
+        "slug": "yaquis-memoria-territorio-participacion-politica",
+        "titulo": "Yaquis. Memoria, territorio y participación política",
+        "unidad_principal": "Régimen Porfirista",
+        "rutas_analisis": [
+          "B",
+          "D"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_5",
+          "ch_6",
+          "ch_7",
+          "ch_8",
+          "aprendizaje_4",
+          "aprendizaje_5"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0003",
+        "slug": "sistema-politico-mexicano",
+        "titulo": "El sistema político mexicano",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_3",
+          "aprendizaje_2",
+          "aprendizaje_3"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0007",
+        "slug": "teorizando-revolucion-mexicana",
+        "titulo": "Teorizando sobre la Revolución Mexicana: interpretaciones de sus historiadores y cronistas",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "ch_5"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0008",
+        "slug": "documentos-fundamentales-revolucion-mexicana",
+        "titulo": "Documentos fundamentales de la Revolución Mexicana",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "B",
+          "C",
+          "D"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "ch_3",
+          "ch_4",
+          "ch_5",
+          "aprendizaje_3",
+          "aprendizaje_4"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0013",
+        "slug": "prensa-instrumento-cientifico-revolucion",
+        "titulo": "La prensa como instrumento científico en tiempos de la Revolución",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "D"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "ch_5"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0014",
+        "slug": "relaciones-mexico-estados-unidos-1911-1918",
+        "titulo": "Relaciones México-Estados Unidos, 1911-1918",
+        "unidad_principal": "Revolución Mexicana",
+        "rutas_analisis": [
+          "C"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "ch_4"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0015",
+        "slug": "elecciones-sistema-politico",
+        "titulo": "Las elecciones y el sistema político",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "A",
+          "E"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "ch_3",
+          "aprendizaje_3"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0016",
+        "slug": "sistema-politico-etapa-clasica",
+        "titulo": "El sistema político mexicano: la etapa clásica",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "A",
+          "E"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": []
+      },
+      {
+        "lectura_id": "HIST2_0018",
+        "slug": "resena-loaeza-sombra-superpotencia",
+        "titulo": "Sobre Soledad Loaeza, A la sombra de la superpotencia: tres presidentes mexicanos en la Guerra Fría, 1945-1958",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "C",
+          "E"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "aprendizaje_3"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "dossier_argumentado_o_presentacion_equivalente",
+      "titulo": "¿Cómo se construyó y qué contradicciones tuvo el Estado surgido de la Revolución?",
+      "requisitos": [
+        "Una evidencia de institucionalización política.",
+        "Una evidencia de reforma social, territorial o de derechos.",
+        "Una evidencia de soberanía, política exterior, educación o cultura.",
+        "Una comparación con un arreglo de posguerra.",
+        "Al menos cuatro localizadores y un límite explícito de la evidencia disponible."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Caudillismo, Maximato y PNR",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Cardenismo y proyecto de transformación social, económica y política",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "B"
+        ]
+      },
+      {
+        "aprendizaje": "Soberanía, recursos naturales y política exterior",
+        "estado": "cubierto_contextual_documental",
+        "rutas_analisis": [
+          "C"
+        ]
+      },
+      {
+        "aprendizaje": "Educación, cultura y participación de las mujeres",
+        "estado": "cubierto_parcial_critico",
+        "rutas_analisis": [
+          "D"
+        ]
+      },
+      {
+        "aprendizaje": "Guerra Cristera y relaciones entre Estado e Iglesia",
+        "estado": "no_acreditado_por_corpus",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Contenido Markdown semántico, navegación interna, tablas con encabezados y declaración explícita de límites de cobertura.",
+    "licencia_y_creditos": "Contenido propio del repositorio, sujeto a la licencia institucional que se determine. Las afirmaciones sobre lecturas remiten a sus registros canónicos y no autorizan reproducir fuentes de terceros.",
+    "markdown": "# Trama transversal de la Unidad 3 — Estado surgido de la Revolución\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 31 de agosto de 2026**  \n**Estado:** diseño curricular operativo derivado de registros canónicos y fichas pedagógicas validadas.\n\n## 1. Decisión curricular\n\nLa Unidad 3 no cuenta con una lectura cuya asignación principal sea **Estado surgido de la Revolución**. Esta condición no se resuelve reasignando artificialmente una lectura ni degradando los límites de sus fuentes.\n\nSe establece, en cambio, una **trama transversal de rutas de análisis**. La trama reúne vínculos secundarios ya verificados, los organiza por problemas y los convierte en un itinerario deliberado de enseñanza. Cada ruta de análisis conserva el identificador, evidencia y límite del registro canónico de origen.\n\nLa trama es una capa curricular de articulación: no modifica las unidades principales de las lecturas, no inventa cobertura y no sustituye la revisión académica de cada fuente.\n\n## 2. Propósito y saber articulador\n\n**Propósito de Unidad 3 del programa:** analizar la consolidación del Estado posrevolucionario mediante reformas políticas y creación de instituciones, para construir una valoración crítica de sus logros y contradicciones.\n\n**Saber articulador de la trama:** entre 1920 y mediados del siglo XX, la construcción estatal puede estudiarse como una relación cambiante entre institucionalización política, reformas sociales, soberanía, educación/cultura y derechos. Sus logros, conflictos, desigualdades y límites deben analizarse con fuentes situadas, no como una narrativa lineal de progreso.\n\n## 3. Rutas de análisis verificadas\n\nLas cinco rutas se definen de forma estructurada en el registro de esta orientación. La proyección pública presenta para cada una su pregunta guía, lecturas y referencias canónicas, intervención didáctica y evidencia esperada. Una lectura puede contribuir a más de una ruta sin cambiar su unidad temática principal.\n\n## 4. Cobertura frente al programa\n\n| Conocimiento o habilidad de la Unidad 3 | Estado en la trama | Ruta de análisis y lectura(s) |\n| --- | --- | --- |\n| Caudillismo, pérdida de poder de caudillos, Maximato y fundación del PNR | Cubierto de forma directa. | A: `HIST2_0003`; apoyo comparativo de `HIST2_0015`. |\n| Cardenismo y proyecto de transformación social, económica y política | Cubierto de forma directa y situada. | B: `HIST2_0002`, `HIST2_0008`. |\n| Defensa de soberanía, recursos naturales y política exterior mexicana | Cubierto de forma contextual y documental. | C: `HIST2_0014`, `HIST2_0008`, `HIST2_0018`. |\n| Educación, cultura y participación de las mujeres | Cubierto de forma parcial y crítica. | D: `HIST2_0013`, `HIST2_0008`, `HIST2_0002`. Las fuentes no agotan el eje de mujeres ni la historia cultural nacional. |\n| Guerra Cristera y relaciones entre Estado e Iglesia | **No acreditado por el corpus actual.** | Ninguna lectura posee evidencia suficiente para declararla cubierta. No se incorpora como logro de la trama ni se simula con inferencias. |\n\nEl último renglón es un límite de curaduría, no un error de implementación. Si la revisión académica determina indispensable cubrirlo con el repositorio, requerirá una fuente o recurso complementario con registro, ficha y evidencia propios.\n\n## 5. Itinerario sugerido de uso\n\nLa trama no obliga a leer nueve textos completos. Propone cinco estaciones que pueden adaptarse a las 8 horas presenciales y 4 de trabajo independiente previstas para la Unidad 3:\n\n1. **Apertura institucional (2 h):** `HIST2_0003` con apoyo de `HIST2_0015` para construir el mapa del paso del caudillismo a instituciones.\n2. **Reforma y territorio (2 h):** `HIST2_0002` y documentos de `HIST2_0008` para estudiar cardenismo, reparto, educación y recursos.\n3. **Soberanía y mundo (1.5 h):** `HIST2_0014` y `HIST2_0018` para relacionar Constitución, política exterior y márgenes de negociación.\n4. **Cultura, educación y ciudadanía (1 h):** `HIST2_0013`, `HIST2_0008` y el contraste con memorias de `HIST2_0002`.\n5. **Síntesis y transición (1.5 h):** `HIST2_0016`, `HIST2_0015` y `HIST2_0018` para discutir herencias y contradicciones hacia la posguerra.\n6. **Trabajo independiente (4 h):** dossier de evidencias con una pieza por ruta de análisis; cada entrada identifica lectura, localizador, tipo de enunciado, explicación y límite.\n\n## 6. Evidencia integradora de unidad\n\n**Dossier argumentado: “¿Cómo se construyó y qué contradicciones tuvo el Estado surgido de la Revolución?”**\n\nEl estudiantado elabora una explicación de 500 a 700 palabras o una presentación equivalente. Debe integrar, como mínimo:\n\n- una evidencia de institucionalización política (A);\n- una evidencia de reforma social, territorial o de derechos (B);\n- una evidencia de soberanía, política exterior, educación o cultura (C o D);\n- una comparación con un arreglo de posguerra (E);\n- al menos cuatro localizadores; y\n- un límite explícito: la ausencia de evidencia suficiente sobre Guerra Cristera o cualquier otro eje que la selección no permita concluir.\n\nLa rúbrica debe valorar: precisión temporal, atribución correcta de fuente e interpretación, relación entre procesos, calidad de la evidencia, reconocimiento de límites y argumentación clara.\n\n## 7. Integración en las fichas y en la futura interfaz\n\nLas fichas de `HIST2_0002`, `HIST2_0003`, `HIST2_0007`, `HIST2_0008`, `HIST2_0013`, `HIST2_0014`, `HIST2_0015`, `HIST2_0016` y `HIST2_0018` incorporan una nota de trama en la sección 6. Esa nota declara su ruta de análisis específica y enlaza conceptualmente esta matriz.\n\nLa futura interfaz deberá:\n\n- presentar la Unidad 3 como **itinerario transversal curado**, no como una lectura principal ficticia;\n- permitir recorrer las lecturas por la Unidad 3 y por ruta de análisis A–E;\n- mostrar el alcance de cada relación —directo o contextual— y sus límites;\n- incluir la advertencia sobre Guerra Cristera en la vista de cobertura de unidad; y\n- vincular el dossier integrador con las fichas, sin alterar los registros canónicos.\n\n## 8. Regla de mantenimiento\n\nUna nueva lectura principal para Unidad 3 podrá incorporarse en el futuro si cumple los controles canónicos. En ese caso, complementará la trama; no invalida las relaciones ya verificadas. Cualquier modificación de las rutas de análisis debe mantener referencia a los identificadores, evidencias y límites del registro fuente."
+  },
+  {
+    "id": "ORI_HIST2_U4_TRAMA_01",
+    "tipo": "trama_transversal",
+    "titulo": "Arquitectura del sistema político autoritario",
+    "slug": "arquitectura-sistema-politico-autoritario",
+    "audiencia": [
+      "docente"
+    ],
+    "estado_editorial": "en_revision",
+    "unidades": [
+      {
+        "id": "u4",
+        "nombre": "Consolidación del sistema político autoritario",
+        "slug": "consolidacion-sistema-politico-autoritario",
+        "rol": "principal",
+        "alcances": [
+          "directo"
+        ]
+      }
+    ],
+    "descripcion": "Orientación formal para representar las relaciones entre presidencia, partido, poderes públicos, federalismo y corporativismo mediante fragmentos canónicos acotados.",
+    "proposito": "Explicar la arquitectura política del sistema autoritario distinguiendo diseño formal, funcionamiento histórico, mecanismos de integración y límites del modelo analítico.",
+    "rutas_analisis": [
+      {
+        "id": "A",
+        "titulo": "Arquitectura del sistema autoritario",
+        "pregunta_guia": "¿Cómo se articularon presidencia, partido, poderes públicos, federalismo y corporativismo en el arreglo político autoritario?",
+        "intervencion_didactica": "Construir un mapa relacional con los fragmentos focalizados de HIST2_0003 y usar una ventana breve de HIST2_0016 para contrastar periodización y categorías. Cada vínculo debe incluir verbo, localizador y clasificación: integración, negociación, legitimación o control.",
+        "evidencia_esperada": "Mapa relacional argumentado con seis nodos, cinco vínculos localizados y una explicación breve de la tensión entre diseño institucional formal y funcionamiento histórico."
+      }
+    ],
+    "lecturas_vinculadas": [
+      {
+        "lectura_id": "HIST2_0003",
+        "slug": "sistema-politico-mexicano",
+        "titulo": "El sistema político mexicano",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "directo",
+        "referencias_canonicas": [
+          "referencia_4",
+          "referencia_5",
+          "referencia_6",
+          "referencia_12"
+        ]
+      },
+      {
+        "lectura_id": "HIST2_0016",
+        "slug": "sistema-politico-etapa-clasica",
+        "titulo": "El sistema político mexicano: la etapa clásica",
+        "unidad_principal": "Consolidación del sistema político autoritario",
+        "rutas_analisis": [
+          "A"
+        ],
+        "alcance": "contextual",
+        "referencias_canonicas": [
+          "referencia_1",
+          "referencia_2",
+          "referencia_10"
+        ]
+      }
+    ],
+    "evidencia_integradora": {
+      "tipo": "mapa_relacional_argumentado",
+      "titulo": "Instituciones, articulaciones y mecanismos del sistema autoritario",
+      "requisitos": [
+        "Seis nodos como mínimo: presidencia, partido, Legislativo, Judicial, entidades federativas y organizaciones sociales.",
+        "Cinco o más vínculos con verbo, clasificación y localizador verificable.",
+        "Contraste explícito entre diseño formal y funcionamiento histórico.",
+        "Nota sobre el carácter situado de la periodización y las categorías analíticas."
+      ]
+    },
+    "cobertura_curricular": [
+      {
+        "aprendizaje": "Explica mecanismos e instituciones de consolidación del sistema político autoritario",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Analiza relaciones entre presidencialismo, centralización y corporativismo",
+        "estado": "cubierto_directo",
+        "rutas_analisis": [
+          "A"
+        ]
+      },
+      {
+        "aprendizaje": "Unidad Nacional, Segunda Guerra Mundial, Milagro Mexicano, guerra sucia y cultura popular",
+        "estado": "no_acreditado_por_esta_secuencia",
+        "rutas_analisis": []
+      }
+    ],
+    "accesibilidad": "Mapa con alternativa tabular, relaciones expresadas también en texto, localizadores explícitos, fragmentos acotados y opción de entrega individual.",
+    "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas.",
+    "markdown": "# Arquitectura del sistema político autoritario\n\nRepositorio educativo de Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo  \n**Versión 1.0 — 1 de septiembre de 2026**  \n**Estado:** orientación formal en revisión, autorizada con ajustes por la Mtra. María Luisa Saavedra Solá.\n\n## 1. Decisión curricular y alcance\n\nEsta orientación formaliza U4-A y conserva su pregunta guía. La base de trabajo es `HIST2_0003`, PDF pp. 17–23 y 33–36, con una ventana analítica acotada de `HIST2_0016`. La secuencia representa relaciones entre presidencia, partido, poderes, federalismo y corporativismo sin presentar el modelo como descripción total del periodo.\n\nNo acredita por sí sola Unidad Nacional, participación mexicana en la Segunda Guerra Mundial, modelos económicos, Milagro Mexicano, guerra sucia o cultura popular.\n\n## 2. Metas de aprendizaje\n\nAl concluir la secuencia, el estudiantado podrá:\n\n1. identificar instituciones y actores del arreglo político autoritario;\n2. representar relaciones mediante verbos y localizadores;\n3. clasificar mecanismos de integración, negociación, legitimación y control;\n4. contrastar diseño formal y funcionamiento histórico; y\n5. reconocer la periodización y las categorías como herramientas analíticas situadas.\n\n## 3. Ruta de análisis estructurada\n\nLa pregunta guía, la intervención, la evidencia esperada y las relaciones con lecturas se conservan en `ORI_HIST2_U4_TRAMA_01.json`. Este documento desarrolla la mediación y la rúbrica sin duplicar manualmente los metadatos proyectados.\n\n## 4. Preparación docente y selección de fragmentos\n\nLa lectura base se limita a:\n\n- `HIST2_0003`, `referencia_4`–`referencia_6`: PDF pp. 17–23, presidencialismo, poderes y federalismo;\n- `HIST2_0003`, `referencia_12`: PDF pp. 33–36, corporativismo y partido dominante; y\n- `HIST2_0016`, selección de `referencia_1`, `referencia_2` o `referencia_10`: una sola ventana de contraste sobre periodización, presidencialismo o institucionalización.\n\nNo se asignan todas las ventanas de `HIST2_0016` en una misma sesión. El docente elige una según el grupo y conserva obra, autoría, página y carácter interpretativo de las categorías.\n\n## 5. Secuencia presencial sugerida — 120 minutos\n\n| Tiempo | Acción docente | Actividad del estudiantado | Evidencia parcial |\n| --- | --- | --- | --- |\n| 0–10 min | Presentar la pregunta guía y diferenciar institución, actor y relación. | Proponer seis nodos iniciales. | Inventario de nodos. |\n| 10–30 min | Modelar un vínculo con verbo, localizador y clasificación. | Elaborar dos relaciones justificadas. | Dos fichas de vínculo. |\n| 30–55 min | Guiar la lectura de presidencialismo, poderes y federalismo. | Completar los nodos institucionales y localizar evidencia. | Primer mapa parcial. |\n| 55–75 min | Trabajar corporativismo y partido dominante. | Incorporar organizaciones sociales y mecanismos de integración o control. | Segundo mapa parcial. |\n| 75–95 min | Introducir una ventana de contraste de `HIST2_0016`. | Comparar una categoría o periodización y señalar coincidencia o diferencia. | Nota comparativa. |\n| 95–115 min | Pedir un argumento sobre diseño formal y funcionamiento histórico. | Redactar 150–180 palabras con tres localizadores. | Explicación breve. |\n| 115–120 min | Aplicar autoevaluación. | Entregar un límite del modelo. | Boleto de salida. |\n\n### Trabajo independiente sugerido — 60 minutos\n\nEl estudiantado entrega el mapa final con al menos seis nodos y cinco relaciones justificadas. El mapa puede sustituirse por una tabla de origen–relación–destino–localizador–clasificación, sin pérdida de criterios.\n\n## 6. Evidencia integradora\n\n**Mapa relacional argumentado: “Instituciones, articulaciones y mecanismos del sistema autoritario”.**\n\nLa entrega contiene:\n\n- seis nodos como mínimo;\n- cinco vínculos con verbo, clasificación y localizador;\n- presencia de presidencia, partido, poderes públicos, federalismo y organizaciones;\n- contraste entre diseño formal y funcionamiento histórico; y\n- nota sobre el límite de la periodización o del modelo analítico.\n\n## 7. Rúbrica de evaluación\n\n| Criterio | 4 · Logro sólido | 3 · Logro suficiente | 2 · En proceso | 1 · Inicial |\n| --- | --- | --- | --- | --- |\n| Arquitectura relacional | Integra seis o más nodos y cinco vínculos históricamente justificados. | Integra los nodos y vínculos requeridos con una imprecisión menor. | Presenta relaciones incompletas o poco justificadas. | Enumera instituciones sin relaciones. |\n| Trazabilidad | Cada vínculo relevante tiene verbo, categoría y localizador preciso. | La mayoría tiene localizador y clasificación. | Faltan varios localizadores o categorías. | El mapa carece de evidencia verificable. |\n| Análisis institucional | Contrasta diseño formal, práctica y mecanismo con una tesis clara. | Explica la tensión formal–histórica de manera suficiente. | Describe instituciones con análisis limitado. | Confunde norma formal y funcionamiento histórico. |\n| Alcance y límites | Sitúa la periodización y declara con precisión lo no cubierto. | Reconoce un límite pertinente. | Menciona límites de forma vaga. | Presenta el modelo como descripción total. |\n\nCada criterio representa 25 % de la calificación de la evidencia.\n\n## 8. Límites y prohibiciones de inferencia\n\n- No equiparar diseño constitucional con funcionamiento histórico efectivo.\n- No reducir corporativismo a control unilateral sin considerar integración y negociación.\n- No presentar una periodización autoral como consenso incontrovertible.\n- No declarar cubierta toda la Unidad 4 con esta orientación.\n- No duplicar productos de rutas retenidas ni simular recursos derivados planeados.\n\n## 9. Accesibilidad y alternativas\n\nEl mapa relacional tendrá alternativa tabular y cada vínculo se expresará también en texto. Las instrucciones se dividirán por pasos, la exposición oral tendrá alternativa escrita y los localizadores no dependerán exclusivamente del color o de elementos gráficos.\n\n## 10. Regla de mantenimiento\n\nLas rutas sobre elecciones, movimientos sociales, economía política u otros ejes permanecen retenidas. Cualquier ampliación exige dictamen, registro, ficha y localizadores verificados antes de incorporarse a esta orientación o generar una nueva."
+  }
+]

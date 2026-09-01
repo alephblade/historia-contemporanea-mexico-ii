@@ -1,0 +1,22 @@
+---
+import { scopeLabel, type UnitRelation } from '../lib/public-data';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  relations: UnitRelation[];
+  compact?: boolean;
+}
+
+const { relations, compact = false } = Astro.props;
+---
+
+<ul class:list={['unit-relations', { compact }]} aria-label="Relaciones curriculares">
+  {relations.map((relation) => (
+    <li>
+      <a href={withBase(`/unidades/${relation.slug}/`)}>{relation.nombre}</a>
+      <span>{relation.rol === 'principal' ? 'Unidad principal' : 'Unidad relacionada'}</span>
+      {relation.alcances.map((scope) => <span>{scopeLabel(scope)}</span>)}
+      {relation.rol === 'secundaria' && relation.alcances.length === 0 && <span>Alcance no explicitado en la relación pública</span>}
+    </li>
+  ))}
+</ul>

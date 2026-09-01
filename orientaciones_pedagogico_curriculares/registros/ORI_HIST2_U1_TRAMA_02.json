@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U1_TRAMA_02",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Estado, reelección y legitimidad en el Régimen Porfirista",
+  "slug": "estado-reeleccion-legitimidad-regimen-porfirista",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-09-01",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u1",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Orientación formal para distinguir diseño jurídico, legalidad, legitimidad y práctica política al estudiar la reelección y la concentración del poder durante el Porfiriato.",
+  "proposito": "Reconstruir los cambios constitucionales y su relación con la permanencia presidencial, atribuyendo las interpretaciones historiográficas a sus autores y evitando presentarlas como hechos o consensos indiscutibles.",
+  "rutas_analisis": [
+    {
+      "id": "B",
+      "titulo": "Estado, reelección y legitimidad",
+      "pregunta_guia": "¿Qué mecanismos legales, electorales y políticos permitieron concentrar y prolongar el poder presidencial?",
+      "intervencion_didactica": "Construir una línea de tiempo de planes y reformas, contrastar diseño jurídico con práctica política y clasificar los enunciados como hecho documentado, cita, interpretación atribuida o valoración del estudiantado.",
+      "evidencia_esperada": "Línea de tiempo analítica y párrafo argumentativo que distinga una reforma, su efecto político según la fuente y una interpretación propia explícitamente marcada."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {
+      "lectura_id": "HIST2_0001",
+      "rutas_analisis": ["B"],
+      "alcance": "directo",
+      "referencias_canonicas": ["ch_2", "ch_5"]
+    },
+    {
+      "lectura_id": "HIST2_0019",
+      "rutas_analisis": ["B"],
+      "alcance": "directo",
+      "referencias_canonicas": ["ch_1", "ch_2", "ch_3"]
+    },
+    {
+      "lectura_id": "HIST2_0003",
+      "rutas_analisis": ["B"],
+      "alcance": "contextual",
+      "referencias_canonicas": ["ch_1"]
+    }
+  ],
+  "evidencia_integradora": {
+    "tipo": "linea_tiempo_analitica_y_parrafo_argumentativo",
+    "titulo": "¿Cómo se volvió legalmente posible la permanencia política de Porfirio Díaz?",
+    "requisitos": [
+      "Secuencia entre La Noria, Tuxtepec, las reformas de 1878, 1887 y 1890, y la reforma de 1911.",
+      "Distinción entre reforma constitucional, legalidad formal, legitimidad política y práctica histórica.",
+      "Atribución expresa a Imer B. Flores de la interpretación «constitucionalización de la dictadura».",
+      "Al menos cuatro localizadores, una valoración propia marcada y un límite historiográfico."
+    ]
+  },
+  "cobertura_curricular": [
+    {
+      "aprendizaje": "Características del Estado porfirista y mecanismos de concentración del poder",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["B"]
+    },
+    {
+      "aprendizaje": "Reelección, exclusión política y crisis final del régimen",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["B"]
+    },
+    {
+      "aprendizaje": "Explicación social integral del régimen y consenso historiográfico",
+      "estado": "no_acreditado_por_corpus",
+      "rutas_analisis": []
+    }
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U1_TRAMA_02.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Línea de tiempo textual equivalente, categorías explícitas de enunciado, instrucciones por escrito, alternativa individual o colaborativa y rúbrica comunicada antes de la actividad.",
+  "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas."
+}

@@ -1,0 +1,50 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import { withBase } from '../lib/paths';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title === 'Inicio' ? 'Historia Contemporánea de México II · UACh' : `${title} · Historia II UACh`;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+---
+
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#24352f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" />
+    {canonical && <link rel="canonical" href={canonical} />}
+    {canonical && <meta property="og:url" content={canonical} />}
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+    <SiteHeader />
+    <main id="contenido-principal" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div>
+        <p><strong>Repositorio educativo en revisión</strong></p>
+        <p>Historia Contemporánea de México II · Preparatoria Agrícola · Universidad Autónoma Chapingo.</p>
+        <p>Contenido académico original: CC BY-SA 4.0. Código original: MIT. Fuentes y signos institucionales excluidos.</p>
+      </div>
+      <nav aria-label="Enlaces del pie">
+        <a href={withBase('/acerca/')}>Metodología y límites</a>
+        <a href={withBase('/orientaciones/')}>Navegación docente</a>
+      </nav>
+    </footer>
+  </body>
+</html>

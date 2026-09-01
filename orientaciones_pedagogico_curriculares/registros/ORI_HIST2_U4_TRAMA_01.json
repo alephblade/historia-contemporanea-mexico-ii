@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U4_TRAMA_01",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Arquitectura del sistema político autoritario",
+  "slug": "arquitectura-sistema-politico-autoritario",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-09-01",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u4",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Orientación formal para representar las relaciones entre presidencia, partido, poderes públicos, federalismo y corporativismo mediante fragmentos canónicos acotados.",
+  "proposito": "Explicar la arquitectura política del sistema autoritario distinguiendo diseño formal, funcionamiento histórico, mecanismos de integración y límites del modelo analítico.",
+  "rutas_analisis": [
+    {
+      "id": "A",
+      "titulo": "Arquitectura del sistema autoritario",
+      "pregunta_guia": "¿Cómo se articularon presidencia, partido, poderes públicos, federalismo y corporativismo en el arreglo político autoritario?",
+      "intervencion_didactica": "Construir un mapa relacional con los fragmentos focalizados de HIST2_0003 y usar una ventana breve de HIST2_0016 para contrastar periodización y categorías. Cada vínculo debe incluir verbo, localizador y clasificación: integración, negociación, legitimación o control.",
+      "evidencia_esperada": "Mapa relacional argumentado con seis nodos, cinco vínculos localizados y una explicación breve de la tensión entre diseño institucional formal y funcionamiento histórico."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {
+      "lectura_id": "HIST2_0003",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["referencia_4", "referencia_5", "referencia_6", "referencia_12"]
+    },
+    {
+      "lectura_id": "HIST2_0016",
+      "rutas_analisis": ["A"],
+      "alcance": "contextual",
+      "referencias_canonicas": ["referencia_1", "referencia_2", "referencia_10"]
+    }
+  ],
+  "evidencia_integradora": {
+    "tipo": "mapa_relacional_argumentado",
+    "titulo": "Instituciones, articulaciones y mecanismos del sistema autoritario",
+    "requisitos": [
+      "Seis nodos como mínimo: presidencia, partido, Legislativo, Judicial, entidades federativas y organizaciones sociales.",
+      "Cinco o más vínculos con verbo, clasificación y localizador verificable.",
+      "Contraste explícito entre diseño formal y funcionamiento histórico.",
+      "Nota sobre el carácter situado de la periodización y las categorías analíticas."
+    ]
+  },
+  "cobertura_curricular": [
+    {
+      "aprendizaje": "Explica mecanismos e instituciones de consolidación del sistema político autoritario",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Analiza relaciones entre presidencialismo, centralización y corporativismo",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Unidad Nacional, Segunda Guerra Mundial, Milagro Mexicano, guerra sucia y cultura popular",
+      "estado": "no_acreditado_por_esta_secuencia",
+      "rutas_analisis": []
+    }
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U4_TRAMA_01.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Mapa con alternativa tabular, relaciones expresadas también en texto, localizadores explícitos, fragmentos acotados y opción de entrega individual.",
+  "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas."
+}

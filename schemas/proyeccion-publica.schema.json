@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://repositorio-historia-ii.local/schemas/proyeccion-publica.schema.json",
+  "title": "Proyección pública del repositorio Historia II",
+  "type": "object",
+  "required": ["schema_version", "generado_desde", "unidades", "lecturas", "orientaciones"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "generado_desde": { "const": "registros_canónicos_y_markdown" },
+    "unidades": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "$ref": "#/$defs/unidad" }
+    },
+    "lecturas": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/lectura" }
+    },
+    "orientaciones": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/orientacion" }
+    }
+  },
+  "$defs": {
+    "unidad": {
+      "type": "object",
+      "required": ["id", "numero", "nombre", "slug", "descripcion"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "enum": ["u1", "u2", "u3", "u4", "u5"] },
+        "numero": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "nombre": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "descripcion": { "type": "string", "minLength": 1 }
+      }
+    },
+    "relacionUnidad": {
+      "type": "object",
+      "required": ["id", "nombre", "slug", "rol", "alcances"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "enum": ["u1", "u2", "u3", "u4", "u5"] },
+        "nombre": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "minLength": 1 },
+        "rol": { "enum": ["principal", "secundaria"] },
+        "alcances": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["directo", "contextual", "secundario"] }
+        }
+      }
+    },
+    "recursoDerivado": {
+      "type": "object",
+      "required": ["id", "tipo", "estado"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^HIST2_[0-9]{4}_RD_(VID|INF|CUE)_[0-9]{2}$" },
+        "tipo": { "enum": ["video", "infografia", "cuestionario"] },
+        "estado": { "const": "planeado" }
+      }
+    },
+    "rutaAnalisis": {
+      "type": "object",
+      "required": ["id", "titulo", "pregunta_guia", "intervencion_didactica", "evidencia_esperada"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Z]$" },
+        "titulo": { "type": "string", "minLength": 1 },
+        "pregunta_guia": { "type": "string", "minLength": 1 },
+        "intervencion_didactica": { "type": "string", "minLength": 1 },
+        "evidencia_esperada": { "type": "string", "minLength": 1 }
+      }
+    },
+    "lectura": {
+      "type": "object",
+      "required": ["id", "slug", "estado_editorial", "titulo", "autoria", "descripcion_fuente", "anio", "tipo_material", "acceso", "fuente_url", "resumen", "unidades", "temas", "niveles", "ficha", "orientaciones_relacionadas"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^HIST2_[0-9]{4}$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "estado_editorial": { "enum": ["borrador", "en_revision", "publicable", "publicado", "archivado"] },
+        "titulo": { "type": "string", "minLength": 1 },
+        "autoria": { "type": "string", "minLength": 1 },
+        "descripcion_fuente": { "type": "string", "minLength": 1 },
+        "anio": { "type": ["integer", "null"] },
+        "tipo_material": {
+          "type": "object",
+          "required": ["codigo", "etiqueta"],
+          "additionalProperties": false,
+          "properties": {
+            "codigo": { "type": ["string", "null"] },
+            "etiqueta": { "type": "string", "minLength": 1 }
+          }
+        },
+        "acceso": { "enum": ["Abierto", "Institucional", "Restringido"] },
+        "fuente_url": { "type": "string", "format": "uri" },
+        "resumen": { "type": "string", "minLength": 1 },
+        "unidades": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/relacionUnidad" } },
+        "temas": { "type": "array", "items": { "type": "string" } },
+        "niveles": { "type": "array", "minItems": 1, "items": { "enum": ["introductorio", "intermedio", "avanzado"] } },
+        "ficha": {
+          "type": "object",
+          "required": ["id", "estado", "markdown", "recursos_derivados"],
+          "additionalProperties": false,
+          "properties": {
+            "id": { "type": "string", "pattern": "^FICHA_HIST2_[0-9]{4}$" },
+            "estado": { "enum": ["borrador", "en_revision", "publicable", "publicado", "archivado"] },
+            "markdown": { "type": "string", "minLength": 1 },
+            "recursos_derivados": { "type": "array", "items": { "$ref": "#/$defs/recursoDerivado" } }
+          }
+        },
+        "orientaciones_relacionadas": { "type": "array", "items": { "type": "string", "pattern": "^ORI_HIST2_" } }
+      }
+    },
+    "orientacion": {
+      "type": "object",
+      "required": ["id", "tipo", "titulo", "slug", "audiencia", "estado_editorial", "unidades", "descripcion", "proposito", "rutas_analisis", "lecturas_vinculadas", "evidencia_integradora", "cobertura_curricular", "accesibilidad", "licencia_y_creditos", "markdown"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^ORI_HIST2_" },
+        "tipo": { "type": "string", "minLength": 1 },
+        "titulo": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "audiencia": { "type": "array", "minItems": 1, "items": { "enum": ["docente", "estudiante", "mixta"] } },
+        "estado_editorial": { "enum": ["borrador", "en_revision", "publicable", "publicado", "archivado"] },
+        "unidades": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/relacionUnidad" } },
+        "descripcion": { "type": "string", "minLength": 1 },
+        "proposito": { "type": "string", "minLength": 1 },
+        "rutas_analisis": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/rutaAnalisis" }
+        },
+        "lecturas_vinculadas": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["lectura_id", "slug", "titulo", "unidad_principal", "rutas_analisis", "alcance", "referencias_canonicas"],
+            "additionalProperties": false,
+            "properties": {
+              "lectura_id": { "type": "string", "pattern": "^HIST2_[0-9]{4}$" },
+              "slug": { "type": "string", "minLength": 1 },
+              "titulo": { "type": "string", "minLength": 1 },
+              "unidad_principal": { "type": "string", "minLength": 1 },
+              "rutas_analisis": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[A-Z]$" } },
+              "alcance": { "enum": ["directo", "contextual", "secundario"] },
+              "referencias_canonicas": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "evidencia_integradora": { "type": "object" },
+        "cobertura_curricular": { "type": "array", "minItems": 1, "items": { "type": "object" } },
+        "accesibilidad": { "type": "string", "minLength": 1 },
+        "licencia_y_creditos": { "type": "string", "minLength": 1 },
+        "markdown": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

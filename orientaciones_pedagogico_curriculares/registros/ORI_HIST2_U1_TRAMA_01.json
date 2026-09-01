@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "id_orientacion": "ORI_HIST2_U1_TRAMA_01",
+  "tipo_orientacion": "trama_transversal",
+  "titulo": "Modernización, territorio y contradicciones en el Régimen Porfirista",
+  "slug": "modernizacion-territorio-contradicciones-regimen-porfirista",
+  "audiencia": ["docente"],
+  "estado_editorial": "en_revision",
+  "fecha_alta": "2026-09-01",
+  "fecha_modificacion": "2026-09-01",
+  "unidades": [
+    {
+      "id": "u1",
+      "rol": "principal",
+      "alcance": "directo"
+    }
+  ],
+  "descripcion": "Orientación formal para contrastar el discurso de orden y progreso, los cambios materiales del Porfiriato y sus costos sociales y territoriales mediante evidencia general y el caso yaqui situado.",
+  "proposito": "Relacionar modernización, concentración de recursos, orden político y costos sociales sin reducir el proceso a una causalidad única ni generalizar un estudio de caso regional.",
+  "rutas_analisis": [
+    {
+      "id": "A",
+      "titulo": "Modernización, territorio y contradicciones",
+      "pregunta_guia": "¿Cómo se relacionaron modernización, concentración de recursos, orden político y costos sociales durante el Porfiriato?",
+      "intervencion_didactica": "Contrastar discursos y cambios materiales del régimen con los efectos territoriales documentados en el caso yaqui, clasificando cada afirmación como discurso, cambio material, efecto territorial o límite de la fuente.",
+      "evidencia_esperada": "Matriz comparativa argumentada con al menos cuatro localizadores y una conclusión que relacione modernización y desigualdad sin presentarlas como causalidad única."
+    }
+  ],
+  "lecturas_vinculadas": [
+    {
+      "lectura_id": "HIST2_0001",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["ch_1", "ch_3"]
+    },
+    {
+      "lectura_id": "HIST2_0002",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["ch_2", "ch_3"]
+    },
+    {
+      "lectura_id": "HIST2_0019",
+      "rutas_analisis": ["A"],
+      "alcance": "directo",
+      "referencias_canonicas": ["referencia_2"]
+    }
+  ],
+  "evidencia_integradora": {
+    "tipo": "matriz_comparativa_argumentada",
+    "titulo": "¿Qué modernizó el Porfiriato, para quién y con qué costos?",
+    "requisitos": [
+      "Al menos cuatro localizadores distribuidos entre dos o más lecturas.",
+      "Clasificación explícita de discurso, cambio material, efecto territorial e interpretación.",
+      "Uso del caso yaqui como modelo analítico situado de despojo agrario, no como representación de todas las regiones.",
+      "Una conclusión argumentada y un límite explícito de la evidencia disponible."
+    ]
+  },
+  "cobertura_curricular": [
+    {
+      "aprendizaje": "Modernización e instauración del capitalismo en el Porfiriato",
+      "estado": "cubierto_directo",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Contradicciones y conflictos sociales del Porfiriato",
+      "estado": "cubierto_directo_situado",
+      "rutas_analisis": ["A"]
+    },
+    {
+      "aprendizaje": "Historia económica integral y comparación regional nacional",
+      "estado": "no_acreditado_por_corpus",
+      "rutas_analisis": []
+    }
+  ],
+  "contenido_path": "orientaciones_pedagogico_curriculares/contenido/ORI_HIST2_U1_TRAMA_01.md",
+  "visibilidad_publica": "docente",
+  "accesibilidad": "Secuencia con instrucciones por texto, matriz con encabezados, alternativas a la exposición oral, localizadores explícitos y límites de generalización.",
+  "licencia_y_creditos": "Contenido académico original del repositorio bajo CC BY-SA 4.0. Las lecturas de terceros se enlazan y atribuyen; esta orientación no autoriza reproducirlas."
+}

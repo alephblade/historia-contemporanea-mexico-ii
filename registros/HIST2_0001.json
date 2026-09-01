@@ -1,0 +1,574 @@
+{
+  "schema_version": "2.0",
+  "id_recurso": "HIST2_0001",
+  "indice": "lectura_1",
+  "slug": "dictadura-porfirista",
+  "estado_editorial": "en_revision",
+  "version_registro": "2.0.0",
+  "fecha_alta": "2026-08-31",
+  "fecha_modificacion": "2026-08-31",
+  "registro_tipo": "lectura_canonica",
+  "revision": {
+    "version": "2.0.0",
+    "motivo": "Migración controlada al esquema 2.0: identidad pública, control editorial, evidencias uniformes y alineación curricular estructurada.",
+    "cambios": [
+      "Se separó la Guerra del Yaqui como referencia temática propia.",
+      "Se añadió revisión explícita de mujeres/género, pueblos indígenas y desigualdad.",
+      "Las relaciones 1:N ahora conservan fuente, localizador y estado.",
+      "Se migró desde el esquema 1.1 sin alterar las conclusiones históricas ni los localizadores de evidencia."
+    ]
+  },
+  "campos_1_a_1": {
+    "titulo": {
+      "valor": "La dictadura porfirista",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 1",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "nombre_archivo": {
+      "valor": "dictadura-porfirista.pdf",
+      "evidencias": [
+        {
+          "fuente": "archivo local",
+          "localizador": "nombre de archivo",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    "autoria": {
+      "valor": "No identificada en el PDF consultado",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1-10",
+          "estado": "pendiente_revision",
+          "nota": "No se atribuye autoría institucional sin colofón o crédito explícito."
+        }
+      ]
+    },
+    "descripcion_fuente": {
+      "valor": "Exposición histórica digital de diez láminas que combina textos explicativos, fuentes documentales e imágenes sobre el ascenso, consolidación y derrumbe del régimen porfirista.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1-10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio": {
+      "valor": 2015,
+      "evidencias": [
+        {
+          "fuente": "https://www.inehrm.gob.mx/es/inehrm/La_Dictadura_Porfirista",
+          "localizador": "fecha de publicación: 3 de junio de 2015",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "tipo_material": {
+      "valor": "Exposición histórica digital",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "estructura de diez láminas",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "codigo": "exposicion_historica_digital"
+    },
+    "acceso": {
+      "valor": "Abierto",
+      "evidencias": [
+        {
+          "fuente": "https://www.inehrm.gob.mx/es/inehrm/La_Dictadura_Porfirista",
+          "localizador": "página institucional de acceso público",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fuente_url": {
+      "valor": "https://www.inehrm.gob.mx/es/inehrm/La_Dictadura_Porfirista",
+      "evidencias": [
+        {
+          "fuente": "INEHRM",
+          "localizador": "página institucional del recurso",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "resumen_analitico": {
+      "valor": "La exposición explica el ascenso de Porfirio Díaz desde sus conflictos con Juárez y Lerdo de Tejada, su llegada al poder mediante Tuxtepec y la consolidación de un régimen personalista. Relaciona pacificación, positivismo y orden y progreso con modernización económica, pero contrapone sus beneficios a desigualdad, concentración de riqueza, pérdida de libertades y represión. Documenta la conciliación con la Iglesia, la oposición y las reelecciones. Cierra con la crisis electoral de 1910, el maderismo y el derrumbe del régimen.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1-10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "unidad_tematica_uach": {
+      "principal": "Régimen Porfirista",
+      "secundarias": [
+        "Revolución Mexicana"
+      ],
+      "valor_excel": "Régimen Porfirista|Revolución Mexicana",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1-9 y 10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "temas_conceptos_clave": {
+      "valor": [
+        "Porfirio Díaz",
+        "no reelección",
+        "Plan de La Noria",
+        "Plan de Tuxtepec",
+        "centralización",
+        "positivismo",
+        "orden y progreso",
+        "modernización",
+        "Iglesia-Estado",
+        "oposición",
+        "represión",
+        "reelecciones",
+        "maderismo"
+      ],
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1-10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "nivel_sugerido": {
+      "valor": [
+        "introductorio",
+        "intermedio"
+      ],
+      "evidencias": [
+        {
+          "fuente": "decisión de curaduría",
+          "localizador": "formato visual y complejidad de las fuentes",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    }
+  },
+  "control_temporal": {
+    "periodo_historico_abordado": {
+      "valor": "1871-1911",
+      "nota": "Antecedentes antirreeleccionistas, régimen porfirista y crisis maderista.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 2-10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    "anio_publicacion_recurso": {
+      "valor": 2015,
+      "evidencias": [
+        {
+          "fuente": "https://www.inehrm.gob.mx/es/inehrm/La_Dictadura_Porfirista",
+          "localizador": "fecha de publicación: 3 de junio de 2015",
+          "estado": "verificado_fuente_institucional"
+        }
+      ]
+    },
+    "fecha_creacion_archivo": {
+      "valor": "2015-06-03",
+      "estado": "pendiente_revision",
+      "nota": "Metadato técnico consistente con la página institucional; no se usa como sustituto autónomo del año editorial."
+    }
+  },
+  "conocimientos_habilidades_especificos": [
+    {
+      "id": "ch_1",
+      "valor": "Comparar los avances materiales atribuidos al régimen con sus contradicciones sociales, políticas y económicas.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 1",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Compara los aspectos positivos y negativos del porfiriato.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: compara los aspectos positivos y negativos del porfiriato."
+    },
+    {
+      "id": "ch_2",
+      "valor": "Identificar los mecanismos de concentración y preservación del poder presidencial.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 5",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Características del Estado porfirista mexicano y existencia de grupos políticos opositores.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: características del Estado porfirista y disidencia política."
+    },
+    {
+      "id": "ch_3",
+      "valor": "Relacionar el positivismo y el lema orden y progreso con la pacificación y el desarrollo económico del régimen.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 6",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Proceso de modernización e instauración del capitalismo en el Porfiriato.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: proyecto de modernización económica."
+    },
+    {
+      "id": "ch_4",
+      "valor": "Identificar organizaciones, planes, rebeliones, protesta y resistencia indígena como expresiones de oposición al régimen.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Existencia de grupos políticos opositores y conflictos sociales del Porfiriato.",
+          "alcance": "directo"
+        }
+      ],
+      "nota_curaduria": "Unidad 1: grupos opositores, conflictos sociales y diversidad de sujetos históricos."
+    },
+    {
+      "id": "ch_5",
+      "valor": "Explicar cómo la reelección indefinida y la exclusión política contribuyeron a la crisis del régimen.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 9-10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Características del Estado porfirista mexicano.",
+          "alcance": "directo"
+        },
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Causas de la Revolución Mexicana.",
+          "alcance": "contextual"
+        }
+      ],
+      "nota_curaduria": "Unidad 1 y vínculo con la Unidad 2."
+    }
+  ],
+  "aprendizajes_programa_apoyados": [
+    {
+      "id": "aprendizaje_1",
+      "valor": "Compara los aspectos positivos y negativos del porfiriato.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 1",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Compara los aspectos positivos y negativos del porfiriato.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_2",
+      "valor": "Identifica la existencia de grupos políticos opositores al régimen.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Identifica la existencia de grupos políticos opositores al régimen.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_3",
+      "valor": "Identifica el proceso de modernización e instauración del capitalismo en el porfiriato.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1 y 6",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "La fuente acredita modernización; capitalismo es la formulación curricular.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Identifica el proceso de modernización e instauración del capitalismo en el porfiriato.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_4",
+      "valor": "Describe los conflictos sociales del porfiriato.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Describe los conflictos sociales del porfiriato.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_5",
+      "valor": "Identifica las características del Estado porfirista mexicano.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 5",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u1",
+          "referente_programa": "Identifica las características del Estado porfirista mexicano.",
+          "alcance": "directo"
+        }
+      ]
+    },
+    {
+      "id": "aprendizaje_6",
+      "valor": "Distingue las causas de la Revolución Mexicana.",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 10",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ],
+      "nota": "Apoyo secundario a la Unidad 2.",
+      "alineacion_curricular": [
+        {
+          "unidad_id": "u2",
+          "referente_programa": "Distingue las causas de la Revolución Mexicana.",
+          "alcance": "secundario"
+        }
+      ]
+    }
+  ],
+  "referencias_tematicas": [
+    {
+      "id": "referencia_1",
+      "valor": "Porfirio Díaz frente a Benito Juárez y Sebastián Lerdo de Tejada",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 2",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_2",
+      "valor": "Plan de La Noria y oposición a la reelección juarista",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 3",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_3",
+      "valor": "Plan de Tuxtepec y acceso de Díaz a la presidencia",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 4",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_4",
+      "valor": "Primera presidencia: centralización, caudillos, gobernadores y control electoral",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 5",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    {
+      "id": "referencia_5",
+      "valor": "Positivismo, orden y progreso, pacificación y desarrollo económico",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 6",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    {
+      "id": "referencia_6",
+      "valor": "Conciliación con la Iglesia y tensiones con las Leyes de Reforma",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 7",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    {
+      "id": "referencia_7",
+      "valor": "Guerra del Yaqui y resistencia indígena frente al régimen porfirista",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_8",
+      "valor": "Tomóchic, Club Ponciano Arriaga, Partido Liberal Mexicano y represión de la disidencia",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    },
+    {
+      "id": "referencia_9",
+      "valor": "Siete reelecciones, desigualdad, concentración de riqueza y crisis del régimen",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 9",
+          "estado": "derivado_de_texto_verificado"
+        }
+      ]
+    },
+    {
+      "id": "referencia_10",
+      "valor": "Reformas electorales de 1904, entrevista Díaz-Creelman, maderismo y caída de Díaz",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 10",
+          "estado": "verificado_fuente_primaria"
+        }
+      ]
+    }
+  ],
+  "revision_cobertura": [
+    {
+      "eje": "Pueblos indígenas y territorio",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Lámina 8",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_4",
+        "referencia_7"
+      ]
+    },
+    {
+      "eje": "Mujeres y género",
+      "estado": "ausente_en_fuente",
+      "nota": "Las diez láminas consultadas no abordan de manera sustantiva la participación de las mujeres ni relaciones de género."
+    },
+    {
+      "eje": "Desigualdad social y derechos",
+      "estado": "presente_en_fuente",
+      "evidencias": [
+        {
+          "fuente": "dictadura-porfirista.pdf",
+          "localizador": "Láminas 1 y 9",
+          "estado": "verificado_fuente_primaria"
+        }
+      ],
+      "proyeccion_registro": [
+        "ch_1",
+        "referencia_9"
+      ]
+    }
+  ],
+  "perfil_mediacion": {
+    "nivel": [
+      "introductorio",
+      "intermedio"
+    ],
+    "operaciones_cognitivas_recomendadas": [
+      "identificar",
+      "comparar",
+      "relacionar",
+      "explicar"
+    ],
+    "nota": "El formato visual facilita la entrada al tema; el análisis de contradicciones políticas y sociales requiere acompañamiento intermedio."
+  },
+  "observaciones": [
+    "No se forzaron las cotas máximas de relaciones: solo se registraron vínculos demostrables.",
+    "La autoría individual o editora del PDF requiere un colofón o crédito explícito para cerrar la verificación."
+  ]
+}

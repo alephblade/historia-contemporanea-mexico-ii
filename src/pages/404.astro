@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout title="Página no encontrada" description="La ruta solicitada no existe en el repositorio.">
+  <div class="page-shell">
+    <section class="empty-state">
+      <p class="eyebrow">Error 404</p>
+      <h1>Página no encontrada</h1>
+      <p>La ruta pudo cambiar o no pertenece a la proyección pública del repositorio.</p>
+      <a class="button" href={withBase('/lecturas/')}>Volver al catálogo</a>
+    </section>
+  </div>
+</BaseLayout>

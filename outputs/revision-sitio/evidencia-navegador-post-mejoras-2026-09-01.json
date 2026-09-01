@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "fecha": "2026-09-01",
+  "entorno": "Astro dev en http://127.0.0.1:4321/",
+  "alcance": "Comprobación posterior a mejoras de identidad, disponibilidad de fuentes, filtros y adaptación responsiva.",
+  "viewports_inicio": [
+    { "ancho": 320, "desbordamiento_horizontal": false, "logo_visible": true, "navegacion_visible": true, "h1": 1 },
+    { "ancho": 375, "desbordamiento_horizontal": false, "logo_visible": true, "navegacion_visible": true, "h1": 1 },
+    { "ancho": 768, "desbordamiento_horizontal": false, "logo_visible": true, "navegacion_visible": true, "h1": 1 },
+    { "ancho": 1280, "desbordamiento_horizontal": false, "logo_visible": true, "navegacion_visible": true, "h1": 1 }
+  ],
+  "fuente_no_disponible": {
+    "ruta": "/lecturas/crisis-del-porfirismo/",
+    "viewports": [320, 1280],
+    "desbordamiento_horizontal": false,
+    "control_deshabilitado_explicado": true,
+    "enlace_secundario_deshabilitado": true,
+    "anclas_activas_al_dominio_caido": 0,
+    "url_canonica_visible_como_evidencia": true
+  },
+  "fuentes_activas": {
+    "disponible": {
+      "ruta": "/lecturas/dictadura-porfirista/",
+      "anclas_a_la_fuente": 2,
+      "etiqueta_accesible_descriptiva": true
+    },
+    "bloqueo_tecnico": {
+      "ruta": "/lecturas/elecciones-sistema-politico/",
+      "anclas_a_la_fuente": 2,
+      "advertencia_visible": true,
+      "etiqueta_accesible_descriptiva": true
+    }
+  },
+  "catalogo": {
+    "busqueda": "Yaquis",
+    "resultado_visible": "Yaquis. Memoria, territorio y participación política",
+    "conteo": 1,
+    "filtro_local_funcional": true
+  },
+  "foco": {
+    "elemento": "input#buscar",
+    "outline_style": "solid",
+    "outline_width": "3.2px",
+    "outline_color": "rgb(17, 107, 145)",
+    "outline_offset": "3.2px"
+  },
+  "limitacion": "El controlador del navegador no desplazó el foco mediante Tab durante esta sesión. Se verificaron foco visible, controles nativos y filtrado, pero el recorrido secuencial completo por teclado queda como control humano previo a publicación."
+}
