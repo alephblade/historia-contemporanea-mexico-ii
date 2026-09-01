@@ -2,10 +2,10 @@
 
 ## Estado actual
 
-GitHub Pages no está activado y no existe remoto. Se han definido las siguientes condiciones de preparación, todavía no ejecutadas:
+GitHub Pages no está activado. El repositorio público ya existe en `https://github.com/alephblade/historia-contemporanea-mexico-ii`, con `main` como rama predeterminada y CI activo. Se han definido las siguientes condiciones para un despliegue futuro:
 
-- cuenta inicial: `alephblade`;
-- nombre previsto: `historia-contemporanea-mexico-ii`;
+- cuenta: `alephblade`;
+- repositorio: `historia-contemporanea-mexico-ii`;
 - visibilidad: pública;
 - URL prevista: `https://alephblade.github.io/historia-contemporanea-mexico-ii/`;
 - `SITE_URL`: `https://alephblade.github.io`;
@@ -18,22 +18,21 @@ GitHub Pages no está activado y no existe remoto. Se han definido las siguiente
 
 ## Decisiones previas obligatorias
 
-La aceptación académica mediante constancia quedó registrada el 1 de septiembre de 2026. Antes de crear el remoto aún se requiere:
+La aceptación académica mediante constancia y la creación autorizada del remoto quedaron registradas el 1 de septiembre de 2026. Antes del primer despliegue aún se requiere:
 
-1. autorización operativa expresa para crear el repositorio en `alephblade`;
-2. confirmación de la rama inicial y de publicación, prevista como `main`;
+1. autorización operativa expresa y separada para activar GitHub Pages;
+2. confirmación final de `SITE_URL`, `BASE_PATH` y la rama de publicación `main`; y
 3. recorrido humano por teclado antes del primer despliegue.
 
 ## Activación controlada
 
 Solo después de esas decisiones:
 
-1. Crear el repositorio público `alephblade/historia-contemporanea-mexico-ii` y el remoto autorizado.
-2. Configurar las variables de repositorio `SITE_URL` y `BASE_PATH`. Para un sitio de proyecto, `BASE_PATH` tendrá la forma `/nombre-del-repositorio`; para un dominio propio o un repositorio especial de cuenta puede ser `/`.
-3. Renombrar `.github/workflows/pages.yml.example` a `.github/workflows/pages.yml`.
-4. Revisar la rama objetivo de la plantilla.
-5. En GitHub, seleccionar **GitHub Actions** como fuente de Pages.
-6. Ejecutar primero CI y revisar el artefacto; después autorizar la primera ejecución de despliegue.
+1. Configurar las variables de repositorio `SITE_URL` y `BASE_PATH`. Para un sitio de proyecto, `BASE_PATH` tendrá la forma `/nombre-del-repositorio`; para un dominio propio o un repositorio especial de cuenta puede ser `/`.
+2. Renombrar `.github/workflows/pages.yml.example` a `.github/workflows/pages.yml`.
+3. Revisar la rama objetivo de la plantilla.
+4. En GitHub, seleccionar **GitHub Actions** como fuente de Pages.
+5. Ejecutar primero CI y revisar el artefacto; después autorizar la primera ejecución de despliegue.
 
 La plantilla construye desde cero, ejecuta las mismas validaciones locales y usa exclusivamente las acciones oficiales `actions/configure-pages`, `actions/upload-pages-artifact` y `actions/deploy-pages` para Pages. No contiene secretos ni credenciales.
 

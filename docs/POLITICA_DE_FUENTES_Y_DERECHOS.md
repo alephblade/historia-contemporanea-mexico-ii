@@ -3,7 +3,7 @@
 **Versión:** 1.0  
 **Fecha:** 1 de septiembre de 2026  
 **Responsable académica designada:** Mtra. María Luisa Saavedra Solá, profesora titular de Historia Contemporánea de México II  
-**Aplicación:** sitio local y futuro repositorio público previsto en la cuenta `alephblade`
+**Aplicación:** sitio local y repositorio público `alephblade/historia-contemporanea-mexico-ii`
 
 ## 1. Principio rector
 

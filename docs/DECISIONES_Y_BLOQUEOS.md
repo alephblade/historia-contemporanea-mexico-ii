@@ -12,7 +12,7 @@
 | Relaciones | Rol y alcance se muestran por separado. | Preserva principal/secundaria y directo/contextual/secundario. |
 | Recursos derivados | Se bloquean como `planeado`, sin URL. | No existen registros propios publicados. |
 | Fuentes | Exclusión por `.gitignore` y control del artefacto. | Impide publicar copias locales de terceros. |
-| GitHub previsto | Cuenta `alephblade`, repositorio público `historia-contemporanea-mexico-ii` y URL prevista de Pages documentada. Git local inicializado en `main`; todavía sin commit, remoto ni despliegue. | La aceptación académica consta desde el 2026-09-01; crear el remoto y activar Pages requieren órdenes operativas expresas y separadas. |
+| Repositorio GitHub | Repositorio público `alephblade/historia-contemporanea-mexico-ii`, con `main` como rama predeterminada y CI activo. Commit inicial `d78d4e2cfbc14013b7a3e03775c41c97782957da`, publicado el 2026-09-01. Pages permanece inactivo. | Arnoldo Prado autorizó expresamente crear el remoto y subir `main`; la activación de Pages conserva una orden operativa separada. |
 | Aceptación académica | Mtra. María Luisa Saavedra Solá; aceptación para preparar GitHub comunicada mediante constancia textual transmitida por Arnoldo Prado el 2026-09-01. | Cierra G-05 sin representar la constancia como firma autógrafa. |
 | Licencia del contenido propio | CC BY-SA 4.0 para contenido académico y editorial original cuyos titulares estén autorizados a licenciarlo; decisión ratificada el 2026-09-01. | Exige atribución y mantiene abiertas las adaptaciones bajo la misma licencia. |
 | Licencia del código propio | MIT para componentes, estilos y scripts originales; decisión ratificada el 2026-09-01. | Creative Commons no recomienda sus licencias para software; se mantiene un alcance inequívoco. |
@@ -29,7 +29,7 @@
 
 - Revisión académica de los 20 registros y fichas y promoción explícita de sus estados.
 - Revisión editorial de los textos y rúbricas de las seis orientaciones formales antes de promoverlos más allá de `en_revision`.
-- Autorización expresa posterior para crear el remoto en la cuenta `alephblade` y activar GitHub Pages.
+- Autorización expresa posterior para activar GitHub Pages; la creación del remoto y el envío de `main` ya fueron autorizados y ejecutados.
 - Permisos específicos para cualquier reproducción o copia descargable de fuentes de terceros.
 - Fuente aprobada para cubrir Guerra Cristera y relaciones Estado–Iglesia en Unidad 3.
 - Evaluación de los seis materiales heredados aislados en `fuentes/materiales_asociados_pendientes/`.

@@ -97,4 +97,8 @@ La compuerta posterior aprobó 689 hipervínculos: 586 rutas internas y 63 ancla
 
 ## Adenda de preparación Git local
 
-Se inicializó un repositorio Git local en la rama `main`, sin commit y sin remoto. La compuerta automatizada se amplió para comprobar enlace de salto, destino enfocable, etiquetas de formulario, orden de `tabindex`, seguridad de pestañas nuevas y destinos interactivos. El detalle y las huellas del corte se conservan en `docs/CIERRE_COMPUERTA_LOCAL_PRE_GITHUB_2026-09-01.md`. Permanecen pendientes la confirmación de la identidad del autor del commit y el recorrido humano completo mediante teclado físico.
+Se inicializó el repositorio Git local en la rama `main` y se confirmó `Arnoldo Prado <juliopao@gmail.com>` como identidad del commit inicial. La compuerta automatizada se amplió para comprobar enlace de salto, destino enfocable, etiquetas de formulario, orden de `tabindex`, seguridad de pestañas nuevas y destinos interactivos. El detalle y las huellas del corte se conservan en `docs/CIERRE_COMPUERTA_LOCAL_PRE_GITHUB_2026-09-01.md`. Permanece pendiente el recorrido humano completo mediante teclado físico.
+
+## Adenda de creación del repositorio público
+
+Arnoldo Prado autorizó expresamente el 1 de septiembre de 2026 crear el repositorio público y subir la rama `main`. El repositorio quedó disponible en `https://github.com/alephblade/historia-contemporanea-mexico-ii`; el commit inicial `d78d4e2cfbc14013b7a3e03775c41c97782957da` se publicó sin fuentes locales de terceros y el primer flujo remoto `Validación y construcción` concluyó correctamente. GitHub Pages no fue activado y conserva una autorización operativa separada.

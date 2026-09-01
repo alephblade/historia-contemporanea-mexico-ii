@@ -2,7 +2,7 @@
 
 Repositorio educativo de Historia Contemporánea de México II · Universidad Autónoma Chapingo  
 **Fecha:** 1 de septiembre de 2026  
-**Alcance:** preparación local; sin remoto y sin activación de GitHub Pages
+**Alcance del corte:** preparación local; sin remoto y sin activación de GitHub Pages
 
 ## 1. Resultado
 
@@ -45,3 +45,15 @@ Con la identidad confirmada, el siguiente paso local autorizado es:
 4. volver a ejecutar `npm run review:prepare` sobre el commit.
 
 Crear el remoto público bajo `alephblade`, subir la rama y activar GitHub Pages siguen siendo acciones separadas que requieren autorización operativa expresa.
+
+## 5. Adenda de publicación del repositorio
+
+Arnoldo Prado autorizó expresamente crear el repositorio público y subir `main` el 1 de septiembre de 2026. Se ejecutaron y verificaron las siguientes acciones:
+
+- repositorio público: `https://github.com/alephblade/historia-contemporanea-mexico-ii`;
+- rama predeterminada y rama seguida: `main`;
+- commit inicial publicado: `d78d4e2cfbc14013b7a3e03775c41c97782957da`, con autor `Arnoldo Prado <juliopao@gmail.com>`;
+- primer flujo remoto `Validación y construcción`: concluido correctamente, ejecución `33492148718`; y
+- GitHub Pages: no activado; la plantilla `.github/workflows/pages.yml.example` permanece inactiva.
+
+La autorización para crear el repositorio no se interpretó como autorización para desplegar el sitio. El recorrido humano secuencial completo mediante teclado físico sigue pendiente y no se presenta como aprobado.

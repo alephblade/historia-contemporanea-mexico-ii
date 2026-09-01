@@ -2,7 +2,7 @@
 
 Primera versión estática para la Preparatoria Agrícola de la Universidad Autónoma Chapingo. El sitio permite consultar 20 lecturas curadas, sus fichas pedagógicas, las cinco unidades canónicas y seis orientaciones formales en revisión: dos para la Unidad 1, dos para la Unidad 2, una para la Unidad 3 y una para la Unidad 4.
 
-Todo el corpus permanece en estado `en_revision`. El proyecto está preparado para revisión local y CI; el repositorio Git local está inicializado en `main`, todavía sin commit ni remoto. **GitHub Pages no está activado**. El futuro repositorio se prevé público en la cuenta `alephblade`, con el nombre `historia-contemporanea-mexico-ii`.
+Todo el corpus permanece en estado `en_revision`. El proyecto está publicado como repositorio de código abierto en [`alephblade/historia-contemporanea-mexico-ii`](https://github.com/alephblade/historia-contemporanea-mexico-ii), con `main` como rama predeterminada y CI activo. **GitHub Pages no está activado**.
 
 ## Requisitos
 
@@ -69,7 +69,7 @@ El contenido académico y editorial original se ofrece bajo CC BY-SA 4.0; el có
 
 `.github/workflows/ci.yml` ejecuta la validación completa y conserva `dist/` como artefacto de revisión. `.github/workflows/pages.yml.example` es una plantilla **inactiva** que usa las acciones oficiales `configure-pages`, `upload-pages-artifact` y `deploy-pages`.
 
-La aceptación académica para preparar GitHub consta desde el 1 de septiembre de 2026. No se debe crear el remoto ni activar la plantilla de Pages hasta recibir las autorizaciones operativas expresas correspondientes. Después deberán configurarse `SITE_URL` y `BASE_PATH` y seguir [la guía de GitHub Pages](docs/GUIA_GITHUB_PAGES.md).
+La aceptación académica para preparar GitHub consta desde el 1 de septiembre de 2026. La creación del repositorio público y el envío de `main` fueron autorizados y ejecutados ese mismo día. La activación de Pages permanece separada y requiere una nueva autorización operativa expresa; antes deberán configurarse `SITE_URL` y `BASE_PATH` y seguir [la guía de GitHub Pages](docs/GUIA_GITHUB_PAGES.md).
 
 ## Documentación
 

@@ -2,7 +2,7 @@
 
 **Fecha:** 1 de septiembre de 2026  
 **Alcance:** corrección funcional y documental sobre la versión estática local  
-**Publicación:** no autorizada; GitHub Pages y remoto permanecen inactivos
+**Publicación del repositorio:** autorizada y ejecutada; GitHub Pages permanece inactivo
 
 ## Resultado
 
@@ -68,4 +68,4 @@ La evidencia de navegador se conserva en `outputs/revision-sitio/evidencia-naveg
 
 ## Recomendación de puerta
 
-La versión local fue aceptada académicamente para preparar GitHub mediante constancia transmitida por Arnoldo Prado en nombre de la Mtra. María Luisa Saavedra Solá. Los cuatro P1 curatoriales, la cuenta inicial `alephblade`, la visibilidad pública, las licencias, la política de fuentes y el uso público del emblema oficial están resueltos. No debe crearse ni publicarse todavía el repositorio: faltan la orden operativa expresa para crear el remoto y el recorrido humano completo por teclado.
+La versión local fue aceptada académicamente para preparar GitHub mediante constancia transmitida por Arnoldo Prado en nombre de la Mtra. María Luisa Saavedra Solá. Los cuatro P1 curatoriales, la cuenta `alephblade`, la visibilidad pública, las licencias, la política de fuentes y el uso público del emblema oficial están resueltos. El repositorio público fue creado y `main` fue enviado por autorización expresa; su primer CI concluyó correctamente. Antes de activar GitHub Pages siguen pendientes la orden operativa separada y el recorrido humano completo por teclado.
